@@ -93,6 +93,9 @@ N | Z | Q | I | R | C
 - Racionalização de Denominadores: transformar uma raiz irracional em um número racional
 
   </details> </p>
+
+<details><summary> Expressões Algébricas </summary>
+<p>
   
 ### XII. Produtos Notáveis (Expresssões Algébricas)
 - Quadrado da Soma entre dois termos
@@ -113,7 +116,9 @@ N | Z | Q | I | R | C
 - MMC de Expressões Algébricas
 - Adição e Subtração de Frações Algébricas
 
-#### XV. Razão e Proporção
+  </details> </p>
+  
+### XV. Razão e Proporção
 - Razão: relação entre números
 - Proporção: igualdade de frações
 - Divisão diretamente proporcional
