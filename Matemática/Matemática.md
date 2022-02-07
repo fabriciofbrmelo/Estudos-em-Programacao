@@ -13,7 +13,7 @@
 
   </details> </p>
 
-<details><summary> Índice </summary>
+<details><summary> Operações Simples </summary>
 <p>
   
 ### I. Operações Simples
