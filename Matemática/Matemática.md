@@ -118,6 +118,9 @@ N | Z | Q | I | R | C
 - Adição e Subtração de Frações Algébricas
 
   </details> </p>
+
+<details><summary> Razão e Proporção </summary>
+<p>
   
 ### XV. Razão e Proporção
 - Razão: relação entre números
@@ -125,6 +128,8 @@ N | Z | Q | I | R | C
 - Divisão diretamente proporcional
 - Divisão inversamente proporcional
 
+  </details> </p>
+  
 ### XV. Regra de Três
 - Simples
 - Composta
