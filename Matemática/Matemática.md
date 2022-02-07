@@ -76,6 +76,9 @@ N | Z | Q | I | R | C
   - Divisão
 
   </details> </p>
+
+<details><summary> Dízimas Periódicas, Potenciação e Radiciação </summary>
+<p>
   
 ### IX. Dízimas Periódicas
 - Dízimas Simples e Compostas
@@ -89,6 +92,8 @@ N | Z | Q | I | R | C
 ### XI. Radiciação
 - Racionalização de Denominadores: transformar uma raiz irracional em um número racional
 
+  </details> </p>
+  
 ### XII. Produtos Notáveis (Expresssões Algébricas)
 - Quadrado da Soma entre dois termos
 - Quadrado da Diferença entre dois termos
