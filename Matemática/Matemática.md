@@ -70,3 +70,23 @@ N | Z | Q | I | R | C
 ### IX. Dízimas Periódicas
 - Dízimas Simples e Compostas
 - Fração Geratriz
+
+### X. Potenciação
+- Potência de 10 e Notação Científica
+- Operações com Potências de 10
+- Sistema de Numeração Decimal (Base 10)
+
+### XI. Radiciação
+- Racionalização de Denominadores: transformar uma raiz irracional em um número racional
+
+### XII. Produtos Notáveis (Expresssões Algébricas)
+- Quadrado da Soma entre dois termos
+- Quadrado da Diferença entre dois termos
+- Produto da Soma pela Diferença
+- Triângulo de Pascal
+- Cubo da Soma ou Diferença entre dois termos
+
+### XIII. Fatoração de Expressões Algébricas
+- Fator Comum
+- Agrupamento
+- Diferença dos Quadrados
