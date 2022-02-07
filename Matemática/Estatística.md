@@ -12,28 +12,18 @@
 2. Variância 
 3. Desvio Padrão 
 
-Probabilidade 
+## Probabilidade 
 
-Probabilidade Complementar 
-
-
-Análise Combinatória 
-
-Princípio Multiplicativo 
+1. Probabilidade Complementar
+2. Análise Combinatória
+- Princípio Multiplicativo 
 
 
-Permutação 
-
-b.2. Permutação com Repetição 
-
-
-Arranjo 
-
- 
-Combinação 
-
-
-d.2. Combinação com Repetição 
+- Permutação
+  - Permutação com Repetição
+- Arranjo
+- Combinação
+  - Combinação com Repetição 
 
  
 Tipos de Dados: 
