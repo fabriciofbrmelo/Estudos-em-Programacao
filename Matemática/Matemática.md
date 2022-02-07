@@ -12,13 +12,17 @@
 6. Estatística
 
   </details> </p>
+
+<details><summary> Índice </summary>
+<p>
   
 ### I. Operações Simples
 - Adição
 - Subtração
 - Multiplicação
 - Divisão
-
+ </details> </p>
+  
 ### II. Expressões Numéricas
 - Prioridades ()[]{}
 - Prioridades Potências ou Raízes, Multiplicação ou Divisão, Adição ou Subtração
@@ -93,3 +97,13 @@ N | Z | Q | I | R | C
 - Trinômio Quadrado Perfeito
 - Trinômio do Tipo Soma e Produto: X² + Sx + P
 - Soma ou Diferença entre Cubos
+
+### XIV. Frações Algébricas
+- MMC de Expressões Algébricas
+- Adição e Subtração de Frações Algébricas
+
+#### XV. Razão e Proporção
+- Razão: relação entre números
+- Proporção: igualdade de frações
+- Divisão diretamente proporcional
+- Divisão inversamente proporcional
