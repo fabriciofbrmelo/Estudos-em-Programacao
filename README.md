@@ -10,11 +10,14 @@
 5. Cálculo
 6. Estatística
 
-i. Operações Simples
+I. Operações Simples
 - Adição
 - Subtração
 - Multiplicação
 - Divisão
+
+II. Expressões Numéricas
+- Prioridades ()[]{}
 
 ## Estatística
 1. Básica
