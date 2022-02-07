@@ -10,7 +10,7 @@
 5. Cálculo
 6. Estatística
 
-</details> I. Operações Simples
+</details><summary> I. Operações Simples
 - Adição
 - Subtração
 - Multiplicação
@@ -28,7 +28,7 @@ Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 :---: | :---: | :---: | :---: | :---: | :---:
 N | Z | Q | I | R | C
 
-</p>
+</summary></p>
 
 ## Estatística
 1. Básica
