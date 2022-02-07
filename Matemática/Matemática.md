@@ -30,3 +30,10 @@
 Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 :---: | :---: | :---: | :---: | :---: | :---:
 N | Z | Q | I | R | C
+
+### V. Números Primos
+
+### VI. Fatoração de Números Inteiros
+- Decomposição em Fatores Primos
+- Quantidad de Divisores de um Número Inteiro (Natural)
+- 
