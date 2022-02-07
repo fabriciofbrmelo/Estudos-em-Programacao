@@ -8,6 +8,11 @@
 - Qualitativas
 - Quantitativas 
 
+Classificação das Variáveis 
+1. Dados Agrupados e Não-Agrupados
+2. Dados Agrupados por Intervalo/Classe
+3. Frequência Absoluta, Relativa e Acumulada 
+
 ### Gráficos
 - Gráfico de Barra, Pizza e Dispersão
 - Histograma
@@ -31,98 +36,25 @@
 
 ## Probabilidade 
 
-1. Probabilidade Complementar
-2. Análise Combinatória
+1. Experimento Aleatório
+2. Espaço Amostral
+3. Eventos Aleatórios
+4. Probabilidade de ocorrência de um evento
+5. Soma de Eventos Mutuamente Exclusivos 
+6. Probabilidade Complementar
+7. Análise Combinatória
 - Princípio Multiplicativo 
-
-
 - Permutação
   - Permutação com Repetição
 - Arranjo
 - Combinação
   - Combinação com Repetição 
 
- 
-
-
- 
-
-
-
- 
-
-
-
- 
-
-
-
- 
-
-
-
-Classificação das Variáveis 
-
-
-Dados Agrupados e Não-Agrupados 
-
-Dados Agrupados por Intervalo/Classe 
-
- 
-
-
-Frequência Absoluta, Relativa e Acumulada 
-
- 
-
-Desvio Padrão e Variância 
-
-
-
-Média, Desvio Padrão e Proporção para dados agrupados por Intervalo 
-
-
-
-Coeficiente de Variação 
-
- 
-
-Propriedades da Média e Desvio Padrão 
-
-
-Probabilidade 
-
-Experimento Aleatório 
-
-
-
-Espaço Amostral 
-
- 
-
-
-Eventos Aleatórios 
-
-
-Probabilidade de ocorrência de um evento 
-
-
-Soma de Eventos Mutuamente Exclusivos 
-
-
-Teoremas de Probabilidade 
-
-Probabilidade Condicional 
-
- 
-
-Teorema do Produto 
-
-
-Eventos Independentes 
-
-
-Teorema de Bayes 
+### Teoremas de Probabilidade 
+1. Probabilidade Condicional
+2. Teorema do Produto
+3. Eventos Independentes
+4. Teorema de Bayes 
 
  
 
