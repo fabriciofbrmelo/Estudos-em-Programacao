@@ -157,4 +157,21 @@ N | Z | Q | I | R | C
   - 🔺 = 0 (2 raízes reais e iguais)
   - 🔺 < 0 (Não apresenta raízes reais - 2 raízes imaginárias)
 
-### XXI. Equações Irracionais 
+### XXI. Equações Irracionais (incógnita na raiz)
+- 1 Radical
+- 2 Radicais
+- 3 Radicais
+
+### XXII. Equações Biquadradas
+
+### XXIII. Progressão
+- Aritmética
+- Geométrica
+
+### XXIV. Funções
+- Definição e Notação de uma Função
+- Domínio
+- Contradomínio
+- Imagem
+- Funções definidas por fórmulas matemáticas
+- 
