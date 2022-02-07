@@ -10,6 +10,12 @@
 6. Cálculo
 7. Estatística
 
+I. Operações Simples
+a. Adição
+b. Subtração
+c. Multiplicação
+d. Divisão
+
 ## Estatística
 1. Básica
 2. Média
