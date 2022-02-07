@@ -2,7 +2,7 @@
 
 <details><summary> Índice </summary>
 <p>
-  
+
 ## Índice
 1. Aritmética: Números e Operações
 2. Álgebra: Expressões Algébricas, Equações, Funções, Teoria dos Conjuntos, Cálculo
