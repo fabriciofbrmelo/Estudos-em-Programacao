@@ -88,6 +88,7 @@ N | Z | Q | I | R | C
 - Potência de 10 e Notação Científica
 - Operações com Potências de 10
 - Sistema de Numeração Decimal (Base 10)
+- Sistema Métrico Decimal (Base 10)
 
 ### XI. Radiciação
 - Racionalização de Denominadores: transformar uma raiz irracional em um número racional
@@ -123,3 +124,37 @@ N | Z | Q | I | R | C
 - Proporção: igualdade de frações
 - Divisão diretamente proporcional
 - Divisão inversamente proporcional
+
+### XV. Regra de Três
+- Simples
+- Composta
+
+### XVI. Porcentagem
+- Razão Centesimal (percentual)
+- Transformação de uma Razão em Porcentagem
+- Cálculo da Porcentagem de um Número
+- Cálculo de um Número dada a Porcentagem
+- Lucro ou Prejuízo
+
+### XVII. Juros
+- Simples
+- Compostos
+
+### XVIII. Média
+- Média Aritmética Simples
+- Média Aritmética Ponderada
+- Média Geométrica
+- Média Harmônica
+
+### XIX. Equação de 1º Grau
+
+### XX. Equação de 2º Grau
+- Se "b" ou "c" or 0 = Equação Incompleta
+- Bháskara
+- Soma e Produto para encontrar as raízes
+- Natureza das Raízes
+  - 🔺 > 0 (2 raízes reais e diferentes)
+  - 🔺 = 0 (2 raízes reais e iguais)
+  - 🔺 < 0 (Não apresenta raízes reais - 2 raízes imaginárias)
+
+### XXI. Equações Irracionais 
