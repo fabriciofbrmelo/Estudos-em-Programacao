@@ -14,5 +14,8 @@ Python
 1. Brasil
 2. França
 3. Bélgica
-- [ ] Brasil
+- [ X ] Brasil
 - [ ] França
+- [ ] yteafs
+- [ ] asgaSGA
+- [ ] GASGASGAS
