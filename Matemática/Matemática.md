@@ -130,7 +130,7 @@ N | Z | Q | I | R | C
 
   </details> </p>
 
-<details><summary> Razão e Proporção </summary>
+<details><summary> Porcentagem e Juros </summary>
 <p>
   
 ### XV. Regra de Três
@@ -150,12 +150,17 @@ N | Z | Q | I | R | C
 
 </details> </p>
 
+<details><summary> Média </summary>
+<p>
+  
 ### XVIII. Média
 - Média Aritmética Simples
 - Média Aritmética Ponderada
 - Média Geométrica
 - Média Harmônica
 
+  </details> </p>
+  
 ### XIX. Equação de 1º Grau
 
 ### XX. Equação de 2º Grau
