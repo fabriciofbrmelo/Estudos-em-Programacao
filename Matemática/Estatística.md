@@ -8,7 +8,7 @@
 - Qualitativas
 - Quantitativas 
 
-Classificação das Variáveis 
+#### Classificação das Variáveis 
 1. Dados Agrupados e Não-Agrupados
 2. Dados Agrupados por Intervalo/Classe
 3. Frequência Absoluta, Relativa e Acumulada 
@@ -56,65 +56,21 @@ Classificação das Variáveis
 3. Eventos Independentes
 4. Teorema de Bayes 
 
- 
+## Conjuntos 
+1. Conjuntos das partes
+2. Complementar
+3. Intervalos de Conjuntos 
+- Intervalo Aberto
+- Intervalo Fechado
+- Intervalo fechado à esquerda e aberto à direita
+- Intervalo fechado à direita e aberto à esquerda
+- Intervalos Infinitos
+- Operações com intervalos 
 
-Conjuntos 
+### 3 noções de conjuntos 
+- Conjuntos
+- Elemento
+- Pertinência entre elemento e conjunto 
 
-Conjuntos das partes 
-
-
- 
-
-Complementar 
-
-
-
-Intervalos de Conjuntos 
-
-Intervalo Aberto 
-
- 
-
-Intervalo Fechado 
-
- 
- 
-
-Intervalo fechado à esquerda e aberto à direita 
-
- 
-
- 
-
-Intervalo fechado à direita e aberto à esquerda 
-
- 
-
-Intervalos Infinitos 
-
- 
-
-
-Operações com intervalos 
-
-
- 
-
-3 noções de conjuntos 
-
-Conjuntos 
-
- 
-
-Elemento 
-
- 
-
-Pertinência entre elemento e conjunto 
-
-
-União e Intersecção 
-
-  
-
-Diferença e Complementar de Conjunto 
+1. União e Intersecção
+2. Diferença e Complementar de Conjunto 
