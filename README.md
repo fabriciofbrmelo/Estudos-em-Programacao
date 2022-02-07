@@ -14,5 +14,5 @@ Python
 1. Brasil
 2. França
 3. Bélgica
-- [x] Brasil
-- [x] França
+- [ ] Brasil
+- [ ] França
