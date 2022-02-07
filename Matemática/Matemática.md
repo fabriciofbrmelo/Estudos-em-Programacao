@@ -129,6 +129,9 @@ N | Z | Q | I | R | C
 - Divisão inversamente proporcional
 
   </details> </p>
+
+<details><summary> Razão e Proporção </summary>
+<p>
   
 ### XV. Regra de Três
 - Simples
@@ -144,6 +147,8 @@ N | Z | Q | I | R | C
 ### XVII. Juros
 - Simples
 - Compostos
+
+</details> </p>
 
 ### XVIII. Média
 - Média Aritmética Simples
