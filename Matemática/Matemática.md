@@ -174,4 +174,54 @@ N | Z | Q | I | R | C
 - Contradomínio
 - Imagem
 - Funções definidas por fórmulas matemáticas
-- 
+- Domínio de uma função real
+- Plano Cartesiano
+- Gráficos de Funções
+- Sinal da Função
+- Função Crescente e Decrescente
+- Função a partir de um gráfico
+- Função Par e Ímpar
+- Função Injetora
+- Função Sobrejetora
+- Função Bijetora
+- Função Composta
+- Função Inversa
+
+### 1. Função Exponencial
+- Equações Exponenciais
+- Artifícios para Equações Exponenciais
+- Inequações Exponenciais
+
+a) Função Exponencial
+b) Gráfico da Função Exponencial
+
+### 2. Função Logarítmica
+- Logaritmos
+  - Nomenclatura
+  - Logaritmos Decimais
+  - Condições de Existência do Logaritmo
+  - Consequência da definição do Logaritmo
+  - Propriedades Operatórias do Logaritmo
+  - Mudança de Base dos Logaritmos
+- Logaritmos e Equações Exponenciais
+
+a) Equações Logarítimicas
+b) Inequações Logarítimicas
+
+### 3. Função Modular
+- Módulo de um Número Real
+- Propriedades do Módulo
+
+a) Função Modular
+b) Equação Modular
+c) Inequação Modular
+
+### XXV. Matrizes
+- Classificação das Matrizes
+- Operações com Matrizes
+
+### XXVI. Sistemas Lineares
+- Equação Linear
+- Método da Substituição
+- Método da Adição
+- Método da Comparação
