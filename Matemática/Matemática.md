@@ -21,7 +21,6 @@
 - Subtração
 - Multiplicação
 - Divisão
- </details> </p>
   
 ### II. Expressões Numéricas
 - Prioridades ()[]{}
@@ -35,6 +34,8 @@ Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 :---: | :---: | :---: | :---: | :---: | :---:
 N | Z | Q | I | R | C
 
+   </details> </p>
+   
 ### V. Números Primos
 
 ### VI. Fatoração de Números Inteiros
