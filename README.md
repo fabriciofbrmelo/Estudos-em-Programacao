@@ -10,7 +10,7 @@
 5. Cálculo
 6. Estatística
 
-I. Operações Simples
+</details> I. Operações Simples
 - Adição
 - Subtração
 - Multiplicação
