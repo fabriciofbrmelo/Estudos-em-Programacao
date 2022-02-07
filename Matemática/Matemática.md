@@ -13,19 +13,19 @@
 
   </details> </p>
   
-#### I. Operações Simples
+### I. Operações Simples
 - Adição
 - Subtração
 - Multiplicação
 - Divisão
 
-#### II. Expressões Numéricas
+### II. Expressões Numéricas
 - Prioridades ()[]{}
 - Prioridades Potências ou Raízes, Multiplicação ou Divisão, Adição ou Subtração
 
-#### III. Critérios de Divisibilidade
+### III. Critérios de Divisibilidade
 
-#### IV. Conjuntos
+### IV. Conjuntos
 
 Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 :---: | :---: | :---: | :---: | :---: | :---:
