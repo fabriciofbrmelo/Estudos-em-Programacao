@@ -90,3 +90,6 @@ N | Z | Q | I | R | C
 - Fator Comum
 - Agrupamento
 - Diferença dos Quadrados
+- Trinômio Quadrado Perfeito
+- Trinômio do Tipo Soma e Produto: X² + Sx + P
+- Soma ou Diferença entre Cubos
