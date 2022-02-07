@@ -1,24 +1,33 @@
 # Estatística
 
 ## Tipos de Dados 
-1. Qualitativos
-2. Quantitativos 
+- Qualitativos
+- Quantitativos 
 
 ### Variáveis 
 - Qualitativas
 - Quantitativas 
 
+### Gráficos
+- Gráfico de Barra, Pizza e Dispersão
+- Histograma
+- Quantis, Quartis, Decis e Percentis
+
 ## Medidas de Tendência Central 
 
 1. Média 
 2. Moda 
-3. Mediana 
+3. Mediana
+4. Diferença entre Média e Mediana
 
 ## Medidas de Variância e Desvio Padrão 
 
 1. Desvio Médio
 2. Variância 
-3. Desvio Padrão 
+3. Desvio Padrão
+
+### Principais Medidas de Dispersão
+- Medidas de Posição 
 
 ## Probabilidade 
 
@@ -38,25 +47,18 @@
 
  
 
-Diferença entre Média e Mediana 
+
 
  
 
-Gráfico de Barra, Pizza e Dispersão 
+
 
  
 
-Histograma 
+
 
  
 
-Quantis, Quartis, Decis e Percentis 
-
- 
-Principais Medidas de Dispersão 
-
- 
-Medidas de Posição 
 
 
 Classificação das Variáveis 
