@@ -1,5 +1,13 @@
 # Estatística
 
+## Tipos de Dados 
+1. Qualitativos
+2. Quantitativos 
+
+### Variáveis 
+- Qualitativas
+- Quantitativas 
+
 ## Medidas de Tendência Central 
 
 1. Média 
@@ -26,23 +34,7 @@
   - Combinação com Repetição 
 
  
-Tipos de Dados: 
 
-Qualitativos 
-
-Quantitativos 
-
- 
-Variáveis: 
-
-Qualitativas 
-
-
-
-Quantitativas 
-
-
-Armazenamento de Dados 
 
  
 
