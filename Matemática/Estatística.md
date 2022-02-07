@@ -1,21 +1,16 @@
 # Estatística
 
-Medidas de Tendência Central 
+## Medidas de Tendência Central 
 
-Média 
+1. Média 
+2. Moda 
+3. Mediana 
 
-Moda 
+## Medidas de Variância e Desvio Padrão 
 
-Mediana 
-
-Medidas de Variância e Desvio Padrão 
-
-Desvio Médio 
-
-
-Variância 
-
-Desvio Padrão 
+1. Desvio Médio
+2. Variância 
+3. Desvio Padrão 
 
 Probabilidade 
 
