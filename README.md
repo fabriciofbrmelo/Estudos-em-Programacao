@@ -13,6 +13,8 @@
 5. Cálculo
 6. Estatística
 
+  </details> ```</p>
+  
 #### I. Operações Simples
 - Adição
 - Subtração
