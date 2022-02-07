@@ -35,5 +35,9 @@ N | Z | Q | I | R | C
 
 ### VI. Fatoração de Números Inteiros
 - Decomposição em Fatores Primos
-- Quantidad de Divisores de um Número Inteiro (Natural)
-- 
+- Quantidade de Divisores de um Número Inteiro (Natural)
+- Divisores de um Número Inteiro (Natural)
+- Mínimo Múltiplo Comum
+- Máximo Divisor Comum
+  - Algoritmo de Euclides
+  - Decomposição Simultânea em Fatores Primos 
