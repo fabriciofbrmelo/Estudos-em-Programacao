@@ -29,6 +29,7 @@ Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 N | Z | Q | I | R | C
 
 </p>
+
 ## Estatística
 1. Básica
 2. Média
