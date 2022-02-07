@@ -25,7 +25,7 @@ III. Critérios de Divisibilidade
 IV. Conjuntos
 
 Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
-:---: | ---: | ---: | ---: | :--- | :---:
+:---: | :---: | :---: | :---: | :---: | :---:
 N | Z | Q | I | R | C
 
 ## Estatística
