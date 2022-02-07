@@ -10,7 +10,7 @@
 5. Cálculo
 6. Estatística
 
-</details><summary> I. Operações Simples
+I. Operações Simples
 - Adição
 - Subtração
 - Multiplicação
@@ -27,8 +27,6 @@ IV. Conjuntos
 Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 :---: | :---: | :---: | :---: | :---: | :---:
 N | Z | Q | I | R | C
-
-</summary></p>
 
 ## Estatística
 1. Básica
