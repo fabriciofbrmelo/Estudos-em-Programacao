@@ -4,13 +4,13 @@
 
 ### Índice
 1. Aritmética: Números e Operações
-3. Álgebra: Expressões Algébricas, Equações, Funções, Teoria dos Conjuntos, Cálculo
-4. Geometria: Plana, Espacial, Analítica, Fractal
-5. Trigonometria: Ângulos
-6. Cálculo
-7. Estatística
+2. Álgebra: Expressões Algébricas, Equações, Funções, Teoria dos Conjuntos, Cálculo
+3. Geometria: Plana, Espacial, Analítica, Fractal
+4. Trigonometria: Ângulos
+5. Cálculo
+6. Estatística
 
-1. Operações Simples
+i. Operações Simples
 - Adição
 - Subtração
 - Multiplicação
