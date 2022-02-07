@@ -40,4 +40,33 @@ N | Z | Q | I | R | C
 - Mínimo Múltiplo Comum
 - Máximo Divisor Comum
   - Algoritmo de Euclides
-  - Decomposição Simultânea em Fatores Primos 
+  - Decomposição Simultânea em Fatores Primos
+
+### VII. Frações
+- Fração Própria (Numerador < Denominador)
+- Fração Imprópria (Numerador > Denominador)
+- Fração Aparente
+- Frações Equivalentes
+- Simplificação de Frações
+- Redução de Frações a um mesmo Denominador
+- Comparação de Frações (Denominadores Iguais e Diferentes)
+- Operações com Frações
+  - Adição e Subtração de Frações
+  - Multiplicação de Frações
+  - Divisão de Frações
+- Frações Mistas
+
+### VIII. Números Decimais
+- Fração Decimal
+- Numeral Decimal
+- Numeral Decimal --> Fração Decimal
+- Fração Decimal --> Numeral Decimal
+- Operações com Decimais
+  - Adição
+  - Subtração
+  - Multiplicação
+  - Divisão
+
+### IX. Dízimas Periódicas
+- Dízimas Simples e Compostas
+- Fração Geratriz
