@@ -1,21 +1,13 @@
-Estudos em Programação
+# Estudos em Programação
 
-Matemática Básica
+## Matemática Básica
 
-Estatística
+## Estatística
 
-Power BI
+## Power BI
 
-Storytelling com Dados
+## Storytelling com Dados
 
-Linguagem R
+## Linguagem R
 
-Python
-1. Brasil
-2. França
-3. Bélgica
-- [X] Brasil
-- [ ] França
-- [ ] yteafs
-- [ ] asgaSGA
-- [ ] \(Optional) GASGASGAS
+## Python
