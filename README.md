@@ -4,6 +4,7 @@
 
 ### Índice
 1. Aritmética: Números e Operações
+- Números e Operações
 3. Álgebra: Expressões Algébricas, Equações, Funções, Teoria dos Conjuntos, Cálculo
 4. Geometria: Plana, Espacial, Analítica, Fractal
 5. Trigonometria: Ângulos
