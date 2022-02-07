@@ -18,6 +18,14 @@ I. Operações Simples
 
 II. Expressões Numéricas
 - Prioridades ()[]{}
+- Prioridades Potências ou Raízes, Multiplicação ou Divisão, Adição ou Subtração
+
+III. Critérios de Divisibilidade
+
+IV. Conjuntos
+
+Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
+:---: | ---: | ---: | ---: | :--- | :---:
 
 ## Estatística
 1. Básica
