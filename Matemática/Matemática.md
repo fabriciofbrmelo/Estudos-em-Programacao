@@ -35,7 +35,10 @@ Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 N | Z | Q | I | R | C
 
    </details> </p>
-   
+
+<details><summary> Decimais, Fatoração e Frações </summary>
+<p>
+  
 ### V. Números Primos
 
 ### VI. Fatoração de Números Inteiros
@@ -72,6 +75,8 @@ N | Z | Q | I | R | C
   - Multiplicação
   - Divisão
 
+  </details> </p>
+  
 ### IX. Dízimas Periódicas
 - Dízimas Simples e Compostas
 - Fração Geratriz
