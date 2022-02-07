@@ -160,6 +160,9 @@ N | Z | Q | I | R | C
 - Média Harmônica
 
   </details> </p>
+
+<details><summary> Equações </summary>
+<p>
   
 ### XIX. Equação de 1º Grau
 
@@ -179,10 +182,20 @@ N | Z | Q | I | R | C
 
 ### XXII. Equações Biquadradas
 
+</details> </p>
+
+<details><summary> Progressão </summary>
+<p>
+  
 ### XXIII. Progressão
 - Aritmética
 - Geométrica
 
+  </details> </p>
+
+<details><summary> Funções </summary>
+<p>
+  
 ### XXIV. Funções
 - Definição e Notação de uma Função
 - Domínio
@@ -231,6 +244,11 @@ a) Função Modular
 b) Equação Modular
 c) Inequação Modular
 
+   </details> </p>
+
+<details><summary> Matrizes e Sistemas Lineares </summary>
+<p>
+  
 ### XXV. Matrizes
 - Classificação das Matrizes
 - Operações com Matrizes
@@ -240,3 +258,5 @@ c) Inequação Modular
 - Método da Substituição
 - Método da Adição
 - Método da Comparação
+  
+   </details> </p>
