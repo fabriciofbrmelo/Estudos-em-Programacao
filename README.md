@@ -2,7 +2,7 @@
 
 ## Matemática Básica
 
-<details><summary>CLICK ME</summary>
+<details><summary>### Índice</summary>
 <p>
   
 ### Índice
@@ -13,7 +13,7 @@
 5. Cálculo
 6. Estatística
 
-  </details> ```</p>
+  </details> </p>
   
 #### I. Operações Simples
 - Adição
