@@ -29,3 +29,56 @@ Linguagem de Consulta, dar comandos aos dados e ele te volta uma query.
 Vários SQL --> Padronização do SQL
 Bancos de Dados: Oracle, IBM, SQL Server
 Bancos de Dados Gratuitos: MySQL, MariaDB
+
+Para usar o MySQL precisa de um WAMP Server (Windows, Apache, MySQL, PHP)
+
+Banco de Dados --> Tabelas --> Registros
+
+Tipos Primitivos --> Tipos de dados para serem cadastrados em tabelas
+
+I. Numérico
+1. Inteiro
+- TinyInt
+- SmallInt
+- Int
+- MediumInt
+- BigInt
+2. Real
+- Decimal
+- Float
+- Double
+- Real
+3. Lógico
+- Bit
+- Boolean
+
+II. Data/Tempo
+- Date
+- DateTime
+- TimeStamp
+- Time
+- Year
+
+III. Literal
+1. Caractere
+- Char
+- VarChar
+2. Texto
+- TinyText
+- Text
+- MediumText
+- LongText
+3. Binário
+- TinyBlob
+- Blob
+- MediumBlob
+- LongBlob
+4. Coleção
+- Enum
+- Set
+
+IV. Espacial
+- Geometry
+- Point
+- Polygon
+- MultiPolygon
