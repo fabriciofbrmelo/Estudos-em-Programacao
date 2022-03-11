@@ -82,3 +82,6 @@ IV. Espacial
 - Point
 - Polygon
 - MultiPolygon
+
+DDL (Data Definition Language) --> create database, create table
+DML (Data Manipulation Language) --> insert into
