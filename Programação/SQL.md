@@ -87,4 +87,5 @@ DDL (Data Definition Language) --> create database, create table, alter table, d
 
 DML (Data Manipulation Language) --> insert into
 
+Manipular registros --> manipular linhas/tuplas
 
