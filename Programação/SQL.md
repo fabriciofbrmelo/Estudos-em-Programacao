@@ -85,7 +85,6 @@ IV. Espacial
 
 DDL (Data Definition Language) --> create database, create table, alter table, drop table
 
-DML (Data Manipulation Language) --> insert into
-
-Manipular registros --> manipular linhas/tuplas
+DML (Data Manipulation Language) --> insert into, update, delete, truncate
+- Manipular registros --> manipular linhas/tuplas
 
