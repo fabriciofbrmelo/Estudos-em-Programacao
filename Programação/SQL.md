@@ -88,3 +88,20 @@ DDL (Data Definition Language) --> create database, create table, alter table, d
 DML (Data Manipulation Language) --> insert into, update, delete, truncate
 - Manipular registros --> manipular linhas/tuplas
 
+Obtendo dados das tabelas --> SELECT
+
+select * from tabela --> * = todas as colunas
+order by coluna asc; --> ascendente
+order by coluna desc; --> descendente
+
+
+select (coluna, coluna, coluna) from tabela
+select nome, descricao, ano from cursos
+where ano <= '2015'
+order by ano, nome;
+< menor
+<= menor igual
+> maior
+>= maior igual
+!= diferente
+<> diferente
