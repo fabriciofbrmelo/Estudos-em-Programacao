@@ -85,7 +85,10 @@ IV. Espacial
 
 DDL (Data Definition Language) --> create database, create table, alter table, drop table
 
-DML (Data Manipulation Language) --> insert into, update, delete, truncate
+DML (Data Manipulation Language) --> insert into, update, delete, truncate, select
+
+DQL (Data Query Language) --> seletc (pode ser DML ou DQL)
+
 - Manipular registros --> manipular linhas/tuplas
 
 Obtendo dados das tabelas --> SELECT
@@ -109,10 +112,17 @@ order by ano, nome;
 - (<>) diferente
 
 select (coluna, coluna, coluna) from tabela
-select nome, ano from cursos
-where ano between '2014' and '2016'
+- select nome, ano from cursos
+- where ano between '2014' and '2016'
 
 select nome, descricao, ano from cursos
-where ano in (2014, 2016, 2018)
-order by ano
+- where ano in (2014, 2016, 2018)
+- order by ano
+
+Combinando testes:
+- select * from cursos
+- where carga > 35 and totaulas < 30;
+
+- select * from cursos
+- where carga > 35 or totaulas < 30;
 
