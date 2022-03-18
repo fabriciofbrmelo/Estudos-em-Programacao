@@ -126,3 +126,10 @@ Combinando testes:
 - select * from cursos
 - where carga > 35 or totaulas < 30;
 
+Operador Like
+
+- select * from cursos
+- where nome like 'P%'; --> todos que começam com P (p minúsculo/maíusculo, não faz diferença)
+- where nome like '%P'; --> todos que terminam com P
+- where nome like '%p%'; --> qualquer nome que tenha a letra p, não importa a posição
+
