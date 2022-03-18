@@ -107,3 +107,12 @@ order by ano, nome;
 - (>=) maior igual
 - (!=) diferente
 - (<>) diferente
+
+select (coluna, coluna, coluna) from tabela
+select nome, ano from cursos
+where ano between '2014' and '2016'
+
+select nome, descricao, ano from cursos
+where ano in (2014, 2016, 2018)
+order by ano
+
