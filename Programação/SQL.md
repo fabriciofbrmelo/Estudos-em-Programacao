@@ -140,4 +140,10 @@ Operador Like
 - select * from gafanhotos
 - where nome like '%silva%'; --> qualquer pessoas que tenha o nome silva em qualquer lugar (só que aqui pega até silvana, por exemplo)
 - where nome like '%_silva%' --> underline serve como espaço, então quem tem silvana não entra
-- 
+
+Distinguindo
+
+select nacionalidade from gafanhotos
+select distinct nacionalidade from gafanhotos --> agrupa as nacionalidades iguais
+
+Agregação
