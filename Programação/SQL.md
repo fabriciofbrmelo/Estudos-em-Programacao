@@ -143,7 +143,18 @@ Operador Like
 
 Distinguindo
 
-select nacionalidade from gafanhotos
-select distinct nacionalidade from gafanhotos --> agrupa as nacionalidades iguais
+- select nacionalidade from gafanhotos
+- select distinct nacionalidade from gafanhotos --> agrupa as nacionalidades iguais
 
 Agregação
+
+- select count(*) from cursos; --> Conta quantos cursos tem na tabela;
+- select count(*) from cursos where carga > 40; --> Conta quantos cursos com carga maior que 40;
+- select * from cursos order by carga; --> mostra os cursos ordenados por carga
+- select max(carga) from cursos; --> qual a maior carga
+- select max(totaulas) from cursos where ano ='2016'; --> dentre os cursos de 2016, qual o maximo de aulas?
+- select nome, max(totaulas) from cursos where ano ='2016'; ---> qual o curso de 2016 com o maximo de aulas?
+- select min(totaulas) from cursos where ano ='2016'; --> dentre os cursos de 2016, qual o mínimo de aulas?
+- select nome, min(totaulas) from cursos where ano ='2016'; ---> qual o curso de 2016 com o mínimo de aulas?
+- select sum(totaulas) from cursos where ano ='2016'; --> somar a carga horária de todos os cursos
+- select avg(totaulas) from cursos where ano ='2016'; --> média carga horária de todos os cursos
