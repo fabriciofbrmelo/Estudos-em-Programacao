@@ -132,4 +132,12 @@ Operador Like
 - where nome like 'P%'; --> todos que começam com P (p minúsculo/maíusculo, não faz diferença)
 - where nome like '%P'; --> todos que terminam com P
 - where nome like '%p%'; --> qualquer nome que tenha a letra p, não importa a posição
+- where nome not like '%p%'; --> p em lugar nenhum
+- where nome like 'PH%P' --> qualquer um que começa com ph e termina com p
+- where nome like 'PH$P_' --> underline significa um único caractere
+- where nome like 'p_p%'; --> começa com p, tem um caractere, de novo um p, qualquer coisa após
 
+- select * from gafanhotos
+- where nome like '%silva%'; --> qualquer pessoas que tenha o nome silva em qualquer lugar (só que aqui pega até silvana, por exemplo)
+- where nome like '%_silva%' --> underline serve como espaço, então quem tem silvana não entra
+- 
