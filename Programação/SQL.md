@@ -1,18 +1,17 @@
 # SQL
 
-Banco de Dados Relacional
+### Para que serve e o que é o SQL?
+1. Banco de Dados Relacional
+2. Registros --> Tabelas --> Arquivos
+3. Arquivos Sequenciais
 
-Registros --> Tabelas --> Arquivos
+- Disco (disquete) --> tabelas, índices, numerações = armazenamento indexado (Arquivo de Acesso Direto)
 
-Arquivos Sequenciais
+### Como armazenar dados de forma mais segura e eficiente?
+- Surge o COBOL (linguagem antiga da programação)
+- Surge o Banco de Dados
 
-Disco (disquete) --> tabelas, índices, numerações = armazenamento indexado (Arquivo de Acesso Direto)
-
-Como armazenar dados de forma mais segura e eficiente?
-Surge o COBOL (linguagem antiga da programação)
-Surge o Banco de Dados
-
-Banco de Dados:
+## Banco de Dados:
 1. Base de Dados
 2. Sistema Gerenciador de Banco de Dados (SGDB)
 3. Linguagem de Exploração
@@ -24,16 +23,15 @@ IBM criou o PC
 - Modelo Relacional --> MySQL
 
 Structured English Query Language (SEQUEL) --> Structured Query Language (SQL)
-Linguagem de Consulta, dar comandos aos dados e ele te volta uma query.
+- Linguagem de Consulta, dar comandos aos dados e ele te volta uma query.
 
 Vários SQL --> Padronização do SQL
-Bancos de Dados: Oracle, IBM, SQL Server
-Bancos de Dados Gratuitos: MySQL, MariaDB
+1. Bancos de Dados: Oracle, IBM, SQL Server
+2. Bancos de Dados Gratuitos: MySQL, MariaDB
 
-Para usar o MySQL precisa de um WAMP Server (Windows, Apache, MySQL, PHP)
+## Para usar o MySQL precisa de um WAMP Server (Windows, Apache, MySQL, PHP)
 
 Banco de Dados --> Tabelas --> Registros
-
 Tipos Primitivos --> Tipos de dados para serem cadastrados em tabelas
 
 I. Numérico
@@ -83,26 +81,25 @@ IV. Espacial
 - Polygon
 - MultiPolygon
 
-DDL (Data Definition Language) --> create database, create table, alter table, drop table
+## SQL
 
-DML (Data Manipulation Language) --> insert into, update, delete, truncate, select
-
-DQL (Data Query Language) --> seletc (pode ser DML ou DQL)
+1. DDL (Data Definition Language) --> create database, create table, alter table, drop table
+2. DML (Data Manipulation Language) --> insert into, update, delete, truncate, select
+3. DQL (Data Query Language) --> seletc (pode ser DML ou DQL)
 
 - Manipular registros --> manipular linhas/tuplas
 
-Obtendo dados das tabelas --> SELECT
+## SELECT
+
+1. Obtendo dados das tabelas --> SELECT
 
 select * from tabela --> * = todas as colunas
 order by coluna asc; --> ascendente
 order by coluna desc; --> descendente
 
-
 select (coluna, coluna, coluna) from tabela --> (coloquei em parenteses para o comando não ser executado, no sql não precisa)
 select nome, descricao, ano from cursos
-
 where ano (<=) '2015'
-
 order by ano, nome;
 - (<) menor
 - (<=) menor igual
@@ -119,14 +116,14 @@ select nome, descricao, ano from cursos
 - where ano in (2014, 2016, 2018)
 - order by ano
 
-Combinando testes:
+2. Combinando testes:
 - select * from cursos
 - where carga > 35 and totaulas < 30;
 
 - select * from cursos
 - where carga > 35 or totaulas < 30;
 
-Operador Like
+3. Operador Like
 
 - select * from cursos
 - where nome like 'P%'; --> todos que começam com P (p minúsculo/maíusculo, não faz diferença)
@@ -141,12 +138,12 @@ Operador Like
 - where nome like '%silva%'; --> qualquer pessoas que tenha o nome silva em qualquer lugar (só que aqui pega até silvana, por exemplo)
 - where nome like '%_silva%' --> underline serve como espaço, então quem tem silvana não entra
 
-Distinguindo
+4. Distinguindo
 
 - select nacionalidade from gafanhotos
 - select distinct nacionalidade from gafanhotos --> agrupa as nacionalidades iguais
 
-Agregação
+5. Agregação
 
 - select count(*) from cursos; --> Conta quantos cursos tem na tabela;
 - select count(*) from cursos where carga > 40; --> Conta quantos cursos com carga maior que 40;
