@@ -200,3 +200,15 @@ ii. Agrupando --> para saber quantos cursos tem 20, 40, 60
 
 4. uma lista agrupada pela altura dos gafanhotos ,mostrando quantas pessoas  pesam mais de 100kg e que estao acima da media da altura de todos os gafanhotos
 - select altura, count(*) from gafanhotos where peso > '100' group by altura having altura > (select avg(altura) from gafanhotos);
+
+## DER - DIAGRAMA ENTIDADE RELACIONAMENTO
+
+Conectar a tabela gafanhotos com a tabela cursos --> um gafanhoto pode fazer um curso
+cardinalidade --> 1 gafanhoto assiste n cursos ou 1 curso é assistido por n gafanhotos
+
+muitos-para-muitos --> vários gafanhotos assistem vários cursos
+um-para-um --> uma pessoa casa com uma outra pessoa
+um-para-muitos --> um funcionário cuida de n pessoas ou n pessoas são cuidadas por 1 funcionário
+
+chava primária e chave estrangeira
+--> a chave estrangeira é a chave primária que veio de outro lugar
