@@ -158,67 +158,45 @@ select nome, descricao, ano from cursos
 
 6. Distinguindo e Agregando
 i. Distinguindo --> SELECT DISTINCT from cursos order by carga;
-seleciona todos os cursos com cargas horárias iguais e coloca na coluna os cursos de carga 10, 20, 40, 60 --> não fala quantos cursos tem 40 horas, fala só a carga horária
+- seleciona todos os cursos com cargas horárias iguais e coloca na coluna os cursos de carga 10, 20, 40, 60 --> não fala quantos cursos tem 40 horas, fala só a carga horária
 ii. Agrupando --> para saber quantos cursos tem 20, 40, 60
-SELECT carga from cursos
-group by carga;
+- SELECT carga from cursos group by carga;
 
-SELECT carga, COUNT(nome) from cursos
-group by carga;
+- SELECT carga, COUNT(nome) from cursos group by carga;
 
-select totaulas, count(*) from cursos
-group by totaulas
-order by totaulas;
+- select totaulas, count(*) from cursos group by totaulas order by totaulas;
 
-select ano, count(*) from cursos
-group by ano
-having count(ano) >= 5
-order by count(*);
+- select ano, count(*) from cursos group by ano having count(ano) >= 5 order by count(*);
 
 --> where é diferente de having, having só usa na hora de agrupar
 
-Exercícios
+### Exercícios
+
 1. Uma lista com a profissão dos gafanhotos e seu quantitativo
-select * from gafanhotos;
+- select * from gafanhotos;
 
-select profissao from gafanhotos
-group by profissao;
+- select profissao from gafanhotos group by profissao;
 
-select profissao, count(*) from gafanhotos
-group by profissao;
+- select profissao, count(*) from gafanhotos group by profissao;
 
 2. Quantos gafanhotos homens e mulheres nasceram após 01/jan/2005
-select * from gafanhotos;
+- select * from gafanhotos;
 
-select * from gafanhotos where sexo = 'M';
-select * from gafanhotos where sexo = 'F';
+- select * from gafanhotos where sexo = 'M';
+- select * from gafanhotos where sexo = 'F';
 
-select sexo from gafanhotos
-group by sexo;
+- select sexo from gafanhotos group by sexo;
 
-select sexo, count(*) from gafanhotos
-group by sexo;
+- select sexo, count(*) from gafanhotos group by sexo;
 
-select sexo, count(nome) from gafanhotos
-group by sexo;
+- select sexo, count(nome) from gafanhotos group by sexo;
 
-select sexo, count(nome) from gafanhotos
-group by sexo
-order by sexo;
+- select sexo, count(nome) from gafanhotos group by sexo order by sexo;
 
-select sexo, count(*) from gafanhotos
-where nascimento > '2005-01-01'
-group by sexo;
+- select sexo, count(*) from gafanhotos where nascimento > '2005-01-01' group by sexo;
 
 3. Lista com gafanhotos que nasceram fora do BRASIL, mostrando o país de origem e o total de pessoas nascidas lá. Só nos interessam os países que tiveram mais de 3 gafanhotos com essa nacionalidade
-select nacionalidade,count(*)from gafanhotos 
-where nacionalidade <> 'brasil'
-group by nacionalidade
-having count(nacionalidade ) >'3';
+- select nacionalidade,count(*)from gafanhotos  where nacionalidade <> 'brasil' group by nacionalidade having count(nacionalidade ) >'3';
 
-4. uma lista agrupada pela altura dos gafanhotos ,mostrando quantas pessoas 
-pesam mais de 100kg e que estao acima da media da altura de todos os gafanhotoso
-select altura, count(*) from gafanhotos
-where peso > '100'
-group by altura
-having altura > (select avg(altura) from gafanhotos);
+4. uma lista agrupada pela altura dos gafanhotos ,mostrando quantas pessoas  pesam mais de 100kg e que estao acima da media da altura de todos os gafanhotos
+- select altura, count(*) from gafanhotos where peso > '100' group by altura having altura > (select avg(altura) from gafanhotos);
