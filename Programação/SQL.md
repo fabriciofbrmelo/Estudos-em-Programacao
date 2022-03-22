@@ -212,3 +212,7 @@ um-para-muitos --> um funcionário cuida de n pessoas ou n pessoas são cuidadas
 
 chava primária e chave estrangeira
 --> a chave estrangeira é a chave primária que veio de outro lugar
+
+## CHAVE ESTRANGEIRA E JOIN
+
+- select gafanhotos.nome, gafanhotos.cursopreferido, cursos.nome, cursos.ano from gafanhotos join cursos on cursos.idcurso = gafanhotos.cursopreferido;
