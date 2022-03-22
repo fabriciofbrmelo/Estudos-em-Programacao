@@ -215,4 +215,9 @@ chava primária e chave estrangeira
 
 ## CHAVE ESTRANGEIRA E JOIN
 
+1. inner join:
 - select gafanhotos.nome, gafanhotos.cursopreferido, cursos.nome, cursos.ano from gafanhotos join cursos on cursos.idcurso = gafanhotos.cursopreferido;
+- select g.nome, c.nome, c.ano from gafanhotos as g join cursos as c on c.idcurso = g.cursopreferido order by g.nome;
+
+2. outer join:
+- select g.nome, c.nome, c.ano from gafanhotos as g left outer join cursos as c on c.idcurso = g.cursopreferido;
