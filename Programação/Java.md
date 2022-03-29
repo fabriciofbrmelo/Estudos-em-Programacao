@@ -85,3 +85,29 @@ A variável numberOfApples armazena o inteiro (número inteiro) 10. A variável 
 > var isLearningToCode = true; var shouldWearSocksWithSandals = false;
 
 É true que você está aprendendo a programar, mas é false que se deva usar meias com sandálias.
+
+## Variáveis
+
+1. Variáveis
+- Uma forma de armazenar um valor para uso posterior, também conhecido como variável. Uma var deve ter um nome (também conhecido como identificador) e, opcionalmente, pode ser atribuído um valor, que pode ser um número, uma string ou um dado mais complexo.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var cityOfOrigin = 'Pittsburgh';
+> 
+> var cityOfDestination;
+> 
+> cityOfDestination = 'Manila';
+
+cityOfOrigin é uma variável que será igual a 'Pittsburgh'. Em seguida, outra variável chamada cityOfDestination é criada e mais tarde recebe um novo valor de 'Manila'.
+
+2. Const
+- Um tipo de variável que uma vez criada não pode ser reatribuída. Novos dados ainda podem ser adicionados a variáveis const que são objetos ou arrays, mas não podem ser reatribuídos.
+
+> CÓDIGO DE EXEMPLO
+> 
+> const arrayOfNumbers = [1, 2, 3];
+> 
+> arrayofNumbers.push(4);
+
+arrayOfNumbers não pode ser reatribuída, mas podem ser adicionados novos dados.
