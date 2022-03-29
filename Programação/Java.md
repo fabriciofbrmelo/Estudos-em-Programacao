@@ -191,3 +191,28 @@ Um objeto pode armazenar várias informações dentro de uma variável. A notaç
 > print(objectName.propertyName);
 
 Este código imprimirá 'Coding is fun.'
+
+4. Encadeamento
+
+O encadeamento permite que os programadores apliquem várias chamadas de função diferentes ao mesmo identificador.
+
+> CÓDIGO DE EXEMPLO
+> 
+> svg.append('circle')
+> 
+>    .attr('fill', 'blue')
+>    
+>    .attr('r', 200);
+
+Um círculo SVG é criado com um atributo de azul para seu preenchimento e um raio de 200 aplicado ao mesmo tempo usando .append() e duas chamadas de função .attr() encadeadas.
+
+5. Indexação da array
+Na maioria das linguagens de programação, incluindo JavaScript, as arrays são indexadas a partir de 0. O primeiro item em uma array tem o índice 0. Por exemplo, myArray[0] acessa o primeiro item. Enquanto myArray[3] acessa o 4º item.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var groceries = ['apples', 'bananas', 'oranges']; 
+> 
+> var fruit = groceries[1];
+
+A variável fruit contém o segundo item da array, que é 'bananas'.
