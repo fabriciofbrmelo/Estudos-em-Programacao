@@ -111,3 +111,83 @@ cityOfOrigin é uma variável que será igual a 'Pittsburgh'. Em seguida, outra 
 > arrayofNumbers.push(4);
 
 arrayOfNumbers não pode ser reatribuída, mas podem ser adicionados novos dados.
+
+3. let
+- let declara uma variável como var, exceto que tem um escopo diferente. O escopo de uma variável é a seção do código onde ela pode ser usada. Um let só pode ser usado dentro do bloco de código {}onde é criado.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var x = 100;
+> 
+> if (x > 0) {
+> 
+>    let x = 25;
+>    
+> }
+> 
+> print(x);
+
+Uma variável chamada x é criada usando var e definida como 100. A if statement é verdadeira, então a variável let x é criada e definida como 25. A variável let permanece dentro do bloco de código {}. A print(x), que está fora do bloco de código da if statement, usa o valor de var x = 100.
+
+## Estrutura de dados
+
+Estruturas de dados são maneiras de armazenar e organizar dados mais complexos do que apenas um único valor primitive. Em JavaScript, os tipos de estrutura de dados mais comuns são arrays e objects.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var vegetables = ['broccoli', 'carrots', 'spinach'];
+> 
+> var groceries = {
+> 
+>    numberOfApples: 5,
+>    
+>    numberOfBananas: 5,
+>    
+>    vegetables: vegetables
+>    
+>};
+
+Observe que um objeto pode conter arrays e vice-versa. Nesse caso, groceries.vegetables seria igual à variável vegetables.
+
+## Arrays
+
+1. []
+Em JavaScript, uma array é uma lista de itens. Os itens podem ser diferentes tipos de dados: números, strings e até mesmo outras arrays. Uma array dentro de outra array é chamada de aninhamento de arrays.
+
+> CÓDIGO DE EXEMPLO
+>
+> var exampleArray = ['blue', 'orange', 5, 10, [50, 10]];
+
+exampleArray tem 5 itens. Ela contém strings, números e uma array; que tem dois itens que são números.
+
+2. {}
+Um objeto armazena vários valores que possuem nomes de propriedade (ou chave). Isso permite que eles sejam facilmente acessados posteriormente no código.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var groceries = {
+> 
+>    apples: 5,
+>    
+>    bananas: 2
+>    
+>};
+
+apples e bananas são propriedades do objeto groceries. 5 e 2 são os valores associados a essas propriedades. groceries.apples, por exemplo, é igual a 5.
+
+3. Propriedades
+Um objeto pode armazenar várias informações dentro de uma variável. A notação de ponto é usada para acessar uma propriedade de um objeto. Por exemplo, objectName.propertyName.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var objectName = {
+> 
+>    propertyName: 'Coding is fun.',
+>    
+>    otherPropertyName: 'this is also a key value'
+>    
+>};
+>
+> print(objectName.propertyName);
+
+Este código imprimirá 'Coding is fun.'
