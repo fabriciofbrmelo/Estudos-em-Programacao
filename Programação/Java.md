@@ -1,17 +1,20 @@
 # Java
 
 ## Funções
-
+```
 - drawBox() é uma função. Uma função diz a um computador para fazer uma determinada coisa. As funções podem receber argumentos para fornecer informações extras ao computador. Por exemplo, drawBox(red) tem red como seu argumento, isso diz ao computador que ele deve desenhar uma caixa vermelha.
 - drawBox() é o nome da função. Ao adicionar blue entre parênteses (), você está chamando a função com o argumento blue. Este código cria uma caixa azul.
+```
 
 1. Argumento: Um argumento é uma informação extra fornecida a uma função que diz como ela deve ser executada. Os argumentos são colocados entre parênteses de uma chamada de função. Nem todas as funções requerem argumentos e algumas funções requerem vários argumentos.
 
 > CÓDIGO DE EXEMPLO
+> 
 > drawBox(red);
+> 
 > print('hello');
 
-Neste exemplo, red é o argumento para a função drawBox(). Ele diz à função para desenhar uma caixa vermelha.
+--> Neste exemplo, red é o argumento para a função drawBox(). Ele diz à função para desenhar uma caixa vermelha.
 'hello' é o argumento para a função print(). Ele diz à função o que deve ser impresso.
 
 2. Expressão de Função
@@ -21,7 +24,11 @@ ii. Os parâmetros ou argumentos (os valores entre parênteses)
 iii. O corpo da função, que é a sequência de comandos executados quando a função é chamada.
 
 > CÓDIGO DE EXEMPLO
-> var printSum = function(num1, num2) { print(num1 + num2); }; printSum(5, 2);
+> 
+> var printSum = function(num1, num2)
+> { print(num1 + num2);
+> }; 
+> printSum(5, 2);
 
 Quando printSum(5, 2) é chamado, será impresso 7 na área de saída.
 
@@ -29,7 +36,11 @@ Quando printSum(5, 2) é chamado, será impresso 7 na área de saída.
 - Uma função executa alguma ação ou tarefa definida em seu bloco {}. A parte do código onde a função é criada é chamada a declaração da função. Para usar ou chamar esta função, seu nome é usado entre parênteses ().
 
 > CÓDIGO DE EXEMPLO
-> function printSum(num1, num2) {print(num1 + num2);}
+> 
+> function printSum(num1, num2)
+> 
+> {print(num1 + num2);}
+> 
 > printSum(5, 2);
  
 A palavra-chave function cria uma nova função chamada printSum() que recebe dois argumentos. Quando printSum() é chamada, ela soma os dois argumentos.
@@ -38,7 +49,9 @@ A palavra-chave function cria uma nova função chamada printSum() que recebe do
 - Uma função de seta é uma forma compacta de criar uma nova função. Ela usa () => {} em vez da palavra-chave function. Também não precisa de um nome. A melhor prática é usar => em vez da palavra-chave function.
 
 > CÓDIGO DE EXEMPLO
+> 
 > var add = (num1, num2) => {return num1 + num2;};
+> 
 > console.log(add(5, 3));
 
 add() aceita dois números como argumentos e os adiciona.
@@ -47,6 +60,7 @@ add() aceita dois números como argumentos e os adiciona.
 - Variáveis são muito comuns na programação. Elas permitem que você faça referência à mesma informação várias vezes. Em JavaScript, as variáveis podem ser definidas usando var e dando à variável um nome exclusivo. Por exemplo, var myVariable = 'my example'.
 
 > CÓDIGO DE EXEMPLO
+> 
 > var appName = 'Grasshopper';
 
 appName pode ser usado no futuro sempre que você quiser "Grasshopper".
@@ -55,6 +69,7 @@ appName pode ser usado no futuro sempre que você quiser "Grasshopper".
 - Um identificador é um nome que você pode definir para fazer referência ao seu código. Você pode nomear um identificador como quiser, desde que não seja uma palavra-chave JavaScript existente.
 
 > CÓDIGO DE EXEMPLO
+> 
 > drawBox(red);
 
 drawBox e red são identificadores. Eles foram definidos previamente para você.
@@ -65,6 +80,7 @@ drawBox e red são identificadores. Eles foram definidos previamente para você.
 - Letras, palavras e frases são chamadas de strings na programação. As aspas são usadas para mostrar o início e o fim de uma string. Por exemplo, 'hello world' é uma string.
 
 > CÓDIGO DE EXEMPLO
+> 
 > drawBoxes('royg');
 
 'royg' é uma string usada na função drawBoxes() para criar caixas vermelhas, laranja, amarelas e verdes.
@@ -73,7 +89,9 @@ drawBox e red são identificadores. Eles foram definidos previamente para você.
 - Um número que pode ser inteiro (como 10) ou decimal (como 3,5).
 
 > CÓDIGO DE EXEMPLO
+> 
 > var numberOfApples = 10;
+> 
 > var temperature = 74.6;
 
 A variável numberOfApples armazena o inteiro (número inteiro) 10. A variável temperature armazena o decimal 74,6.
@@ -82,6 +100,7 @@ A variável numberOfApples armazena o inteiro (número inteiro) 10. A variável 
 - Um boolean é um dos dois valores especiais em JavaScript, true ou false. Eles são úteis para lidar com estados que possuem apenas duas possibilidades.
 
 > CÓDIGO DE EXEMPLO
+> 
 > var isLearningToCode = true; var shouldWearSocksWithSandals = false;
 
 É true que você está aprendendo a programar, mas é false que se deva usar meias com sandálias.
