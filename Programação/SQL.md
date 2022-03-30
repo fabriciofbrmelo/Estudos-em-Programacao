@@ -34,52 +34,17 @@ Vários SQL --> Padronização do SQL
 Banco de Dados --> Tabelas --> Registros
 Tipos Primitivos --> Tipos de dados para serem cadastrados em tabelas
 
-I. Numérico
-1. Inteiro
-- TinyInt
-- SmallInt
-- Int
-- MediumInt
-- BigInt
-2. Real
-- Decimal
-- Float
-- Double
-- Real
-3. Lógico
-- Bit
-- Boolean
-
-II. Data/Tempo
-- Date
-- DateTime
-- TimeStamp
-- Time
-- Year
-
-III. Literal
-1. Caractere
-- Char
-- VarChar
-2. Texto
-- TinyText
-- Text
-- MediumText
-- LongText
-3. Binário
-- TinyBlob
-- Blob
-- MediumBlob
-- LongBlob
-4. Coleção
-- Enum
-- Set
-
-IV. Espacial
-- Geometry
-- Point
-- Polygon
-- MultiPolygon
+|Tipos Primitivos|-|-|
+|--------|-------|--------|
+|Numérico|Inteiro|TinyInt, SmallInt, Int, MediumInt, BigInt|
+|-|Real|Decimal, Float, Double, Real|
+|-|Lógico|Bit, Boolean|
+|Data/Tempo|-|Date, DateTime, TimeStamp, Time, Year|
+|Literal|Caractere|Char, VarChar|
+|-|Texto|TinyText, Text, MediumText, LongText|
+|-|Binário|TinyBlob, Blob, MediumBlob, LongBlob|
+|-|Coleção|Enum, Set|
+|Espacial|-|Geometry, Point, Polygon, Multipolygon|
 
 ## SQL
 
