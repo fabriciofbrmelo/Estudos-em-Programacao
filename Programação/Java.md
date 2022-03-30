@@ -235,3 +235,37 @@ Na maioria das linguagens de programação, incluindo JavaScript, as arrays são
 > var fruit = groceries[1];
 
 A variável fruit contém o segundo item da array, que é 'bananas'.
+
+## IF
+
+1. If Statement
+- As if statements permitem que você execute uma seção específica do código quando um teste for verdadeiro. O código entre parênteses () é o teste. Se o teste for verdadeiro, o código dentro do bloco {} será executado. Se o teste não for verdadeiro, o código dentro do bloco não será executado.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var aNumber = 5;
+> 
+> if (aNumber === 5) {
+> 
+>    drawBox(blue);
+>    
+> }
+> 
+> if (aNumber === 4) {
+> 
+>    drawBox(red);
+>    
+> }
+
+Nesse exemplo, a variável aNumber recebe o número 5. Existem duas if statements. A primeira é verificar se aNumber é igual a 5. A segunda é verificar se é igual a 4. Apenas o primeiro teste if statement é verdadeiro, então seria desenhada uma caixa azul.
+
+2. Operador de Igualdade
+- Compara se duas coisas são iguais entre si.
+
+> CÓDIGO DE EXEMPLO
+> 
+> print(10 === 5);
+> 
+> print(5 === 5);
+
+Esse código primeiro verifica se 10 é igual a 5. Como 10 é diferente de 5, é impresso false. O código então verifica se 5 é igual a 5. Como 5 é igual a 5, é impresso true.
