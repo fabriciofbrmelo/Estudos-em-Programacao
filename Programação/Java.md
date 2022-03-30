@@ -1,6 +1,24 @@
 # Java
 
+<details><summary>Índice</summary>
+ 
+|Título|Conteúdo|
+|------|--------|
+|Funções|Argumento, Expressão de Função, Função() {}, ()=>{}, Declaração de Variável, Identificadores|
+|Strings|str, num, boolean|
+|Variáveis|var, const, let|
+|Estrutura de dados||
+|Arrays|[], {}, Propriedades, Encadeamento, Indexação da Array|
+|IF|if statement, operador de igualdade, multiplicação, divisão, soma, subtração|
+|Bloco de Código||
+|IF...ELSE||
+|Operadores|Matemática Operadora: mais, menos, multiplicação, divisão, módulo, operador e &&, operador ou |
+|Laços|Laços de Strings: for...of, while, for; Laços Aninhados|
+|Objeto|Atribuições, Atualizações, Expressão Binária|
+ 
+</details>
 ## Funções
+
 ```
 - drawBox() é uma função. Uma função diz a um computador para fazer uma determinada coisa. As funções podem receber argumentos para fornecer informações extras ao computador. Por exemplo, drawBox(red) tem red como seu argumento, isso diz ao computador que ele deve desenhar uma caixa vermelha.
 - drawBox() é o nome da função. Ao adicionar blue entre parênteses (), você está chamando a função com o argumento blue. Este código cria uma caixa azul.
