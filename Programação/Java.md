@@ -269,3 +269,52 @@ Nesse exemplo, a variável aNumber recebe o número 5. Existem duas if statement
 > print(5 === 5);
 
 Esse código primeiro verifica se 10 é igual a 5. Como 10 é diferente de 5, é impresso false. O código então verifica se 5 é igual a 5. Como 5 é igual a 5, é impresso true.
+- !== diferente
+- <= menor igual
+- (>=) maior igual (coloquei parênteses para não virar código)
+
+- (=) Define (ou redefine) o valor armazenado em uma variável. À esquerda está a variável que você gostaria de ajustar e à direita está o novo valor.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var myNumber = 10;
+
+- (*=) Multiplica o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+
+> CÓDIGO DE EXEMPLO
+>
+> var myNumber = 10;
+> 
+> myNumber *= 5;
+
+myNumber será igual a 50.
+
+- (/=) Divide o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var myNumber = 10;
+> 
+> myNumber /= 5;
+
+myNumber será igual a 2.
+
+- (+=) Adiciona o valor associado à variável à esquerda com o valor à direita e atribui o valor resultante à variável existente.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var myNumber = 10;
+> 
+> > myNumber += 5;
+
+myNumber será 15
+
+- (-=) Subtrai o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var myNumber = 10;
+> 
+> myNumber -= 5;
+
+mynumber será 5
