@@ -318,3 +318,17 @@ myNumber será 15
 > myNumber -= 5;
 
 mynumber será 5
+
+3. Bloco d Código
+- Uma sequência de comandos agrupados dentro de chaves {}.
+
+> CÓDIGO DE EXEMPLO
+> 
+> if (learningToCode === 'fun') {
+> 
+>    print('Coding is awesome!');
+>    
+>    print('I want to solve more puzzles!');
+> }
+
+Se a variável learningToCode for igual a 'fun', o código dentro do bloco de código {} será executado.
