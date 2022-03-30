@@ -48,9 +48,11 @@ Tipos Primitivos --> Tipos de dados para serem cadastrados em tabelas
 
 ## SQL
 
-1. DDL (Data Definition Language) --> create database, create table, alter table, drop table
-2. DML (Data Manipulation Language) --> insert into, update, delete, truncate, select
-3. DQL (Data Query Language) --> seletc (pode ser DML ou DQL)
+|Type of Language|Command|
+|-|-|
+|DDL (Data Definition Language)|create database, create table, alter table, drop table|
+|DML (Data Manipulation Language)|insert into, update, delete, truncate, select|
+|DQL (Data Query Language)|seletc (pode ser DML ou DQL)|
 
 - Manipular registros --> manipular linhas/tuplas
 
