@@ -89,38 +89,30 @@ where ano in (2014, 2016, 2018)
 order by ano
 ```
 ### 2. Combinando testes:
-> select * from cursos
-> 
-> where carga > 35 and totaulas < 30;
-
-> select * from cursos
-> 
-> where carga > 35 or totaulas < 30;
-
+```
+select * from cursos
+where carga > 35 and totaulas < 30;
+```
+```
+select * from cursos
+where carga > 35 or totaulas < 30;
+```
 ### 3. Operador Like
-
-> select * from cursos
-> 
-> where nome like 'P%'; --> todos que começam com P (p minúsculo/maíusculo, não faz diferença)
-> 
-> where nome like '%P'; --> todos que terminam com P
-> 
-> where nome like '%p%'; --> qualquer nome que tenha a letra p, não importa a posição
-> 
-> where nome not like '%p%'; --> p em lugar nenhum
-> 
-> where nome like 'PH%P' --> qualquer um que começa com ph e termina com p
-> 
-> where nome like 'PH$P_' --> underline significa um único caractere
-> 
-> where nome like 'p_p%'; --> começa com p, tem um caractere, de novo um p, qualquer coisa após
-
-> select * from gafanhotos
-> 
-> where nome like '%silva%'; --> qualquer pessoas que tenha o nome silva em qualquer lugar (só que aqui pega até silvana, por exemplo)
-> 
-> where nome like '%_silva%' --> underline serve como espaço, então quem tem silvana não entra
-
+```
+select * from cursos
+where nome like 'P%'; --> todos que começam com P (p minúsculo/maíusculo, não faz diferença)
+where nome like '%P'; --> todos que terminam com P
+where nome like '%p%'; --> qualquer nome que tenha a letra p, não importa a posição
+where nome not like '%p%'; --> p em lugar nenhum
+where nome like 'PH%P' --> qualquer um que começa com ph e termina com p
+where nome like 'PH$P_' --> underline significa um único caractere
+where nome like 'p_p%'; --> começa com p, tem um caractere, de novo um p, qualquer coisa após
+```
+```
+select * from gafanhotos
+where nome like '%silva%'; --> qualquer pessoas que tenha o nome silva em qualquer lugar (só que aqui pega até silvana, por exemplo)
+where nome like '%_silva%' --> underline serve como espaço, então quem tem silvana não entra
+```
 ### 4. Distinguindo
 
 - select nacionalidade from gafanhotos
