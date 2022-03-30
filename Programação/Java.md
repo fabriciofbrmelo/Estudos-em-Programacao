@@ -444,6 +444,30 @@ Embora 2 seja diferente de 4, 1 + 1 é igual a 2. Como o lado direito é verdade
 
 ## Laços
 
+--> Um laço repete as mesmas linhas de código indefinidamente. As linhas a serem repetidas são circundadas por chaves: {}. Existem diversas maneiras de executar um laço (principalmente em JavaScript).
+
+> CÓDIGO DE EXEMPLO
+> 
+> for (var element of [1, 2, 3, 4, 5]) {
+> 
+>    print(index);
+>    
+>    print('the loop will go through each number in the array');
+>    
+> }
+> 
+> var index = 0;
+>
+> while (index < 5) {
+> 
+>    index += 1;
+>    
+>    print('the while loop will go as long as index is less than 5');
+>    
+> }
+
+Os dois laços podem ser usados para obter o mesmo resultado. Em ambos os laços for...of e while, o laço se repetirá 5 vezes.
+
 ### Laços de Strings
 
 #### 1. For ... of
@@ -494,3 +518,21 @@ Contanto que i seja menor que 3, o código no bloco de comandos será repetido. 
 > }
 
 Neste exemplo, a variável do laço (i) começa em 0. O código no {} continuará se repetindo enquanto i for menor do que 10. E i é aumentado em 1 a cada laço. Esse código imprime os números de 0 a 9.
+
+### Laços Aninhados
+
+--> Um laço aninhado é um laço dentro de outro laço. Embora os laços aninhados possam ser úteis, se você tiver muitos, pode tornar a execução do código lenta ou difícil de entender.
+
+> CÓDIGO DE EXEMPLO
+> 
+> for (var outerNumber of [1, 2, 3, 4, 5]) {
+> 
+>    for (var nestedNumber of [6, 7, 8, 9]) {
+>    
+>        print(outerNumber, nestedNumber);
+>        
+>    }
+>    
+> }
+
+Esse código imprimiria 1,6, 1,7, 1,8 e 1,9. E então outerNumber mudará para 2, e o laço interno imprimirá 2,6, depois 2,7 e assim por diante.
