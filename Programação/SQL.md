@@ -58,14 +58,12 @@ Tipos Primitivos --> Tipos de dados para serem cadastrados em tabelas
 
 ## SELECT
 
-1. Obtendo dados das tabelas --> SELECT
-
-> select * from tabela --> * = todas as colunas
-> 
-> order by coluna asc; --> ascendente
-> 
-> order by coluna desc; --> descendente
-
+### 1. Obtendo dados das tabelas --> SELECT
+```
+select * from tabela --> * = todas as colunas
+order by coluna asc; --> ascendente
+order by coluna desc; --> descendente
+```
 > select (coluna, coluna, coluna) from tabela --> (coloquei em parenteses para o comando não ser executado, no sql não precisa)
 > 
 > select nome, descricao, ano from cursos
@@ -83,42 +81,57 @@ Tipos Primitivos --> Tipos de dados para serem cadastrados em tabelas
 |!=|diferente|
 |<>|diferente|
 
-select (coluna, coluna, coluna) from tabela
-- select nome, ano from cursos
-- where ano between '2014' and '2016'
+> select (coluna, coluna, coluna) from tabela
+> 
+> select nome, ano from cursos
+> 
+> where ano between '2014' and '2016'
 
-select nome, descricao, ano from cursos
-- where ano in (2014, 2016, 2018)
-- order by ano
+> select nome, descricao, ano from cursos
+> 
+> where ano in (2014, 2016, 2018)
+> 
+> order by ano
 
-2. Combinando testes:
-- select * from cursos
-- where carga > 35 and totaulas < 30;
+### 2. Combinando testes:
+> select * from cursos
+> 
+> where carga > 35 and totaulas < 30;
 
-- select * from cursos
-- where carga > 35 or totaulas < 30;
+> select * from cursos
+> 
+> where carga > 35 or totaulas < 30;
 
-3. Operador Like
+### 3. Operador Like
 
-- select * from cursos
-- where nome like 'P%'; --> todos que começam com P (p minúsculo/maíusculo, não faz diferença)
-- where nome like '%P'; --> todos que terminam com P
-- where nome like '%p%'; --> qualquer nome que tenha a letra p, não importa a posição
-- where nome not like '%p%'; --> p em lugar nenhum
-- where nome like 'PH%P' --> qualquer um que começa com ph e termina com p
-- where nome like 'PH$P_' --> underline significa um único caractere
-- where nome like 'p_p%'; --> começa com p, tem um caractere, de novo um p, qualquer coisa após
+> select * from cursos
+> 
+> where nome like 'P%'; --> todos que começam com P (p minúsculo/maíusculo, não faz diferença)
+> 
+> where nome like '%P'; --> todos que terminam com P
+> 
+> where nome like '%p%'; --> qualquer nome que tenha a letra p, não importa a posição
+> 
+> where nome not like '%p%'; --> p em lugar nenhum
+> 
+> where nome like 'PH%P' --> qualquer um que começa com ph e termina com p
+> 
+> where nome like 'PH$P_' --> underline significa um único caractere
+> 
+> where nome like 'p_p%'; --> começa com p, tem um caractere, de novo um p, qualquer coisa após
 
-- select * from gafanhotos
-- where nome like '%silva%'; --> qualquer pessoas que tenha o nome silva em qualquer lugar (só que aqui pega até silvana, por exemplo)
-- where nome like '%_silva%' --> underline serve como espaço, então quem tem silvana não entra
+> select * from gafanhotos
+> 
+> where nome like '%silva%'; --> qualquer pessoas que tenha o nome silva em qualquer lugar (só que aqui pega até silvana, por exemplo)
+> 
+> where nome like '%_silva%' --> underline serve como espaço, então quem tem silvana não entra
 
-4. Distinguindo
+### 4. Distinguindo
 
 - select nacionalidade from gafanhotos
 - select distinct nacionalidade from gafanhotos --> agrupa as nacionalidades iguais
 
-5. Agregação
+### 5. Agregação
 
 - select count(*) from cursos; --> Conta quantos cursos tem na tabela;
 - select count(*) from cursos where carga > 40; --> Conta quantos cursos com carga maior que 40;
