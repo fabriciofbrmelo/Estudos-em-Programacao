@@ -441,3 +441,56 @@ Como 1 é menor que 2 e 5 é maior que 0, o teste da if statement () é true e s
 > }
 
 Embora 2 seja diferente de 4, 1 + 1 é igual a 2. Como o lado direito é verdadeiro, o teste da if statement () é verdadeiro e imprime, 'At least one is true.'
+
+## Laços
+
+### Laços de Strings
+
+#### 1. For ... of
+--> Um laço repete a seção de código entre chaves {}. Em JavaScript, um laço for of percorre cada elemento em uma array ou string, repetindo o código para cada elemento.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var groceries = ['apples', 'yogurt', 'toothpaste'];
+>
+> for (var element of groceries) {
+> 
+>    print(element);
+>    
+> }
+
+Cada item na array groceries será impresso em sua própria linha.
+
+#### 2. While
+--> Um laço while executa o código dentro de seu bloco até que o teste entre parênteses não seja mais verdadeiro.
+
+> CÓDIGO DE EXEMPLO
+> 
+> let i = 0;
+> 
+> while (i < 3) {
+> 
+>    print('i is less than 3');
+>    
+>    i++;
+>    
+> }
+> 
+> print('i is now 3!');
+
+Contanto que i seja menor que 3, o código no bloco de comandos será repetido. Se você esquecer de aumentar i neste código, o laço while se repetirá para sempre e causará uma falha.
+
+#### 3. For
+--> Em JavaScript, um laço for clássico repete o mesmo código dentro do bloco {} um número determinado de vezes. Ele é definido em três partes. A primeira parte acontece antes do início do laço e define uma variável de laço (var i = 0;). A segunda parte é um teste que determina se o laço deve continuar se repetindo (i < 10;). E a terceira parte atualiza a variável do laço cada vez que ele se repete (i = i + 1).
+
+> CÓDIGO DE EXEMPLO
+> 
+> for (var i = 0; i < 10; i = i + 1) {
+> 
+>    print(i);
+>    
+>    print('the loop will go as long as i is less than 10.');
+>    
+> }
+
+Neste exemplo, a variável do laço (i) começa em 0. O código no {} continuará se repetindo enquanto i for menor do que 10. E i é aumentado em 1 a cada laço. Esse código imprime os números de 0 a 9.
