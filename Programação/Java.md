@@ -6,7 +6,8 @@
 - drawBox() é o nome da função. Ao adicionar blue entre parênteses (), você está chamando a função com o argumento blue. Este código cria uma caixa azul.
 ```
 
-1. Argumento: Um argumento é uma informação extra fornecida a uma função que diz como ela deve ser executada. Os argumentos são colocados entre parênteses de uma chamada de função. Nem todas as funções requerem argumentos e algumas funções requerem vários argumentos.
+### 1. Argumento
+--> Um argumento é uma informação extra fornecida a uma função que diz como ela deve ser executada. Os argumentos são colocados entre parênteses de uma chamada de função. Nem todas as funções requerem argumentos e algumas funções requerem vários argumentos.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -17,8 +18,8 @@
 --> Neste exemplo, red é o argumento para a função drawBox(). Ele diz à função para desenhar uma caixa vermelha.
 'hello' é o argumento para a função print(). Ele diz à função o que deve ser impresso.
 
-2. Expressão de Função
-- Executa uma sequência de comandos quando chamada. Ela tem três partes:
+### 2. Expressão de Função
+--> Executa uma sequência de comandos quando chamada. Ela tem três partes:
 i. O valor do identificador (o nome da função)
 ii. Os parâmetros ou argumentos (os valores entre parênteses)
 iii. O corpo da função, que é a sequência de comandos executados quando a função é chamada.
@@ -32,8 +33,8 @@ iii. O corpo da função, que é a sequência de comandos executados quando a fu
 
 Quando printSum(5, 2) é chamado, será impresso 7 na área de saída.
 
-3. Função() {}
-- Uma função executa alguma ação ou tarefa definida em seu bloco {}. A parte do código onde a função é criada é chamada a declaração da função. Para usar ou chamar esta função, seu nome é usado entre parênteses ().
+### 3. Função() {}
+--> Uma função executa alguma ação ou tarefa definida em seu bloco {}. A parte do código onde a função é criada é chamada a declaração da função. Para usar ou chamar esta função, seu nome é usado entre parênteses ().
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -45,8 +46,8 @@ Quando printSum(5, 2) é chamado, será impresso 7 na área de saída.
  
 A palavra-chave function cria uma nova função chamada printSum() que recebe dois argumentos. Quando printSum() é chamada, ela soma os dois argumentos.
 
-3.1. () => {}
-- Uma função de seta é uma forma compacta de criar uma nova função. Ela usa () => {} em vez da palavra-chave function. Também não precisa de um nome. A melhor prática é usar => em vez da palavra-chave function.
+### 3.1. () => {}
+--> Uma função de seta é uma forma compacta de criar uma nova função. Ela usa () => {} em vez da palavra-chave function. Também não precisa de um nome. A melhor prática é usar => em vez da palavra-chave function.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -56,8 +57,8 @@ A palavra-chave function cria uma nova função chamada printSum() que recebe do
 
 add() aceita dois números como argumentos e os adiciona.
 
-4. Declaração de Variável
-- Variáveis são muito comuns na programação. Elas permitem que você faça referência à mesma informação várias vezes. Em JavaScript, as variáveis podem ser definidas usando var e dando à variável um nome exclusivo. Por exemplo, var myVariable = 'my example'.
+### 4. Declaração de Variável
+--> Variáveis são muito comuns na programação. Elas permitem que você faça referência à mesma informação várias vezes. Em JavaScript, as variáveis podem ser definidas usando var e dando à variável um nome exclusivo. Por exemplo, var myVariable = 'my example'.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -65,8 +66,8 @@ add() aceita dois números como argumentos e os adiciona.
 
 appName pode ser usado no futuro sempre que você quiser "Grasshopper".
 
-5. Identificadores
-- Um identificador é um nome que você pode definir para fazer referência ao seu código. Você pode nomear um identificador como quiser, desde que não seja uma palavra-chave JavaScript existente.
+### 5. Identificadores
+--> Um identificador é um nome que você pode definir para fazer referência ao seu código. Você pode nomear um identificador como quiser, desde que não seja uma palavra-chave JavaScript existente.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -76,8 +77,8 @@ drawBox e red são identificadores. Eles foram definidos previamente para você.
 
 ## Strings
 
-1. Str
-- Letras, palavras e frases são chamadas de strings na programação. As aspas são usadas para mostrar o início e o fim de uma string. Por exemplo, 'hello world' é uma string.
+### 1. Str
+--> Letras, palavras e frases são chamadas de strings na programação. As aspas são usadas para mostrar o início e o fim de uma string. Por exemplo, 'hello world' é uma string.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -85,8 +86,8 @@ drawBox e red são identificadores. Eles foram definidos previamente para você.
 
 'royg' é uma string usada na função drawBoxes() para criar caixas vermelhas, laranja, amarelas e verdes.
 
-2. Num
-- Um número que pode ser inteiro (como 10) ou decimal (como 3,5).
+### 2. Num
+--> Um número que pode ser inteiro (como 10) ou decimal (como 3,5).
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -96,8 +97,8 @@ drawBox e red são identificadores. Eles foram definidos previamente para você.
 
 A variável numberOfApples armazena o inteiro (número inteiro) 10. A variável temperature armazena o decimal 74,6.
 
-3. Boolean
-- Um boolean é um dos dois valores especiais em JavaScript, true ou false. Eles são úteis para lidar com estados que possuem apenas duas possibilidades.
+### 3. Boolean
+--> Um boolean é um dos dois valores especiais em JavaScript, true ou false. Eles são úteis para lidar com estados que possuem apenas duas possibilidades.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -107,8 +108,8 @@ A variável numberOfApples armazena o inteiro (número inteiro) 10. A variável 
 
 ## Variáveis
 
-1. Variáveis
-- Uma forma de armazenar um valor para uso posterior, também conhecido como variável. Uma var deve ter um nome (também conhecido como identificador) e, opcionalmente, pode ser atribuído um valor, que pode ser um número, uma string ou um dado mais complexo.
+### 1. Variáveis
+--> Uma forma de armazenar um valor para uso posterior, também conhecido como variável. Uma var deve ter um nome (também conhecido como identificador) e, opcionalmente, pode ser atribuído um valor, que pode ser um número, uma string ou um dado mais complexo.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -120,8 +121,8 @@ A variável numberOfApples armazena o inteiro (número inteiro) 10. A variável 
 
 cityOfOrigin é uma variável que será igual a 'Pittsburgh'. Em seguida, outra variável chamada cityOfDestination é criada e mais tarde recebe um novo valor de 'Manila'.
 
-2. Const
-- Um tipo de variável que uma vez criada não pode ser reatribuída. Novos dados ainda podem ser adicionados a variáveis const que são objetos ou arrays, mas não podem ser reatribuídos.
+### 2. Const
+--> Um tipo de variável que uma vez criada não pode ser reatribuída. Novos dados ainda podem ser adicionados a variáveis const que são objetos ou arrays, mas não podem ser reatribuídos.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -131,8 +132,8 @@ cityOfOrigin é uma variável que será igual a 'Pittsburgh'. Em seguida, outra 
 
 arrayOfNumbers não pode ser reatribuída, mas podem ser adicionados novos dados.
 
-3. let
-- let declara uma variável como var, exceto que tem um escopo diferente. O escopo de uma variável é a seção do código onde ela pode ser usada. Um let só pode ser usado dentro do bloco de código {}onde é criado.
+### 3. let
+--> let declara uma variável como var, exceto que tem um escopo diferente. O escopo de uma variável é a seção do código onde ela pode ser usada. Um let só pode ser usado dentro do bloco de código {}onde é criado.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -170,8 +171,8 @@ Observe que um objeto pode conter arrays e vice-versa. Nesse caso, groceries.veg
 
 ## Arrays
 
-1. []
-Em JavaScript, uma array é uma lista de itens. Os itens podem ser diferentes tipos de dados: números, strings e até mesmo outras arrays. Uma array dentro de outra array é chamada de aninhamento de arrays.
+### 1. []
+--> Em JavaScript, uma array é uma lista de itens. Os itens podem ser diferentes tipos de dados: números, strings e até mesmo outras arrays. Uma array dentro de outra array é chamada de aninhamento de arrays.
 
 > CÓDIGO DE EXEMPLO
 >
@@ -179,8 +180,8 @@ Em JavaScript, uma array é uma lista de itens. Os itens podem ser diferentes ti
 
 exampleArray tem 5 itens. Ela contém strings, números e uma array; que tem dois itens que são números.
 
-2. {}
-Um objeto armazena vários valores que possuem nomes de propriedade (ou chave). Isso permite que eles sejam facilmente acessados posteriormente no código.
+### 2. {}
+--> Um objeto armazena vários valores que possuem nomes de propriedade (ou chave). Isso permite que eles sejam facilmente acessados posteriormente no código.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -194,8 +195,8 @@ Um objeto armazena vários valores que possuem nomes de propriedade (ou chave). 
 
 apples e bananas são propriedades do objeto groceries. 5 e 2 são os valores associados a essas propriedades. groceries.apples, por exemplo, é igual a 5.
 
-3. Propriedades
-Um objeto pode armazenar várias informações dentro de uma variável. A notação de ponto é usada para acessar uma propriedade de um objeto. Por exemplo, objectName.propertyName.
+### 3. Propriedades
+--> Um objeto pode armazenar várias informações dentro de uma variável. A notação de ponto é usada para acessar uma propriedade de um objeto. Por exemplo, objectName.propertyName.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -205,15 +206,14 @@ Um objeto pode armazenar várias informações dentro de uma variável. A notaç
 >    
 >    otherPropertyName: 'this is also a key value'
 >    
->};
+> };
 >
 > print(objectName.propertyName);
 
 Este código imprimirá 'Coding is fun.'
 
-4. Encadeamento
-
-O encadeamento permite que os programadores apliquem várias chamadas de função diferentes ao mesmo identificador.
+### 4. Encadeamento
+--> O encadeamento permite que os programadores apliquem várias chamadas de função diferentes ao mesmo identificador.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -225,8 +225,8 @@ O encadeamento permite que os programadores apliquem várias chamadas de funçã
 
 Um círculo SVG é criado com um atributo de azul para seu preenchimento e um raio de 200 aplicado ao mesmo tempo usando .append() e duas chamadas de função .attr() encadeadas.
 
-5. Indexação da array
-Na maioria das linguagens de programação, incluindo JavaScript, as arrays são indexadas a partir de 0. O primeiro item em uma array tem o índice 0. Por exemplo, myArray[0] acessa o primeiro item. Enquanto myArray[3] acessa o 4º item.
+### 5. Indexação da array
+--> Na maioria das linguagens de programação, incluindo JavaScript, as arrays são indexadas a partir de 0. O primeiro item em uma array tem o índice 0. Por exemplo, myArray[0] acessa o primeiro item. Enquanto myArray[3] acessa o 4º item.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -238,8 +238,8 @@ A variável fruit contém o segundo item da array, que é 'bananas'.
 
 ## IF
 
-1. If Statement
-- As if statements permitem que você execute uma seção específica do código quando um teste for verdadeiro. O código entre parênteses () é o teste. Se o teste for verdadeiro, o código dentro do bloco {} será executado. Se o teste não for verdadeiro, o código dentro do bloco não será executado.
+### 1. If Statement
+--> As if statements permitem que você execute uma seção específica do código quando um teste for verdadeiro. O código entre parênteses () é o teste. Se o teste for verdadeiro, o código dentro do bloco {} será executado. Se o teste não for verdadeiro, o código dentro do bloco não será executado.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -259,8 +259,8 @@ A variável fruit contém o segundo item da array, que é 'bananas'.
 
 Nesse exemplo, a variável aNumber recebe o número 5. Existem duas if statements. A primeira é verificar se aNumber é igual a 5. A segunda é verificar se é igual a 4. Apenas o primeiro teste if statement é verdadeiro, então seria desenhada uma caixa azul.
 
-2. Operador de Igualdade
-- Compara se duas coisas são iguais entre si.
+### 2. Operador de Igualdade
+--> Compara se duas coisas são iguais entre si.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -273,13 +273,15 @@ Esse código primeiro verifica se 10 é igual a 5. Como 10 é diferente de 5, é
 - <= menor igual
 - (>=) maior igual (coloquei parênteses para não virar código)
 
-- (=) Define (ou redefine) o valor armazenado em uma variável. À esquerda está a variável que você gostaria de ajustar e à direita está o novo valor.
+### (=)
+Define (ou redefine) o valor armazenado em uma variável. À esquerda está a variável que você gostaria de ajustar e à direita está o novo valor.
 
 > CÓDIGO DE EXEMPLO
 > 
 > var myNumber = 10;
 
-- (*=) Multiplica o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+### (*=)
+Multiplica o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
 
 > CÓDIGO DE EXEMPLO
 >
@@ -289,7 +291,8 @@ Esse código primeiro verifica se 10 é igual a 5. Como 10 é diferente de 5, é
 
 myNumber será igual a 50.
 
-- (/=) Divide o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+### (/=)
+Divide o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -299,7 +302,8 @@ myNumber será igual a 50.
 
 myNumber será igual a 2.
 
-- (+=) Adiciona o valor associado à variável à esquerda com o valor à direita e atribui o valor resultante à variável existente.
+### (+=)
+Adiciona o valor associado à variável à esquerda com o valor à direita e atribui o valor resultante à variável existente.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -309,7 +313,8 @@ myNumber será igual a 2.
 
 myNumber será 15
 
-- (-=) Subtrai o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+### (-=)
+Subtrai o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -319,8 +324,8 @@ myNumber será 15
 
 mynumber será 5
 
-3. Bloco d Código
-- Uma sequência de comandos agrupados dentro de chaves {}.
+### 3. Bloco d Código
+--> Uma sequência de comandos agrupados dentro de chaves {}.
 
 > CÓDIGO DE EXEMPLO
 > 
@@ -333,8 +338,8 @@ mynumber será 5
 
 Se a variável learningToCode for igual a 'fun', o código dentro do bloco de código {} será executado.
 
-4. IF... ELSE
-- As declarações if...else realizam um teste para decidir qual código executar. Se o teste for verdadeiro, o bloco if {} será executado. Se o teste for falso, o bloco else {} será executado.
+### 4. IF... ELSE
+--> As declarações if...else realizam um teste para decidir qual código executar. Se o teste for verdadeiro, o bloco if {} será executado. Se o teste for falso, o bloco else {} será executado.
 
 > CÓDIGO DE EXEMPLO
 > 
