@@ -332,3 +332,24 @@ mynumber será 5
 > }
 
 Se a variável learningToCode for igual a 'fun', o código dentro do bloco de código {} será executado.
+
+4. IF... ELSE
+- As declarações if...else realizam um teste para decidir qual código executar. Se o teste for verdadeiro, o bloco if {} será executado. Se o teste for falso, o bloco else {} será executado.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var number = pickRandom(10);
+> 
+> if (number === 7) {
+> 
+>    print('The number is 7!');
+>    
+> } else {
+> 
+>    print('The number is not 7.');
+>    
+> }
+
+Este código escolhe um número aleatório de 1 a 10. Se number for 7, ele imprimirá, 'The number is 7!'. Se number for qualquer outra coisa, ele imprimirá, 'The number is not 7.'
+
+## Operadores
