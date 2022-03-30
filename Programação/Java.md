@@ -536,3 +536,6 @@ Neste exemplo, a variável do laço (i) começa em 0. O código no {} continuar�
 > }
 
 Esse código imprimiria 1,6, 1,7, 1,8 e 1,9. E então outerNumber mudará para 2, e o laço interno imprimirá 2,6, depois 2,7 e assim por diante.
+
+## Objeto
+
