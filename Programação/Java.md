@@ -407,3 +407,15 @@ Divide 10 por 5. A variável result manterá o número 2.
 > var resultWithRemainder = 12 % 5;
 
 result será igual a 0, e resultWithRemainder será igual a 2.
+
+#### Operador e (&&)
+--> Combina duas declarações em um valor true ou false. Torna-se true apenas se os lados esquerdo e direito forem ambos true, caso contrário, é false.
+
+> CÓDIGO DE EXEMPLO
+> if (1 < 2 && 5 > 0) {
+>    print('Yes!');
+> } else {
+>    print('No');
+> }
+
+Como 1 é menor que 2 e 5 é maior que 0, o teste da if statement () é true e será impresso 'Yes!'.
