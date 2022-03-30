@@ -358,3 +358,52 @@ Se a variável learningToCode for igual a 'fun', o código dentro do bloco de c�
 Este código escolhe um número aleatório de 1 a 10. Se number for 7, ele imprimirá, 'The number is 7!'. Se number for qualquer outra coisa, ele imprimirá, 'The number is not 7.'
 
 ## Operadores
+
+### Matemática Operadora
+
+#### Operador Mais (+)
+--> Soma dois valores. Esse operador é mais comumente usado em números e strings.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var result = 10 + 5;
+> 
+> var fullName = 'Johnny' + ' Appleseed';
+
+O valor de result é 15. O operador + pode combinar strings, então o valor de fullName é 'Johnny Appleseed'.
+
+#### Operador Menos (-)
+--> Subtrai o valor do lado direito do operador - do valor do lado esquerdo.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var result = 10 - 5;
+
+result conterá o número 5.
+
+#### Operador Multiplicação (*)
+--> Multiplica o valor do lado esquerdo pelo valor do lado direito.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var result = 10 * 5;
+
+10 é multiplicado por 5. A variável result contém o número 50.
+
+#### Operador Divisão (/)
+--> Divide o valor do lado esquerdo do operador / pelo valor do lado direito.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var result = 10 / 5;
+
+Divide 10 por 5. A variável result manterá o número 2.
+
+#### Operador Módulo (%)
+--> Frequentemente chamado de resto ou operador de módulo, % determina todo o valor restante quando o valor à esquerda for dividido pelo valor à direita.
+
+> CÓDIGO DE EXEMPLO
+> var result = 10 % 5;
+> var resultWithRemainder = 12 % 5;
+
+result será igual a 0, e resultWithRemainder será igual a 2.
