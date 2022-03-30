@@ -539,3 +539,33 @@ Esse código imprimiria 1,6, 1,7, 1,8 e 1,9. E então outerNumber mudará para 2
 
 ## Objeto
 
+### 1. Atribuições
+--> Define (ou redefine) o valor armazenado em uma variável. À esquerda está a variável que você gostaria de ajustar, no meio está o operador e à direita está o valor que será aplicado ao operador, que resulta em um novo valor.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var x = 2;
+> 
+> x += 2;
+
+x será igual a 4 quando o código for executado.
+
+### 2. Atualizações
+--> Uma forma abreviada de atualizar o valor de uma variável usando algum tipo de arithmetic operator.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var x = 5;
+> 
+> x++;
+
+x será igual a 6.
+
+### 3. Expressão Binária
+--> Um operador que fica entre dois valores e calcula algum tipo de resultado a partir desses dois valores.
+
+> CÓDIGO DE EXEMPLO
+> 
+> var isEqual = x === 42;
+
+Se x é um número e é igual a 42, a variável isEqual será true.
