@@ -412,10 +412,32 @@ result será igual a 0, e resultWithRemainder será igual a 2.
 --> Combina duas declarações em um valor true ou false. Torna-se true apenas se os lados esquerdo e direito forem ambos true, caso contrário, é false.
 
 > CÓDIGO DE EXEMPLO
+> 
 > if (1 < 2 && 5 > 0) {
+> 
 >    print('Yes!');
+>    
 > } else {
+> 
 >    print('No');
+>    
 > }
 
 Como 1 é menor que 2 e 5 é maior que 0, o teste da if statement () é true e será impresso 'Yes!'.
+
+#### Operador ou (||)
+-->Combina duas declarações em um valor true oufalse. Torna-se true se o lado esquerdo ou direito for true, e só é false se os dois lados forem false.
+
+> CÓDIGO DE EXEMPLO
+> 
+> if (2 === 4 || 1+1 === 2) {
+> 
+>    print('At least one is true.');
+>    
+> } else {
+> 
+>    print('Both are false.');
+>    
+> }
+
+Embora 2 seja diferente de 4, 1 + 1 é igual a 2. Como o lado direito é verdadeiro, o teste da if statement () é verdadeiro e imprime, 'At least one is true.'
