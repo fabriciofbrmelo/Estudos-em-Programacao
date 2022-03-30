@@ -60,20 +60,28 @@ Tipos Primitivos --> Tipos de dados para serem cadastrados em tabelas
 
 1. Obtendo dados das tabelas --> SELECT
 
-select * from tabela --> * = todas as colunas
-order by coluna asc; --> ascendente
-order by coluna desc; --> descendente
+> select * from tabela --> * = todas as colunas
+> 
+> order by coluna asc; --> ascendente
+> 
+> order by coluna desc; --> descendente
 
-select (coluna, coluna, coluna) from tabela --> (coloquei em parenteses para o comando não ser executado, no sql não precisa)
-select nome, descricao, ano from cursos
-where ano (<=) '2015'
-order by ano, nome;
-- (<) menor
-- (<=) menor igual
-- (>) maior
-- (>=) maior igual
-- (!=) diferente
-- (<>) diferente
+> select (coluna, coluna, coluna) from tabela --> (coloquei em parenteses para o comando não ser executado, no sql não precisa)
+> 
+> select nome, descricao, ano from cursos
+> 
+> where ano (<=) '2015'
+> 
+> order by ano, nome;
+
+|Símbolo|Função|
+|-|-|
+|<|menor|
+|<=|menor igual|
+|>|maior|
+|>=|maior igual|
+|!=|diferente|
+|<>|diferente|
 
 select (coluna, coluna, coluna) from tabela
 - select nome, ano from cursos
