@@ -618,3 +618,34 @@ console.log(list.includes('e'));
 ```
 
 O 1º resultado será true porque a string, 'needle', pode ser encontrada dentro de 'haystackneedlehaystack'. O 2º resultado também é true porque 'e' está dentro da array, no índice 2.
+
+### 3. Replace
+--> O método .replace() pode ser anexado a uma string para alterar uma seção dela. O 1º argumento será usado para encontrar a 1ª correspondência exata e, em seguida, o 2º argumento a substituirá.
+
+```
+CÓDIGO DE EXEMPLO
+var quote = 'Never say never';
+quote = quote.replace('never', 'goodbye');
+print(quote);
+```
+
+O método .replace() procura por 'never' na citação. É sensível a maiúsculas e minúsculas, então o resultado final é Never say goodbye.
+
+### Variáveis Globais e Locais
+--> Na programação, o escopo determina onde uma variável está acessível. As variáveis podem ter escopo ***global*** ou ***local***.
+
+1. Uma variável global pode ser usada em todo o código. A chave var geralmente cria variáveis globais. 
+2. Uma variável local só pode ser usada dentro do bloco onde é declarada. A chave let permite que você crie variáveis locais.
+
+
+No código abaixo, a variável myLocalNumber é declarada usando a chave let. Isso significa que ele só existe dentro do bloco da if statement. O impossibleCalculation não funcionará porque a variável myLocalNumber não existe fora da if statement.
+
+```
+var myGlobalNumber = 5;
+ if (myGlobalNumber > 3) { 
+let myLocalNumber = 4; 
+} 
+var impossibleCalculation = myGlobalNumber + myLocalNumber
+```
+
+A chave var geralmente cria variáveis globais. A chave let permite que você crie variáveis locais.
