@@ -762,3 +762,52 @@ print(sumNumbers(3, 5));
 ```
 
 A função print() chama a função sumNumbers com os argumentos 3 e 5. sumNumbers soma os argumentos e envia o resultado de volta usando return. O comando print() obtém a resposta e, em seguida, imprime o número 8.
+
+### 2. Recursão
+--> Recursão é quando uma função chama a si mesma a partir de sua própria definição. Deve haver sempre uma condição final, ou caso básico, para que a função não continue chamando ela mesma para sempre.
+
+```
+CÓDIGO DE EXEMPLO
+function ftl(n) {
+    if (n === 1) {
+        return 1;
+    }
+    return n * ftl(n - 1);
+}
+
+console.log(ftl(3));
+```
+
+A função ftl pega um número n e multiplica por todos os números inteiros antes dele. Portanto, o ftl(3) é 3 2 1. Cada vez que essa função efetua a recursão, ela subtrai 1 do valor do argumento até que o caso básico de n === 1 seja encontrado. ftl(3)→(3 * ftl(2)) ftl(2)→(2 * ftl(1)) ftl(1)→ 1 Portanto, ftl(3) retorna (3 * ( 2 * (1))) que é 6.
+
+### 3. True
+--> true é um valor booleano. O outro valor booleano é false. No código, se o teste de uma if statement () for true então o código no bloco {} será rodado.
+
+```
+CÓDIGO DE EXEMPLO
+if (true) {
+    print('yes');
+}
+var question = 1 + 1=== 2;
+if (question) {
+    print('yes again');
+}
+```
+
+Este código imprimirá 'sim' e 'sim novamente'. O código entre parênteses () da if statement é o teste. Se o teste for verdadeiro, o código das chaves {} será rodado. true é verdadeiro, então é impresso "sim". Para a question, como 1 + 1 é igual a 2, question está armazenando o valor true.
+
+### 4. False
+--> false é um valor booleano. O outro valor booleano é true. No código, se o teste de uma if statement () for false então o código no bloco {} não será rodado.
+
+```
+CÓDIGO DE EXEMPLO
+var equation = 1 === 2;
+if (equation === false) {
+    print("The equation is false.");
+}
+if (false) {
+    print("This will never print.");
+}
+```
+
+Este código imprimirá, "A equação é falsa." Como 1 é diferente de 2, a variável equation armazena o valor false. A 1ª if statement verifica se o valor da equation é false, e é, então o 1º comando de impressão é rodada.
