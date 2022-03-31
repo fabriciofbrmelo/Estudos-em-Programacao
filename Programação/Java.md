@@ -811,3 +811,17 @@ if (false) {
 ```
 
 Este código imprimirá, "A equação é falsa." Como 1 é diferente de 2, a variável equation armazena o valor false. A 1ª if statement verifica se o valor da equation é false, e é, então o 1º comando de impressão é rodada.
+
+### 5. Retorno de Chamada
+--> Quando uma função é usada como argumento, ela é chamada de uma função de retorno de chamada. Funções que usam retorno de chamada são úteis por causa de sua flexibilidade, pois o código rodado pode se alterar dependendo de qual retorno de chamada é usado.
+
+```
+CÓDIGO DE EXEMPLO
+let array = [2, 4, 6];
+function print(num) {
+    console.log(num);
+}
+array.forEach(print);
+```
+
+O método de array .forEach() leva a função de retorno de chamada print() como argumento e aplicará essa função a cada item da array.
