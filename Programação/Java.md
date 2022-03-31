@@ -588,7 +588,7 @@ x será igual a 6.
 
 Se x é um número e é igual a 42, a variável isEqual será true.
 
-## IF STATEMENT
+## Manipulação de Strings
 
 ### 1. Length
 --> Strings e Arrays têm uma propriedade .length. Para uma string, isso representa o número total de caracteres. Para arrays, isso representa o número total de elementos.
@@ -736,13 +736,15 @@ Este código escreverá 'test string' no console.
 
 ```
 CÓDIGO DE EXEMPLO
-console​.log('Start the code!');
+console.log('Start the code!');
 let x = 10;
-console​.log(x);
+console.log(x);
 ```
 
 O código imprimirá:
 > 'Start the code!'
 > 
 > 10 
+
+## FUNÇÕES
 
