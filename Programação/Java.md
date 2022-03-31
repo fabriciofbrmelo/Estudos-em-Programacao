@@ -631,11 +631,11 @@ print(quote);
 
 O método .replace() procura por 'never' na citação. É sensível a maiúsculas e minúsculas, então o resultado final é Never say goodbye.
 
-### Variáveis Globais e Locais
+### 4. Variáveis Globais e Locais
 --> Na programação, o escopo determina onde uma variável está acessível. As variáveis podem ter escopo ***global*** ou ***local***.
 
-1. Uma variável global pode ser usada em todo o código. A chave var geralmente cria variáveis globais. 
-2. Uma variável local só pode ser usada dentro do bloco onde é declarada. A chave let permite que você crie variáveis locais.
+i. Uma variável global pode ser usada em todo o código. A chave var geralmente cria variáveis globais. 
+ii. Uma variável local só pode ser usada dentro do bloco onde é declarada. A chave let permite que você crie variáveis locais.
 
 
 No código abaixo, a variável myLocalNumber é declarada usando a chave let. Isso significa que ele só existe dentro do bloco da if statement. O impossibleCalculation não funcionará porque a variável myLocalNumber não existe fora da if statement.
@@ -649,3 +649,74 @@ var impossibleCalculation = myGlobalNumber + myLocalNumber
 ```
 
 A chave var geralmente cria variáveis globais. A chave let permite que você crie variáveis locais.
+
+### 5. Operador Ternário (?)
+--> Operadores ternários são uma maneira de escrever if...else statements com menos código. Eles começam com o teste e, depois do símbolo ?, é o código rodado se o teste for verdadeiro. A última parte, após o símbolo :, é o código que será rodado se o teste for falso.
+
+```
+CÓDIGO DE EXEMPLO
+if (1 === 1) {
+    print('all is right in the universe');
+} else {
+    print('something is wrong...');
+}
+
+1 === 1 ? print('all is right in the universe') : print('something is wrong...');
+
+```
+
+Veja um exemplo de uma if...else statement testando se 1 é igual a 1; e o mesmo código usando um operador ternário.
+
+### 6. Incremento (++)
+--> Adiciona 1 a um valor numérico existente.
+
+```
+CÓDIGO DE EXEMPLO
+var counter = 1;
+counter++;
+counter será igual a 2.
+```
+
+### 7. Decremento (--)
+--> Subtrai 1 de um valor numérico existente.
+
+```
+CÓDIGO DE EXEMPLO
+var counter = 2;
+counter--;
+```
+
+counter será igual a 1.
+
+### 8. (+=)
+--> Adiciona o valor associado à variável à esquerda com o valor à direita e atribui o valor resultante à variável existente.
+
+```
+CÓDIGO DE EXEMPLO
+var myNumber = 10;
+myNumber += 5;
+```
+
+myNumber será igual a 15.
+
+### 9. (-=)
+--> Subtrai o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+
+```
+CÓDIGO DE EXEMPLO
+var myNumber = 10;
+myNumber -= 5;
+```
+
+myNumber será igual a 5.
+
+### 10. (*=)
+--> Multiplica o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+
+```
+CÓDIGO DE EXEMPLO
+var myNumber = 10;
+myNumber *= 5;
+```
+
+myNumber será igual a 50
