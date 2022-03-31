@@ -720,3 +720,29 @@ myNumber *= 5;
 ```
 
 myNumber será igual a 50
+
+### 11. Console
+--> O console é um objeto exibido como texto quando você roda seu código. O lugar onde o texto está também é conhecido como console.
+
+```
+CÓDIGO DE EXEMPLO
+console.log('test string');
+```
+
+Este código escreverá 'test string' no console.
+
+### 12. Log
+--> O método .log() é usado para escrever o resultado de texto no console. console.log() funciona da mesma maneira que print(), mas console.log() também funciona fora do Grasshopper.
+
+```
+CÓDIGO DE EXEMPLO
+console​.log('Start the code!');
+let x = 10;
+console​.log(x);
+```
+
+O código imprimirá:
+> 'Start the code!'
+> 
+> 10 
+
