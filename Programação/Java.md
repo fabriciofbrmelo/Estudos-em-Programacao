@@ -748,3 +748,17 @@ O código imprimirá:
 
 ## FUNÇÕES
 
+### 1. Return
+--> Quando uma função é concluída, a saída pode ser enviada de volta para o local de onde foi chamada. Para isso, é usada a palavra-chave return.
+
+```
+CÓDIGO DE EXEMPLO
+function sumNumbers(a, b) {
+    var answer = a + b;
+    return answer;
+}
+
+print(sumNumbers(3, 5));
+```
+
+A função print() chama a função sumNumbers com os argumentos 3 e 5. sumNumbers soma os argumentos e envia o resultado de volta usando return. O comando print() obtém a resposta e, em seguida, imprime o número 8.
