@@ -807,6 +807,15 @@ console.log('There are ' + numberOfDestinations + ' to choose from.');
 Contar o número total de itens em uma array, nesse caso conta quantos locais tem no listOfDestinations.
 
 ### 2. Usar .slice de um array
+--> Cria uma array que é um subconjunto de outra array. São necessários 2 argumentos para indicar onde a nova array começará e terminará (fim não incluído). Os argumentos usam indexação da array.
+
+```
+CÓDIGO DE EXEMPLO
+var myArray = ['oranges', 'apples', 'bananas', 'carrots', 'milk'];
+var newArray = myArray.slice(1, 3);
+newArray será igual a ['apples', 'bananas'].
+```
+
 ```
 import { transportation } from 'grasshopper.travel';
 let cities = [
@@ -823,3 +832,56 @@ console.log(transportation.slice(2, 6));
 ```
 
 O método .slice() cria uma nova array copiando uma subseção de outra array. São necessários 2 argumentos: um índice de array onde começar a copiar e um índice onde terminar (fim não incluído).
+
+### 3. .push
+--> Adiciona um valor ao final de uma array.
+
+```
+CÓDIGO DE EXEMPLO
+var myArray = [];
+myArray.push(1);
+```
+
+myArray será igual a [1].
+
+### 4. .pop
+--> Remove um valor no final de uma array.
+
+```
+CÓDIGO DE EXEMPLO
+var myArray = [5];
+myArray.pop();
+myArray ficará vazio assim que o código for rodado.
+```
+
+### 5. Operador de Propagação (...)
+--> O operador de propagação é usado para adicionar todos os elementos individuais de uma array em outra array. Pode-se pensar nele como se os colchetes [] fossem retirados para que apenas os itens dentro dele permanecessem.
+
+```
+CÓDIGO DE EXEMPLO
+let dogs = ['Retriever', 'Shepherd', 'Terrier'];
+let pets = ['Hedgehog', ...dogs, 'Turtle'];
+for (let animal of pets) {
+    console.log(animal);
+}
+```
+
+Sem o operador de propagação (...) antes de dogs, as 3 strings 'Retriever','Shepherd','Terrier' seriam impressas como um único item e o resultado seria:
+
+> Hedgehog 
+> 
+> Retriever,Shepherd,Terrier 
+> 
+> Turtle 
+
+Adicionar o operador de propagação (...dogs) transforma o resultado em 5 linhas separadas:
+
+> Hedgehog
+> 
+> Retriever 
+> 
+> Shepherd 
+> 
+> Terrier 
+> 
+> Turtle 
