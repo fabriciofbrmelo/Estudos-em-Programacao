@@ -804,5 +804,22 @@ import { listOfDestinations } from 'grasshopper.travel';
 let numberOfDestinations = listOfDestinations.length;
 console.log('There are ' + numberOfDestinations + ' to choose from.');
 ```
+Contar o número total de itens em uma array, nesse caso conta quantos locais tem no listOfDestinations.
 
+### 2. Usar .slice de um array
+```
+import { transportation } from 'grasshopper.travel';
+let cities = [
+  'London',
+  'London',
+  'London',
+  'Lagos',
+  'Lisbon',
+  'Louisville',
+  ___
+];
+console.log(cities.slice(2, 6));
+console.log(transportation.slice(2, 6));
+```
 
+O método .slice() cria uma nova array copiando uma subseção de outra array. São necessários 2 argumentos: um índice de array onde começar a copiar e um índice onde terminar (fim não incluído).
