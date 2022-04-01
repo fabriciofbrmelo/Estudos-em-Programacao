@@ -179,11 +179,17 @@ select sexo, count(*) from gafanhotos where nascimento > '2005-01-01' group by s
 
 3. Lista com gafanhotos que nasceram fora do BRASIL, mostrando o país de origem e o total de pessoas nascidas lá. Só nos interessam os países que tiveram mais de 3 gafanhotos com essa nacionalidade
 ```
-select nacionalidade,count(*)from gafanhotos  where nacionalidade <> 'brasil' group by nacionalidade having count(nacionalidade ) >'3';
+select nacionalidade,count(*)from gafanhotos
+where nacionalidade <> 'brasil'
+group by nacionalidade having count(nacionalidade ) >'3';
 ```
 
 4. uma lista agrupada pela altura dos gafanhotos ,mostrando quantas pessoas  pesam mais de 100kg e que estao acima da media da altura de todos os gafanhotos
-- select altura, count(*) from gafanhotos where peso > '100' group by altura having altura > (select avg(altura) from gafanhotos);
+```
+select altura, count(*) from gafanhotos where peso > '100'
+group by altura
+having altura > (select avg(altura) from gafanhotos);
+```
 
 ## DER - DIAGRAMA ENTIDADE RELACIONAMENTO
 
@@ -200,30 +206,40 @@ chava primária e chave estrangeira
 ## CHAVE ESTRANGEIRA E JOIN
 
 1. inner join:
-- select gafanhotos.nome, gafanhotos.cursopreferido, cursos.nome, cursos.ano from gafanhotos join cursos on cursos.idcurso = gafanhotos.cursopreferido;
-- select g.nome, c.nome, c.ano from gafanhotos as g join cursos as c on c.idcurso = g.cursopreferido order by g.nome;
+```
+select gafanhotos.nome, gafanhotos.cursopreferido, cursos.nome, cursos.ano from gafanhotos join cursos on cursos.idcurso = gafanhotos.cursopreferido;
+select g.nome, c.nome, c.ano from gafanhotos as g join cursos as c on c.idcurso = g.cursopreferido order by g.nome;
+```
 
 2. outer join:
-- select g.nome, c.nome, c.ano from gafanhotos as g left outer join cursos as c on c.idcurso = g.cursopreferido;
+```
+select g.nome, c.nome, c.ano from gafanhotos as g left outer join cursos as c on c.idcurso = g.cursopreferido;
+```
 
 3. Criando uma tabela que relaciona as duas outras tabelas (cursos e gafanhotos)
-- create table gafanhoto_assiste_curso (
-- id int not null auto_increment,
-- data date,
-- idgafanhoto int,
-- idcurso int,
-- primary key (id),
-- foreign key (idgafanhoto) references gafanhotos(id),
-- foreign key (idcurso) references cursos(idcurso)
-- ) default charset = utf8mb4;
+```
+create table gafanhoto_assiste_curso (
+id int not null auto_increment,
+data date,
+idgafanhoto int,
+idcurso int,
+primary key (id),
+foreign key (idgafanhoto) references gafanhotos(id),
+foreign key (idcurso) references cursos(idcurso)
+default charset = utf8mb4;
+```
 
-- describe gafanhoto_assiste_curso;
-- select * from gafanhoto_assiste_curso;
+```
+describe gafanhoto_assiste_curso;
+select * from gafanhoto_assiste_curso;
+```
 
 4. Junções
 
-- select g.nome, c.nome from gafanhotos g
-- join gafanhoto_assiste_curso a
-- on g.id = a.idgafanhoto
-- join cursos c
-- on c.idcurso = a.idcurso;
+```
+select g.nome, c.nome from gafanhotos g
+join gafanhoto_assiste_curso a
+on g.id = a.idgafanhoto
+join cursos c
+on c.idcurso = a.idcurso;
+```
