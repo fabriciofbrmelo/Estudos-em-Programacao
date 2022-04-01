@@ -27,11 +27,11 @@
 ### 1. Argumento
 --> Um argumento é uma informação extra fornecida a uma função que diz como ela deve ser executada. Os argumentos são colocados entre parênteses de uma chamada de função. Nem todas as funções requerem argumentos e algumas funções requerem vários argumentos.
 
-> CÓDIGO DE EXEMPLO
-> 
-> drawBox(red);
-> 
-> print('hello');
+```
+CÓDIGO DE EXEMPLO
+drawBox(red);
+print('hello');
+```
 
 --> Neste exemplo, red é o argumento para a função drawBox(). Ele diz à função para desenhar uma caixa vermelha.
 'hello' é o argumento para a função print(). Ele diz à função o que deve ser impresso.
@@ -42,54 +42,56 @@ i. O valor do identificador (o nome da função)
 ii. Os parâmetros ou argumentos (os valores entre parênteses)
 iii. O corpo da função, que é a sequência de comandos executados quando a função é chamada.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var printSum = function(num1, num2)
-> { print(num1 + num2);
-> }; 
-> printSum(5, 2);
+```
+CÓDIGO DE EXEMPLO
+var printSum = function(num1, num2)
+{ print(num1 + num2);
+}; 
+printSum(5, 2);
+```
 
 Quando printSum(5, 2) é chamado, será impresso 7 na área de saída.
 
 ### 3. Função() {}
 --> Uma função executa alguma ação ou tarefa definida em seu bloco {}. A parte do código onde a função é criada é chamada a declaração da função. Para usar ou chamar esta função, seu nome é usado entre parênteses ().
 
-> CÓDIGO DE EXEMPLO
-> 
-> function printSum(num1, num2)
-> 
-> {print(num1 + num2);}
-> 
-> printSum(5, 2);
+```
+CÓDIGO DE EXEMPLO
+function printSum(num1, num2) 
+{print(num1 + num2);}
+printSum(5, 2);
+```
  
 A palavra-chave function cria uma nova função chamada printSum() que recebe dois argumentos. Quando printSum() é chamada, ela soma os dois argumentos.
 
 ### 3.1. () => {}
 --> Uma função de seta é uma forma compacta de criar uma nova função. Ela usa () => {} em vez da palavra-chave function. Também não precisa de um nome. A melhor prática é usar => em vez da palavra-chave function.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var add = (num1, num2) => {return num1 + num2;};
-> 
-> console.log(add(5, 3));
+```
+CÓDIGO DE EXEMPLO
+var add = (num1, num2) => {return num1 + num2;};
+console.log(add(5, 3));
+```
 
 add() aceita dois números como argumentos e os adiciona.
 
 ### 4. Declaração de Variável
 --> Variáveis são muito comuns na programação. Elas permitem que você faça referência à mesma informação várias vezes. Em JavaScript, as variáveis podem ser definidas usando var e dando à variável um nome exclusivo. Por exemplo, var myVariable = 'my example'.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var appName = 'Grasshopper';
+```
+CÓDIGO DE EXEMPLO
+var appName = 'Grasshopper';
+```
 
 appName pode ser usado no futuro sempre que você quiser "Grasshopper".
 
 ### 5. Identificadores
 --> Um identificador é um nome que você pode definir para fazer referência ao seu código. Você pode nomear um identificador como quiser, desde que não seja uma palavra-chave JavaScript existente.
 
-> CÓDIGO DE EXEMPLO
-> 
-> drawBox(red);
+```
+CÓDIGO DE EXEMPLO
+drawBox(red);
+```
 
 drawBox e red são identificadores. Eles foram definidos previamente para você.
 
@@ -98,29 +100,31 @@ drawBox e red são identificadores. Eles foram definidos previamente para você.
 ### 1. Str
 --> Letras, palavras e frases são chamadas de strings na programação. As aspas são usadas para mostrar o início e o fim de uma string. Por exemplo, 'hello world' é uma string.
 
-> CÓDIGO DE EXEMPLO
-> 
-> drawBoxes('royg');
+```
+CÓDIGO DE EXEMPLO
+drawBoxes('royg');
+```
 
 'royg' é uma string usada na função drawBoxes() para criar caixas vermelhas, laranja, amarelas e verdes.
 
 ### 2. Num
 --> Um número que pode ser inteiro (como 10) ou decimal (como 3,5).
 
-> CÓDIGO DE EXEMPLO
-> 
-> var numberOfApples = 10;
-> 
-> var temperature = 74.6;
+```
+CÓDIGO DE EXEMPLO
+var numberOfApples = 10;
+var temperature = 74.6;
+```
 
 A variável numberOfApples armazena o inteiro (número inteiro) 10. A variável temperature armazena o decimal 74,6.
 
 ### 3. Boolean
 --> Um boolean é um dos dois valores especiais em JavaScript, true ou false. Eles são úteis para lidar com estados que possuem apenas duas possibilidades.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var isLearningToCode = true; var shouldWearSocksWithSandals = false;
+```
+CÓDIGO DE EXEMPLO
+var isLearningToCode = true; var shouldWearSocksWithSandals = false;
+```
 
 É true que você está aprendendo a programar, mas é false que se deva usar meias com sandálias.
 
@@ -129,41 +133,37 @@ A variável numberOfApples armazena o inteiro (número inteiro) 10. A variável 
 ### 1. Variáveis
 --> Uma forma de armazenar um valor para uso posterior, também conhecido como variável. Uma var deve ter um nome (também conhecido como identificador) e, opcionalmente, pode ser atribuído um valor, que pode ser um número, uma string ou um dado mais complexo.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var cityOfOrigin = 'Pittsburgh';
-> 
-> var cityOfDestination;
-> 
-> cityOfDestination = 'Manila';
+```
+CÓDIGO DE EXEMPLO
+var cityOfOrigin = 'Pittsburgh';
+var cityOfDestination;
+cityOfDestination = 'Manila';
+```
 
 cityOfOrigin é uma variável que será igual a 'Pittsburgh'. Em seguida, outra variável chamada cityOfDestination é criada e mais tarde recebe um novo valor de 'Manila'.
 
 ### 2. Const
 --> Um tipo de variável que uma vez criada não pode ser reatribuída. Novos dados ainda podem ser adicionados a variáveis const que são objetos ou arrays, mas não podem ser reatribuídos.
 
-> CÓDIGO DE EXEMPLO
-> 
-> const arrayOfNumbers = [1, 2, 3];
-> 
-> arrayofNumbers.push(4);
+```
+CÓDIGO DE EXEMPLO
+const arrayOfNumbers = [1, 2, 3];
+arrayofNumbers.push(4);
+```
 
 arrayOfNumbers não pode ser reatribuída, mas podem ser adicionados novos dados.
 
 ### 3. let
 --> let declara uma variável como var, exceto que tem um escopo diferente. O escopo de uma variável é a seção do código onde ela pode ser usada. Um let só pode ser usado dentro do bloco de código {}onde é criado.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var x = 100;
-> 
-> if (x > 0) {
-> 
->    let x = 25;
->    
-> }
-> 
-> print(x);
+```
+CÓDIGO DE EXEMPLO
+var x = 100;
+if (x > 0) {
+    let x = 25;  
+}
+print(x);
+```
 
 Uma variável chamada x é criada usando var e definida como 100. A if statement é verdadeira, então a variável let x é criada e definida como 25. A variável let permanece dentro do bloco de código {}. A print(x), que está fora do bloco de código da if statement, usa o valor de var x = 100.
 
@@ -171,19 +171,15 @@ Uma variável chamada x é criada usando var e definida como 100. A if statement
 
 Estruturas de dados são maneiras de armazenar e organizar dados mais complexos do que apenas um único valor primitive. Em JavaScript, os tipos de estrutura de dados mais comuns são arrays e objects.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var vegetables = ['broccoli', 'carrots', 'spinach'];
-> 
-> var groceries = {
-> 
->    numberOfApples: 5,
->    
->    numberOfBananas: 5,
->    
->    vegetables: vegetables
->    
->};
+```
+CÓDIGO DE EXEMPLO
+var vegetables = ['broccoli', 'carrots', 'spinach'];
+var groceries = {
+numberOfApples: 5,
+numberOfBananas: 5,    
+vegetables: vegetables
+};
+```
 
 Observe que um objeto pode conter arrays e vice-versa. Nesse caso, groceries.vegetables seria igual à variável vegetables.
 
@@ -192,25 +188,23 @@ Observe que um objeto pode conter arrays e vice-versa. Nesse caso, groceries.veg
 ### 1. []
 --> Em JavaScript, uma array é uma lista de itens. Os itens podem ser diferentes tipos de dados: números, strings e até mesmo outras arrays. Uma array dentro de outra array é chamada de aninhamento de arrays.
 
-> CÓDIGO DE EXEMPLO
->
-> var exampleArray = ['blue', 'orange', 5, 10, [50, 10]];
+```
+CÓDIGO DE EXEMPLO
+var exampleArray = ['blue', 'orange', 5, 10, [50, 10]];
+```
 
 exampleArray tem 5 itens. Ela contém strings, números e uma array; que tem dois itens que são números.
 
 ### 2. {}
 --> Um objeto armazena vários valores que possuem nomes de propriedade (ou chave). Isso permite que eles sejam facilmente acessados posteriormente no código.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var groceries = {
-> 
->    apples: 5,
->    
->    bananas: 2
->    
->};
-
+```
+CÓDIGO DE EXEMPLO 
+var groceries = { 
+    apples: 5,    
+    bananas: 2    
+};
+```
 apples e bananas são propriedades do objeto groceries. 5 e 2 são os valores associados a essas propriedades. groceries.apples, por exemplo, é igual a 5.
 
 ### 3. Propriedades
