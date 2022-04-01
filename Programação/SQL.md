@@ -59,6 +59,7 @@ Tipos Primitivos --> Tipos de dados para serem cadastrados em tabelas
 ## SELECT
 
 ### 1. Obtendo dados das tabelas --> SELECT
+
 ```
 select * from tabela --> * = todas as colunas
 order by coluna asc; --> ascendente
@@ -70,6 +71,7 @@ select nome, descricao, ano from cursos
 where ano <= '2015'
 order by ano, nome;
 ```
+
 |Símbolo|Função|
 |-|-|
 |<|menor|
@@ -78,26 +80,33 @@ order by ano, nome;
 |>=|maior igual|
 |!=|diferente|
 |<>|diferente|
+
 ```
 select (coluna, coluna, coluna) from tabela
 select nome, ano from cursos
 where ano between '2014' and '2016'
 ```
+
 ```
 select nome, descricao, ano from cursos
 where ano in (2014, 2016, 2018)
 order by ano
 ```
+
 ### 2. Combinando testes:
+
 ```
 select * from cursos
 where carga > 35 and totaulas < 30;
 ```
+
 ```
 select * from cursos
 where carga > 35 or totaulas < 30;
 ```
+
 ### 3. Operador Like
+
 ```
 select * from cursos
 where nome like 'P%'; --> todos que começam com P (p minúsculo/maíusculo, não faz diferença)
@@ -108,28 +117,34 @@ where nome like 'PH%P' --> qualquer um que começa com ph e termina com p
 where nome like 'PH$P_' --> underline significa um único caractere
 where nome like 'p_p%'; --> começa com p, tem um caractere, de novo um p, qualquer coisa após
 ```
+
 ```
 select * from gafanhotos
 where nome like '%silva%'; --> qualquer pessoas que tenha o nome silva em qualquer lugar (só que aqui pega até silvana, por exemplo)
 where nome like '%_silva%' --> underline serve como espaço, então quem tem silvana não entra
 ```
+
 ### 4. Distinguindo
 
-- select nacionalidade from gafanhotos
-- select distinct nacionalidade from gafanhotos --> agrupa as nacionalidades iguais
+```
+select nacionalidade from gafanhotos
+select distinct nacionalidade from gafanhotos --> agrupa as nacionalidades iguais
+```
 
 ### 5. Agregação
 
-- select count(*) from cursos; --> Conta quantos cursos tem na tabela;
-- select count(*) from cursos where carga > 40; --> Conta quantos cursos com carga maior que 40;
-- select * from cursos order by carga; --> mostra os cursos ordenados por carga
-- select max(carga) from cursos; --> qual a maior carga
-- select max(totaulas) from cursos where ano ='2016'; --> dentre os cursos de 2016, qual o maximo de aulas?
-- select nome, max(totaulas) from cursos where ano ='2016'; ---> qual o curso de 2016 com o maximo de aulas?
-- select min(totaulas) from cursos where ano ='2016'; --> dentre os cursos de 2016, qual o mínimo de aulas?
-- select nome, min(totaulas) from cursos where ano ='2016'; ---> qual o curso de 2016 com o mínimo de aulas?
-- select sum(totaulas) from cursos where ano ='2016'; --> somar a carga horária de todos os cursos
-- select avg(totaulas) from cursos where ano ='2016'; --> média carga horária de todos os cursos
+```
+select count(*) from cursos; --> Conta quantos cursos tem na tabela;
+select count(*) from cursos where carga > 40; --> Conta quantos cursos com carga maior que 40;
+select * from cursos order by carga; --> mostra os cursos ordenados por carga
+select max(carga) from cursos; --> qual a maior carga
+select max(totaulas) from cursos where ano ='2016'; --> dentre os cursos de 2016, qual o maximo de aulas?
+select nome, max(totaulas) from cursos where ano ='2016'; ---> qual o curso de 2016 com o maximo de aulas?
+select min(totaulas) from cursos where ano ='2016'; --> dentre os cursos de 2016, qual o mínimo de aulas?
+select nome, min(totaulas) from cursos where ano ='2016'; ---> qual o curso de 2016 com o mínimo de aulas?
+select sum(totaulas) from cursos where ano ='2016'; --> somar a carga horária de todos os cursos
+select avg(totaulas) from cursos where ano ='2016'; --> média carga horária de todos os cursos
+```
 
 6. Distinguindo e Agregando
 i. Distinguindo --> SELECT DISTINCT from cursos order by carga;
