@@ -21,8 +21,11 @@
 ## Funções
 
 ```
-- drawBox() é uma função. Uma função diz a um computador para fazer uma determinada coisa. As funções podem receber argumentos para fornecer informações extras ao computador. Por exemplo, drawBox(red) tem red como seu argumento, isso diz ao computador que ele deve desenhar uma caixa vermelha.
-- drawBox() é o nome da função. Ao adicionar blue entre parênteses (), você está chamando a função com o argumento blue. Este código cria uma caixa azul.
+- drawBox() é uma função. Uma função diz a um computador para fazer uma determinada coisa.
+As funções podem receber argumentos para fornecer informações extras ao computador.
+Por exemplo, drawBox(red) tem red como seu argumento, isso diz ao computador que ele deve desenhar uma caixa vermelha.
+- drawBox() é o nome da função. Ao adicionar blue entre parênteses (), você está chamando a função com o argumento blue.
+Este código cria uma caixa azul.
 ```
 
 ### 1. Argumento
@@ -211,17 +214,14 @@ apples e bananas são propriedades do objeto groceries. 5 e 2 são os valores as
 ### 3. Propriedades
 --> Um objeto pode armazenar várias informações dentro de uma variável. A notação de ponto é usada para acessar uma propriedade de um objeto. Por exemplo, objectName.propertyName.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var objectName = {
-> 
->    propertyName: 'Coding is fun.',
->    
->    otherPropertyName: 'this is also a key value'
->    
-> };
->
-> print(objectName.propertyName);
+```
+CÓDIGO DE EXEMPLO
+var objectName = {
+propertyName: 'Coding is fun.',
+otherPropertyName: 'this is also a key value'
+};
+print(objectName.propertyName);
+```
 
 Este código imprimirá 'Coding is fun.'
 
