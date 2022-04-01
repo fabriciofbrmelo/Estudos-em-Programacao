@@ -17,6 +17,7 @@
 |Objeto|Atribuições, Atualizações, Expressão Binária|
  
 </details>
+
 ## Funções
 
 ```
