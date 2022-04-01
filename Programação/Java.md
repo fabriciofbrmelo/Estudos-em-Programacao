@@ -793,3 +793,16 @@ array.forEach(print);
 ```
 
 O método de array .forEach() leva a função de retorno de chamada print() como argumento e aplicará essa função a cada item da array.
+
+## MANIPULAÇÃO DE ARRAY
+
+### 1. Usar .length com um API
+--> A array listOfDestinations é importada de uma API remota chamada 'grasshopper.travel'.
+
+```
+import { listOfDestinations } from 'grasshopper.travel';
+let numberOfDestinations = listOfDestinations.length;
+console.log('There are ' + numberOfDestinations + ' to choose from.');
+```
+
+
