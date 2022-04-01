@@ -48,10 +48,10 @@ iii. O corpo da função, que é a sequência de comandos executados quando a fu
 
 ```
 CÓDIGO DE EXEMPLO
-var printSum = function(num1, num2)
-{ print(num1 + num2);
+var printSum = function(num1, num2) {
+    print(num1 + num2);
 }; 
-printSum(5, 2);
+    printSum(5, 2);
 ```
 
 Quando printSum(5, 2) é chamado, será impresso 7 na área de saída.
@@ -61,8 +61,8 @@ Quando printSum(5, 2) é chamado, será impresso 7 na área de saída.
 
 ```
 CÓDIGO DE EXEMPLO
-function printSum(num1, num2) 
-{print(num1 + num2);}
+function printSum(num1, num2) {
+         print(num1 + num2);}
 printSum(5, 2);
 ```
  
@@ -73,7 +73,8 @@ A palavra-chave function cria uma nova função chamada printSum() que recebe do
 
 ```
 CÓDIGO DE EXEMPLO
-var add = (num1, num2) => {return num1 + num2;};
+var add = (num1, num2) => {
+    return num1 + num2;};
 console.log(add(5, 3));
 ```
 
@@ -164,7 +165,7 @@ arrayOfNumbers não pode ser reatribuída, mas podem ser adicionados novos dados
 CÓDIGO DE EXEMPLO
 var x = 100;
 if (x > 0) {
-    let x = 25;  
+   let x = 25;  
 }
 print(x);
 ```
@@ -179,8 +180,8 @@ Estruturas de dados são maneiras de armazenar e organizar dados mais complexos 
 CÓDIGO DE EXEMPLO
 var vegetables = ['broccoli', 'carrots', 'spinach'];
 var groceries = {
-numberOfApples: 5,
-numberOfBananas: 5,    
+    numberOfApples: 5,
+    numberOfBananas: 5,    
 vegetables: vegetables
 };
 ```
@@ -217,8 +218,8 @@ apples e bananas são propriedades do objeto groceries. 5 e 2 são os valores as
 ```
 CÓDIGO DE EXEMPLO
 var objectName = {
-propertyName: 'Coding is fun.',
-otherPropertyName: 'this is also a key value'
+    propertyName: 'Coding is fun.',
+    otherPropertyName: 'this is also a key value'
 };
 print(objectName.propertyName);
 ```
@@ -231,8 +232,8 @@ Este código imprimirá 'Coding is fun.'
 ```
 CÓDIGO DE EXEMPLO
 svg.append('circle')
-.attr('fill', 'blue')
-.attr('r', 200);
+   .attr('fill', 'blue')
+   .attr('r', 200);
 ```
 
 Um círculo SVG é criado com um atributo de azul para seu preenchimento e um raio de 200 aplicado ao mesmo tempo usando .append() e duas chamadas de função .attr() encadeadas.
@@ -257,10 +258,10 @@ A variável fruit contém o segundo item da array, que é 'bananas'.
 CÓDIGO DE EXEMPLO
 var aNumber = 5;
 if (aNumber === 5) {
-drawBox(blue);
+   drawBox(blue);
 }
 if (aNumber === 4) {
-drawBox(red);
+   drawBox(red);
 }
 ```
 
@@ -338,8 +339,8 @@ mynumber será 5
 ```
 CÓDIGO DE EXEMPLO
 if (learningToCode === 'fun') {
-print('Coding is awesome!');
-print('I want to solve more puzzles!');
+   print('Coding is awesome!');
+   print('I want to solve more puzzles!');
 }
 ```
 
@@ -352,9 +353,9 @@ Se a variável learningToCode for igual a 'fun', o código dentro do bloco de c�
 CÓDIGO DE EXEMPLO
 var number = pickRandom(10);
 if (number === 7) {
-print('The number is 7!');
+    print('The number is 7!');
 } else {
-print('The number is not 7.');
+    print('The number is not 7.');
 }
 ```
 
@@ -422,9 +423,9 @@ result será igual a 0, e resultWithRemainder será igual a 2.
 ```
 CÓDIGO DE EXEMPLO
 if (1 < 2 && 5 > 0) {
-print('Yes!');
+   print('Yes!');
 } else {
-print('No');
+   print('No');
 }
 ```
 
@@ -436,9 +437,9 @@ Como 1 é menor que 2 e 5 é maior que 0, o teste da if statement () é true e s
 ```
 CÓDIGO DE EXEMPLO
 if (2 === 4 || 1+1 === 2) {
-print('At least one is true.');   
+   print('At least one is true.');   
 } else {
-print('Both are false.');
+   print('Both are false.');
 }
 ```
 
@@ -451,8 +452,8 @@ Embora 2 seja diferente de 4, 1 + 1 é igual a 2. Como o lado direito é verdade
 ```
 CÓDIGO DE EXEMPLO
 for (var element of [1, 2, 3, 4, 5]) {
-print(index);
-print('the loop will go through each number in the array');
+    print(index);
+    print('the loop will go through each number in the array');
 }
 var index = 0;
 while (index < 5) {
@@ -485,8 +486,8 @@ Cada item na array groceries será impresso em sua própria linha.
 CÓDIGO DE EXEMPLO
 let i = 0;
 while (i < 3) {
-print('i is less than 3');
-i++;
+      print('i is less than 3');
+      i++;
 }
 print('i is now 3!');
 ```
@@ -499,8 +500,8 @@ Contanto que i seja menor que 3, o código no bloco de comandos será repetido. 
 ```
 CÓDIGO DE EXEMPLO
 for (var i = 0; i < 10; i = i + 1) {
-print(i);
-print('the loop will go as long as i is less than 10.');
+    print(i);
+    print('the loop will go as long as i is less than 10.');
 }
 ```
 
@@ -548,9 +549,10 @@ x será igual a 6.
 ### 3. Expressão Binária
 --> Um operador que fica entre dois valores e calcula algum tipo de resultado a partir desses dois valores.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var isEqual = x === 42;
+```
+CÓDIGO DE EXEMPLO
+var isEqual = x === 42;
+```
 
 Se x é um número e é igual a 42, a variável isEqual será true.
 
@@ -562,11 +564,11 @@ Se x é um número e é igual a 42, a variável isEqual será true.
 ```
 CÓDIGO DE EXEMPLO
 var sentence = 'Some text.';
-print(sentence.length);
+    print(sentence.length);
 
 
 var list = ['hi', 1, sentence];
-print(list.length);
+    print(list.length);
 ```
 
 O 1º comando de impressão imprimirá 10, pois há 8 letras, 1 espaço e 1 ponto final na string sentence. O 2º comando de impressão imprimirá 3, pois há 3 elementos dentro da array list.
@@ -608,8 +610,8 @@ No código abaixo, a variável myLocalNumber é declarada usando a chave let. Is
 
 ```
 var myGlobalNumber = 5;
- if (myGlobalNumber > 3) { 
-let myLocalNumber = 4; 
+    if (myGlobalNumber > 3) { 
+    let myLocalNumber = 4; 
 } 
 var impossibleCalculation = myGlobalNumber + myLocalNumber
 ```
