@@ -228,24 +228,23 @@ Este código imprimirá 'Coding is fun.'
 ### 4. Encadeamento
 --> O encadeamento permite que os programadores apliquem várias chamadas de função diferentes ao mesmo identificador.
 
-> CÓDIGO DE EXEMPLO
-> 
-> svg.append('circle')
-> 
->    .attr('fill', 'blue')
->    
->    .attr('r', 200);
+```
+CÓDIGO DE EXEMPLO
+svg.append('circle')
+.attr('fill', 'blue')
+.attr('r', 200);
+```
 
 Um círculo SVG é criado com um atributo de azul para seu preenchimento e um raio de 200 aplicado ao mesmo tempo usando .append() e duas chamadas de função .attr() encadeadas.
 
 ### 5. Indexação da array
 --> Na maioria das linguagens de programação, incluindo JavaScript, as arrays são indexadas a partir de 0. O primeiro item em uma array tem o índice 0. Por exemplo, myArray[0] acessa o primeiro item. Enquanto myArray[3] acessa o 4º item.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var groceries = ['apples', 'bananas', 'oranges']; 
-> 
-> var fruit = groceries[1];
+```
+CÓDIGO DE EXEMPLO
+var groceries = ['apples', 'bananas', 'oranges']; 
+var fruit = groceries[1];
+```
 
 A variável fruit contém o segundo item da array, que é 'bananas'.
 
@@ -254,32 +253,27 @@ A variável fruit contém o segundo item da array, que é 'bananas'.
 ### 1. If Statement
 --> As if statements permitem que você execute uma seção específica do código quando um teste for verdadeiro. O código entre parênteses () é o teste. Se o teste for verdadeiro, o código dentro do bloco {} será executado. Se o teste não for verdadeiro, o código dentro do bloco não será executado.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var aNumber = 5;
-> 
-> if (aNumber === 5) {
-> 
->    drawBox(blue);
->    
-> }
-> 
-> if (aNumber === 4) {
-> 
->    drawBox(red);
->    
-> }
+```
+CÓDIGO DE EXEMPLO
+var aNumber = 5;
+if (aNumber === 5) {
+drawBox(blue);
+}
+if (aNumber === 4) {
+drawBox(red);
+}
+```
 
 Nesse exemplo, a variável aNumber recebe o número 5. Existem duas if statements. A primeira é verificar se aNumber é igual a 5. A segunda é verificar se é igual a 4. Apenas o primeiro teste if statement é verdadeiro, então seria desenhada uma caixa azul.
 
 ### 2. Operador de Igualdade
 --> Compara se duas coisas são iguais entre si.
 
-> CÓDIGO DE EXEMPLO
-> 
-> print(10 === 5);
-> 
-> print(5 === 5);
+```
+CÓDIGO DE EXEMPLO
+print(10 === 5);
+print(5 === 5);
+```
 
 Esse código primeiro verifica se 10 é igual a 5. Como 10 é diferente de 5, é impresso false. O código então verifica se 5 é igual a 5. Como 5 é igual a 5, é impresso true.
 - !== diferente
@@ -289,84 +283,80 @@ Esse código primeiro verifica se 10 é igual a 5. Como 10 é diferente de 5, é
 ### (=)
 Define (ou redefine) o valor armazenado em uma variável. À esquerda está a variável que você gostaria de ajustar e à direita está o novo valor.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var myNumber = 10;
+```
+CÓDIGO DE EXEMPLO
+var myNumber = 10;
+```
 
 ### (*=)
 Multiplica o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
 
-> CÓDIGO DE EXEMPLO
->
-> var myNumber = 10;
-> 
-> myNumber *= 5;
+```
+CÓDIGO DE EXEMPLO
+var myNumber = 10;
+myNumber *= 5;
+```
 
 myNumber será igual a 50.
 
 ### (/=)
 Divide o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var myNumber = 10;
-> 
-> myNumber /= 5;
+```
+CÓDIGO DE EXEMPLO
+var myNumber = 10;
+myNumber /= 5;
+```
 
 myNumber será igual a 2.
 
 ### (+=)
 Adiciona o valor associado à variável à esquerda com o valor à direita e atribui o valor resultante à variável existente.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var myNumber = 10;
-> 
-> > myNumber += 5;
+```
+CÓDIGO DE EXEMPLO
+var myNumber = 10;
+myNumber += 5;
+```
 
 myNumber será 15
 
 ### (-=)
 Subtrai o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var myNumber = 10;
-> 
-> myNumber -= 5;
+```
+CÓDIGO DE EXEMPLO
+var myNumber = 10;
+myNumber -= 5;
+```
 
 mynumber será 5
 
 ### 3. Bloco d Código
 --> Uma sequência de comandos agrupados dentro de chaves {}.
 
-> CÓDIGO DE EXEMPLO
-> 
-> if (learningToCode === 'fun') {
-> 
->    print('Coding is awesome!');
->    
->    print('I want to solve more puzzles!');
-> }
+```
+CÓDIGO DE EXEMPLO
+if (learningToCode === 'fun') {
+print('Coding is awesome!');
+print('I want to solve more puzzles!');
+}
+```
 
 Se a variável learningToCode for igual a 'fun', o código dentro do bloco de código {} será executado.
 
 ### 4. IF... ELSE
 --> As declarações if...else realizam um teste para decidir qual código executar. Se o teste for verdadeiro, o bloco if {} será executado. Se o teste for falso, o bloco else {} será executado.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var number = pickRandom(10);
-> 
-> if (number === 7) {
-> 
->    print('The number is 7!');
->    
-> } else {
-> 
->    print('The number is not 7.');
->    
-> }
+```
+CÓDIGO DE EXEMPLO
+var number = pickRandom(10);
+if (number === 7) {
+print('The number is 7!');
+} else {
+print('The number is not 7.');
+}
+```
 
 Este código escolhe um número aleatório de 1 a 10. Se number for 7, ele imprimirá, 'The number is 7!'. Se number for qualquer outra coisa, ele imprimirá, 'The number is not 7.'
 
@@ -377,38 +367,41 @@ Este código escolhe um número aleatório de 1 a 10. Se number for 7, ele impri
 #### Operador Mais (+)
 --> Soma dois valores. Esse operador é mais comumente usado em números e strings.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var result = 10 + 5;
-> 
-> var fullName = 'Johnny' + ' Appleseed';
+```
+CÓDIGO DE EXEMPLO
+var result = 10 + 5;
+var fullName = 'Johnny' + ' Appleseed';
+```
 
 O valor de result é 15. O operador + pode combinar strings, então o valor de fullName é 'Johnny Appleseed'.
 
 #### Operador Menos (-)
 --> Subtrai o valor do lado direito do operador - do valor do lado esquerdo.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var result = 10 - 5;
+```
+CÓDIGO DE EXEMPLO
+var result = 10 - 5;
+```
 
 result conterá o número 5.
 
 #### Operador Multiplicação (*)
 --> Multiplica o valor do lado esquerdo pelo valor do lado direito.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var result = 10 * 5;
+```
+CÓDIGO DE EXEMPLO
+var result = 10 * 5;
+```
 
 10 é multiplicado por 5. A variável result contém o número 50.
 
 #### Operador Divisão (/)
 --> Divide o valor do lado esquerdo do operador / pelo valor do lado direito.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var result = 10 / 5;
+```
+CÓDIGO DE EXEMPLO
+var result = 10 / 5;
+```
 
 Divide 10 por 5. A variável result manterá o número 2.
 
