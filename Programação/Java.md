@@ -408,43 +408,39 @@ Divide 10 por 5. A variável result manterá o número 2.
 #### Operador Módulo (%)
 --> Frequentemente chamado de resto ou operador de módulo, % determina todo o valor restante quando o valor à esquerda for dividido pelo valor à direita.
 
-> CÓDIGO DE EXEMPLO
-> var result = 10 % 5;
-> var resultWithRemainder = 12 % 5;
+```
+CÓDIGO DE EXEMPLO
+var result = 10 % 5;
+var resultWithRemainder = 12 % 5;
+```
 
 result será igual a 0, e resultWithRemainder será igual a 2.
 
 #### Operador e (&&)
 --> Combina duas declarações em um valor true ou false. Torna-se true apenas se os lados esquerdo e direito forem ambos true, caso contrário, é false.
 
-> CÓDIGO DE EXEMPLO
-> 
-> if (1 < 2 && 5 > 0) {
-> 
->    print('Yes!');
->    
-> } else {
-> 
->    print('No');
->    
-> }
+```
+CÓDIGO DE EXEMPLO
+if (1 < 2 && 5 > 0) {
+print('Yes!');
+} else {
+print('No');
+}
+```
 
 Como 1 é menor que 2 e 5 é maior que 0, o teste da if statement () é true e será impresso 'Yes!'.
 
 #### Operador ou (||)
 -->Combina duas declarações em um valor true oufalse. Torna-se true se o lado esquerdo ou direito for true, e só é false se os dois lados forem false.
 
-> CÓDIGO DE EXEMPLO
-> 
-> if (2 === 4 || 1+1 === 2) {
-> 
->    print('At least one is true.');
->    
-> } else {
-> 
->    print('Both are false.');
->    
-> }
+```
+CÓDIGO DE EXEMPLO
+if (2 === 4 || 1+1 === 2) {
+print('At least one is true.');   
+} else {
+print('Both are false.');
+}
+```
 
 Embora 2 seja diferente de 4, 1 + 1 é igual a 2. Como o lado direito é verdadeiro, o teste da if statement () é verdadeiro e imprime, 'At least one is true.'
 
@@ -452,25 +448,18 @@ Embora 2 seja diferente de 4, 1 + 1 é igual a 2. Como o lado direito é verdade
 
 --> Um laço repete as mesmas linhas de código indefinidamente. As linhas a serem repetidas são circundadas por chaves: {}. Existem diversas maneiras de executar um laço (principalmente em JavaScript).
 
-> CÓDIGO DE EXEMPLO
-> 
-> for (var element of [1, 2, 3, 4, 5]) {
-> 
->    print(index);
->    
->    print('the loop will go through each number in the array');
->    
-> }
-> 
-> var index = 0;
->
-> while (index < 5) {
-> 
->    index += 1;
->    
->    print('the while loop will go as long as index is less than 5');
->    
-> }
+```
+CÓDIGO DE EXEMPLO
+for (var element of [1, 2, 3, 4, 5]) {
+print(index);
+print('the loop will go through each number in the array');
+}
+var index = 0;
+while (index < 5) {
+index += 1;
+print('the while loop will go as long as index is less than 5');
+}
+```
 
 Os dois laços podem ser usados para obter o mesmo resultado. Em ambos os laços for...of e while, o laço se repetirá 5 vezes.
 
@@ -479,49 +468,41 @@ Os dois laços podem ser usados para obter o mesmo resultado. Em ambos os laços
 #### 1. For ... of
 --> Um laço repete a seção de código entre chaves {}. Em JavaScript, um laço for of percorre cada elemento em uma array ou string, repetindo o código para cada elemento.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var groceries = ['apples', 'yogurt', 'toothpaste'];
->
-> for (var element of groceries) {
-> 
->    print(element);
->    
-> }
+```
+CÓDIGO DE EXEMPLO
+var groceries = ['apples', 'yogurt', 'toothpaste'];
+for (var element of groceries) {
+print(element);
+}
+```
 
 Cada item na array groceries será impresso em sua própria linha.
 
 #### 2. While
 --> Um laço while executa o código dentro de seu bloco até que o teste entre parênteses não seja mais verdadeiro.
 
-> CÓDIGO DE EXEMPLO
-> 
-> let i = 0;
-> 
-> while (i < 3) {
-> 
->    print('i is less than 3');
->    
->    i++;
->    
-> }
-> 
-> print('i is now 3!');
+```
+CÓDIGO DE EXEMPLO
+let i = 0;
+while (i < 3) {
+print('i is less than 3');
+i++;
+}
+print('i is now 3!');
+```
 
 Contanto que i seja menor que 3, o código no bloco de comandos será repetido. Se você esquecer de aumentar i neste código, o laço while se repetirá para sempre e causará uma falha.
 
 #### 3. For
 --> Em JavaScript, um laço for clássico repete o mesmo código dentro do bloco {} um número determinado de vezes. Ele é definido em três partes. A primeira parte acontece antes do início do laço e define uma variável de laço (var i = 0;). A segunda parte é um teste que determina se o laço deve continuar se repetindo (i < 10;). E a terceira parte atualiza a variável do laço cada vez que ele se repete (i = i + 1).
 
-> CÓDIGO DE EXEMPLO
-> 
-> for (var i = 0; i < 10; i = i + 1) {
-> 
->    print(i);
->    
->    print('the loop will go as long as i is less than 10.');
->    
-> }
+```
+CÓDIGO DE EXEMPLO
+for (var i = 0; i < 10; i = i + 1) {
+print(i);
+print('the loop will go as long as i is less than 10.');
+}
+```
 
 Neste exemplo, a variável do laço (i) começa em 0. O código no {} continuará se repetindo enquanto i for menor do que 10. E i é aumentado em 1 a cada laço. Esse código imprime os números de 0 a 9.
 
@@ -529,17 +510,14 @@ Neste exemplo, a variável do laço (i) começa em 0. O código no {} continuar�
 
 --> Um laço aninhado é um laço dentro de outro laço. Embora os laços aninhados possam ser úteis, se você tiver muitos, pode tornar a execução do código lenta ou difícil de entender.
 
-> CÓDIGO DE EXEMPLO
-> 
-> for (var outerNumber of [1, 2, 3, 4, 5]) {
-> 
->    for (var nestedNumber of [6, 7, 8, 9]) {
->    
->        print(outerNumber, nestedNumber);
->        
->    }
->    
-> }
+```
+CÓDIGO DE EXEMPLO
+for (var outerNumber of [1, 2, 3, 4, 5]) {
+    for (var nestedNumber of [6, 7, 8, 9]) {    
+        print(outerNumber, nestedNumber);       
+    }
+}
+```
 
 Esse código imprimiria 1,6, 1,7, 1,8 e 1,9. E então outerNumber mudará para 2, e o laço interno imprimirá 2,6, depois 2,7 e assim por diante.
 
@@ -548,22 +526,22 @@ Esse código imprimiria 1,6, 1,7, 1,8 e 1,9. E então outerNumber mudará para 2
 ### 1. Atribuições
 --> Define (ou redefine) o valor armazenado em uma variável. À esquerda está a variável que você gostaria de ajustar, no meio está o operador e à direita está o valor que será aplicado ao operador, que resulta em um novo valor.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var x = 2;
-> 
-> x += 2;
+```
+CÓDIGO DE EXEMPLO
+var x = 2;
+x += 2;
+```
 
 x será igual a 4 quando o código for executado.
 
 ### 2. Atualizações
 --> Uma forma abreviada de atualizar o valor de uma variável usando algum tipo de arithmetic operator.
 
-> CÓDIGO DE EXEMPLO
-> 
-> var x = 5;
-> 
-> x++;
+```
+CÓDIGO DE EXEMPLO
+var x = 5;
+x++;
+```
 
 x será igual a 6.
 
