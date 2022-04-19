@@ -3,6 +3,8 @@
 ## Curso em Vídeo com Gustavo Guanabara
 - Comandos que estou aprendendo com os vídeos de Gustavo Guanabara
 
+## Módulo 1
+
 ### Prazer te conhecer
 ```
 nome = input('Digite seu nome: ')
@@ -95,70 +97,93 @@ print('{} x {:2} = {}'.format(num, 10, num*10))
 print('_'*12)
 ```
 
-Conversor
+### Conversor
+```
 real = float(input('Quanto dinheiro você tem na carteira? R$ '))
 dolar = real / 3.27
 euro = real / 5.25
 print('Com R${:.2f} você pode comprar US${:.2f} ou £${:.2f}'.format(real, dolar, euro       ))
+```
 
-Largura Parede
+### Largura Parede
+```
 larg = float(input('Largura da parede: '))
 alt = float(input('Altura da parede: '))
 area = larg * alt
 print('Sua parede tem a dimensão de {:.1f}x{:.1f} e sua área é de {:.1f}m2'.format(larg, alt, area))
 tinta = area / 2
 print('Para pintar essa parede você precisará de {}l de tinta'.format(tinta))
+```
 
-Desconto
-# porcentagem
+### Desconto
+```
 preco = float(input('Qual o preço do produto? R$ '))
 novo = preco - (preco * 5 / 100)
 print('O produto que custava R$ {:.2f}, na promoção com desconto de 5% vai custar R$ {:.2f}'.format(preco, novo))
+```
 
-Salário
+### Salário
+```
 sal = float(input('Qual o salário do funcionário? R$ '))
 novo = sal + (sal * 15 / 100)
 print('O salário do funcionário era R$ {:.2f} e com aumento de 15% ele passará a receber R$ {:.2f}'.format(sal, novo))
+```
 
-Temperatura
+### Temperatura
+```
 celsius = float(input('Qual a temperatura em graus celsius? ºC: ' ))
 farenheit = ((9 * celsius) / 5) + 32
 print('A temperatura de {}ºC corresponde a {}ºF!'.format(celsius, farenheit))
+```
 
-Aluguel
+### Aluguel
+```
 dias = int(input('Quandos dias alugados? '))
 km = float(input('Quantos km rodados? '))
 pago = dias * 60 + (km * 0.15)
 print('O total a pagar é de R${:.2f}'.format(pago))
+```
 
-Quebrando um número
-'''from math import trunc
+### Quebrando um número
+```
+from math import trunc
 num = float(input('Digite um número: '))
-print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, trunc(num)))'''
+print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, trunc(num)))
+```
 
-'''num = float(input('Digite um valor: '))
-print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, int(num)))'''
+```
+num = float(input('Digite um valor: '))
+print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, int(num)))
+```
 
+```
 num = float(input('Digite um valor: '))
 print('O valor digitado foi de {} e a sua porção inteira é {}'.format(num, (num // 1)))
+```
 
-Hipotenusa
-'''b = float(input('Comprimento do cateto oposto: '))
+### Hipotenusa
+```
+b = float(input('Comprimento do cateto oposto: '))
 c = float(input('Comprimento do cateto adjacente: '))
 a = (b ** 2 + c ** 2) ** (1/2)
-print('A hipotenusa é {:.2f}'.format(a))'''
+print('A hipotenusa é {:.2f}'.format(a))
+```
 
-'''import math
+```
+import math
 b = float(input('Comprimento do cateto oposto: '))
 c = float(input('Comprimento do cateto adjacente: '))
 a = math.hypot(b, c)
-print('A hipotenusa é {:.2f}'.format(a))'''
+print('A hipotenusa é {:.2f}'.format(a))
+```
 
+```
 from math import hypot
 b = float(input('Comprimento do cateto oposto: '))
 c = float(input('Comprimento do cateto adjacente: '))
 a = hypot(b, c)
 print('A hipotenusa é {:.2f}'.format(a))
+```
 
 Seno, cosseno e tangente
 '''import math
