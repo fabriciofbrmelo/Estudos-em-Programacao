@@ -1,20 +1,33 @@
-Prazer te conhecer
+# Python
+
+## Curso em Vídeo com Gustavo Guanabara
+- Comandos que estou aprendendo com os vídeos de Gustavo Guanabara
+
+### Prazer te conhecer
+```
 nome = input('Digite seu nome: ')
 print('É um prazer te conhecer, {}!'.format(nome))
+```
 
-Soma
+### Soma
+```
 n1 = int(input('Digite um valor: '))
 n2 = int(input('Digite um valor: '))
 s = n1 + n2
 # print('A soma entre', n1, 'e', n2, 'vale', s)
 print('A soma entre {} e {} vale {}'.format(n1, n2, s))
+```
 
-Média
+### Média
+```
 n1 = float(input('Digite sua primeira nota: '))
 n2 = float(input('Digite sua segunda nota: '))
 m = (n1+n2)/2
 print('A média entre {:.1f} e {:.1f} é {:.2f}'.format(n1, n2, m))
+```
 
+### Verificar com var.is
+```
 a = input('Digite algo: ')
 print('O tipo primitivo desse valor é: ', type(a))
 print('Só tem espaços? ', a.isspace())
@@ -24,6 +37,7 @@ print('É alfanumérico? ', a.isalnum())
 print('Está em maiúsculas? ', a.isupper())
 print('Está em minúsculas? ', a.islower())
 print('Está capitalizada? ', a.istitle())
+```
 
 Operadores Aritméticos
 1 = int(input('Um valor: '))
