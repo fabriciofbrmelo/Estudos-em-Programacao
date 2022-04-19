@@ -1,5 +1,7 @@
 # Estudos em Programação
 
+- Índice do que estou estudando para aprender programação
+
 ## Matemática Básica
 
 ### Índice
@@ -22,3 +24,5 @@
 ## Linguagem R
 
 ## Python
+
+## SQL
