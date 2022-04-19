@@ -185,22 +185,27 @@ a = hypot(b, c)
 print('A hipotenusa é {:.2f}'.format(a))
 ```
 
-Seno, cosseno e tangente
-'''import math
+### Seno, cosseno e tangente
+```
+import math
 an = float(input('Digite o ângulo que você deseja: '))
 seno = math.sin(math.radians(an))
 cosseno = math.cos(math.radians(an))
 tangente = math.tan(math.radians(an))
-print('O ângulo de {:.2f} tem \n o seno de {:.2f}, \n o cosseno de {:.2f} \n e a tangente de {:.2f}'.format(an, seno, cosseno, tangente))'''
+print('O ângulo de {:.2f} tem \n o seno de {:.2f}, \n o cosseno de {:.2f} \n e a tangente de {:.2f}'.format(an, seno, cosseno, tangente))
+```
 
+```
 from math import radians, sin, cos, tan
 an = float(input('Digite o ângulo que você deseja: '))
 seno = sin(radians(an))
 cosseno = cos(radians(an))
 tangente = tan(radians(an))
 print('O ângulo de {:.2f} tem \n o seno de {:.2f}, \n o cosseno de {:.2f} \n e a tangente de {:.2f}'.format(an, seno, cosseno, tangente))
+```
 
-Bháskara
+### Bháskara
+```
 a = float(input('Entre com o valor de a: '))
 b = float(input('Entre com o valor de b: '))
 c = float(input('Entre com o valor de c: '))
@@ -217,4 +222,5 @@ else:
     x1 = (-b + delta ** (1/2)) / (2 * a)
     x2 = (-b - delta ** (1/2)) / (2 * a)
 
-    print('x1: {}, x2: {}'.format(x1, x2)
+    print('x1: {}, x2: {}'.format(x1, x2))
+```
