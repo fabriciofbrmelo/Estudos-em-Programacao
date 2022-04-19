@@ -14,7 +14,8 @@ print('É um prazer te conhecer, {}!'.format(nome))
 n1 = int(input('Digite um valor: '))
 n2 = int(input('Digite um valor: '))
 s = n1 + n2
-# print('A soma entre', n1, 'e', n2, 'vale', s)
+print('A soma entre', n1, 'e', n2, 'vale', s)
+ou
 print('A soma entre {} e {} vale {}'.format(n1, n2, s))
 ```
 
@@ -39,7 +40,8 @@ print('Está em minúsculas? ', a.islower())
 print('Está capitalizada? ', a.istitle())
 ```
 
-Operadores Aritméticos
+### Operadores Aritméticos
+```
 1 = int(input('Um valor: '))
 n2 = int(input('Outro valor: '))
 s = n1 + n2
@@ -49,17 +51,23 @@ di = n1 // n2
 e = n1 ** n2
 print('A soma é {}, \n o produto é {} e a \n divisão é {:.3f}'.format(s, m, d), end= '>>>')
 print('Divisão inteira {} e potência {}'.format(di, e))
+```
 
-Antecessor e Sucessor
+### Antecessor e Sucessor
+```
 n = float(input('Digite um número: '))
 print('Analisando o valor {}, seu antecessor é {} e o seu sucessor é {}'.format(n, (n-1), (n+1)))
+```
 
-Dobro e Raiz
+### Dobro e Raiz
+```
 n = int(input('Digite um número: '))
 print('O dobro de {} vale {}.'.format(n, (n*2)))
 print('O triplo de {} vale {}. \nA raiz quadrada de {} é {:.2f}'.format(n, (n*3), n, pow(n, (1/2))))
+```
 
-Sistema Métrico
+### Sistema Métrico
+```
 medida = float(input('Digite uma distância em metros: '))
 km = medida / 1000
 hm = medida / 100
@@ -68,8 +76,10 @@ dm = medida * 10
 cm = medida * 100
 mm = medida * 1000
 print('A medida de {}m corresponde a \n{}km, \n{}hm, \n{}dam, \n{}dm, \n{}cm, \n{}mm'.format(medida, km, hm, dam, dm, cm, mm))
+```
 
-Tabuada
+### Tabuada
+```
 num = int(input('Digite um número para ver sua tabuada: '))
 print('-'*12)
 print('{} x {:2} = {}'.format(num, 1, num*1))
@@ -83,6 +93,7 @@ print('{} x {:2} = {}'.format(num, 8, num*8))
 print('{} x {:2} = {}'.format(num, 9, num*9))
 print('{} x {:2} = {}'.format(num, 10, num*10))
 print('_'*12)
+```
 
 Conversor
 real = float(input('Quanto dinheiro você tem na carteira? R$ '))
