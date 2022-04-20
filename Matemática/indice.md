@@ -235,3 +235,12 @@ XXIV. Funções
 - [ ] Método da Substituição
 - [ ] Método da Adição
 - [ ] Método da Comparação
+
+# Para assistir e tomar notas
+- [ ] Geometria Plana
+- [ ] Cálculo
+- [ ] Progressão Geométrica e Aritmética
+- [ ] Inequações do 1º e 2º Graus
+- [ ] Conjuntos Numéricos (reassistir)
+- [ ] Função Polinomial do 1º Grau - Função Afim
+- [ ] Função Polinomial do 2º Grau - Função Quadrática
