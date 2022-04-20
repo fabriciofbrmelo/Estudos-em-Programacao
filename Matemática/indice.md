@@ -149,9 +149,9 @@ XIX. Progressão
 
 # Equações
   
-## XX. Equação de 1º Grau
+## I. Equação de 1º Grau
 
-## XXI. Equação de 2º Grau
+## II. Equação de 2º Grau
 - Se "b" ou "c" or 0 = Equação Incompleta
 - Bháskara
 - Soma e Produto para encontrar as raízes
@@ -160,20 +160,20 @@ XIX. Progressão
   - 🔺 = 0 (2 raízes reais e iguais)
   - 🔺 < 0 (Não apresenta raízes reais - 2 raízes imaginárias)
 
-## XXII. Equações Irracionais (incógnita na raiz)
+## III. Equações Irracionais (incógnita na raiz)
 - [x] 1 Radical
 - [x] 2 Radicais
 - [x] 3 Radicais
 
-## XXIII. Equações Biquadradas
+## IV. Equações Biquadradas
 
-## XXIV. Inequação do 1º Grau
+## V. Inequação do 1º Grau
 
-## XXV. Inequação do 2º Grau
+## VI. Inequação do 2º Grau
 
 # Funções
   
-XXIV. Funções
+I. Funções
 - [x] Definição e Notação de uma Função
 - [x] Domínio
 - [x] Contradomínio
@@ -233,11 +233,11 @@ XXIV. Funções
 
 # Matrizes e Sistemas Lineares
   
-## XXV. Matrizes
+## I. Matrizes
 - [ ] Classificação das Matrizes
 - [ ] Operações com Matrizes
 
-## XXVI. Sistemas Lineares
+## II. Sistemas Lineares
 - [ ] Equação Linear
 - [ ] Método da Substituição
 - [ ] Método da Adição
