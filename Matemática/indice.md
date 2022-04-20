@@ -244,3 +244,7 @@ XXIV. Funções
 - [ ] Conjuntos Numéricos (reassistir)
 - [ ] Função Polinomial do 1º Grau - Função Afim
 - [ ] Função Polinomial do 2º Grau - Função Quadrática
+- [ ] Função Polinomial do 3º Grau - Função Cúbica
+- [ ] Equação e Inequação Modular
+- [ ] Função Cosseno
+- [ ] Função Trinonométrica
