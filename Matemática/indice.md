@@ -41,123 +41,105 @@ VI. Fatoração de Números Inteiros
   - [x] Algoritmo de Euclides
   - [x] Decomposição Simultânea em Fatores Primos
 
-### VII. Frações
-- Fração Própria (Numerador < Denominador)
-- Fração Imprópria (Numerador > Denominador)
-- Fração Aparente
-- Frações Equivalentes
-- Simplificação de Frações
-- Redução de Frações a um mesmo Denominador
-- Comparação de Frações (Denominadores Iguais e Diferentes)
-- Operações com Frações
-  - Adição e Subtração de Frações
-  - Multiplicação de Frações
-  - Divisão de Frações
-- Frações Mistas
+VII. Frações
+- [x] Fração Própria (Numerador < Denominador)
+- [x] Fração Imprópria (Numerador > Denominador)
+- [x] Fração Aparente
+- [x] Frações Equivalentes
+- [x] Simplificação de Frações
+- [x] Redução de Frações a um mesmo Denominador
+- [x] Comparação de Frações (Denominadores Iguais e Diferentes)
+- [x] Operações com Frações
+  - [x] Adição e Subtração de Frações
+  - [x] Multiplicação de Frações
+  - [x] Divisão de Frações
+- [x] Frações Mistas
 
-### VIII. Números Decimais
-- Fração Decimal
-- Numeral Decimal
-- Numeral Decimal --> Fração Decimal
-- Fração Decimal --> Numeral Decimal
-- Operações com Decimais
-  - Adição
-  - Subtração
-  - Multiplicação
-  - Divisão
+VIII. Números Decimais
+- [x] Fração Decimal
+- [x] Numeral Decimal
+- [x] Numeral Decimal --> Fração Decimal
+- [x] Fração Decimal --> Numeral Decimal
+- [x] Operações com Decimais
+  - [x] Adição
+  - [x] Subtração
+  - [x] Multiplicação
+  - [x] Divisão
 
-  </details> </p>
-
-<details><summary> Dízimas Periódicas, Potenciação e Radiciação </summary>
-<p>
+### Dízimas Periódicas, Potenciação e Radiciação
   
-### IX. Dízimas Periódicas
-- Dízimas Simples e Compostas
-- Fração Geratriz
+IX. Dízimas Periódicas
+- [x] Dízimas Simples e Compostas
+- [x] Fração Geratriz
 
-### X. Potenciação
-- Potência de 10 e Notação Científica
-- Operações com Potências de 10
-- Sistema de Numeração Decimal (Base 10)
-- Sistema Métrico Decimal (Base 10)
+X. Potenciação
+- [x] Potência de 10 e Notação Científica
+- [x] Operações com Potências de 10
+- [x] Sistema de Numeração Decimal (Base 10)
+- [x] Sistema Métrico Decimal (Base 10)
 
-### XI. Radiciação
-- Racionalização de Denominadores: transformar uma raiz irracional em um número racional
+XI. Radiciação
+- [x] Racionalização de Denominadores: transformar uma raiz irracional em um número racional
 
-  </details> </p>
-
-<details><summary> Expressões Algébricas </summary>
-<p>
+### Expressões Algébricas
   
-### XII. Produtos Notáveis (Expresssões Algébricas)
-- Quadrado da Soma entre dois termos
-- Quadrado da Diferença entre dois termos
-- Produto da Soma pela Diferença
-- Triângulo de Pascal
-- Cubo da Soma ou Diferença entre dois termos
+XII. Produtos Notáveis (Expresssões Algébricas)
+- [x] Quadrado da Soma entre dois termos
+- [x] Quadrado da Diferença entre dois termos
+- [x] Produto da Soma pela Diferença
+- [x] Triângulo de Pascal
+- [x] Cubo da Soma ou Diferença entre dois termos
 
-### XIII. Fatoração de Expressões Algébricas
-- Fator Comum
-- Agrupamento
-- Diferença dos Quadrados
-- Trinômio Quadrado Perfeito
-- Trinômio do Tipo Soma e Produto: X² + Sx + P
-- Soma ou Diferença entre Cubos
+XIII. Fatoração de Expressões Algébricas
+- [x] Fator Comum
+- [x] Agrupamento
+- [x] Diferença dos Quadrados
+- [x] Trinômio Quadrado Perfeito
+- [x] Trinômio do Tipo Soma e Produto: X² + Sx + P
+- [x] Soma ou Diferença entre Cubos
 
-### XIV. Frações Algébricas
-- MMC de Expressões Algébricas
-- Adição e Subtração de Frações Algébricas
+XIV. Frações Algébricas
+- [x] MMC de Expressões Algébricas
+- [x] Adição e Subtração de Frações Algébricas
 
-  </details> </p>
-
-<details><summary> Razão e Proporção </summary>
-<p>
+### Razão e Proporção
   
-### XV. Razão e Proporção
-- Razão: relação entre números
-- Proporção: igualdade de frações
-- Divisão diretamente proporcional
-- Divisão inversamente proporcional
+XV. Razão e Proporção
+- [x] Razão: relação entre números
+- [x] Proporção: igualdade de frações
+- [x] Divisão diretamente proporcional
+- [x] Divisão inversamente proporcional
 
-  </details> </p>
-
-<details><summary> Porcentagem e Juros </summary>
-<p>
+### Porcentagem e Juros
   
-### XV. Regra de Três
-- Simples
-- Composta
+XV. Regra de Três
+- [x] Simples
+- [x] Composta
 
-### XVI. Porcentagem
-- Razão Centesimal (percentual)
-- Transformação de uma Razão em Porcentagem
-- Cálculo da Porcentagem de um Número
-- Cálculo de um Número dada a Porcentagem
-- Lucro ou Prejuízo
+XVI. Porcentagem
+- [x] Razão Centesimal (percentual)
+- [x] Transformação de uma Razão em Porcentagem
+- [x] Cálculo da Porcentagem de um Número
+- [x] Cálculo de um Número dada a Porcentagem
+- [x] Lucro ou Prejuízo
 
-### XVII. Juros
-- Simples
-- Compostos
+XVII. Juros
+- [x] Simples
+- [x] Compostos
 
-</details> </p>
+### Média 
 
-<details><summary> Média </summary>
-<p>
+XVIII. Média
+- [x] Média Aritmética Simples
+- [x] Média Aritmética Ponderada
+- [x] Média Geométrica
+- [x] Média Harmônica
+
+### Equações
   
-### XVIII. Média
-- Média Aritmética Simples
-- Média Aritmética Ponderada
-- Média Geométrica
-- Média Harmônica
+XIX. Equação de 1º Grau
 
-  </details> </p>
-
-<details><summary> Equações </summary>
-<p>
-  
-### XIX. Equação de 1º Grau
-
-### XX. Equação de 2º Grau
+XX. Equação de 2º Grau
 - Se "b" ou "c" or 0 = Equação Incompleta
 - Bháskara
 - Soma e Produto para encontrar as raízes
@@ -166,47 +148,51 @@ VI. Fatoração de Números Inteiros
   - 🔺 = 0 (2 raízes reais e iguais)
   - 🔺 < 0 (Não apresenta raízes reais - 2 raízes imaginárias)
 
-### XXI. Equações Irracionais (incógnita na raiz)
-- 1 Radical
-- 2 Radicais
-- 3 Radicais
+XXI. Equações Irracionais (incógnita na raiz)
+- [x] 1 Radical
+- [x] 2 Radicais
+- [x] 3 Radicais
 
-### XXII. Equações Biquadradas
+XXII. Equações Biquadradas
 
-</details> </p>
-
-<details><summary> Progressão </summary>
-<p>
+### Progressão
   
-### XXIII. Progressão
-- Aritmética
-- Geométrica
+XXIII. Progressão
+- [x] Aritmética
+- [x] Geométrica
 
-  </details> </p>
-
-<details><summary> Funções </summary>
-<p>
+# Funções
   
-### XXIV. Funções
-- Definição e Notação de uma Função
-- Domínio
-- Contradomínio
-- Imagem
-- Funções definidas por fórmulas matemáticas
-- Domínio de uma função real
-- Plano Cartesiano
-- Gráficos de Funções
-- Sinal da Função
-- Função Crescente e Decrescente
-- Função a partir de um gráfico
-- Função Par e Ímpar
-- Função Injetora
-- Função Sobrejetora
-- Função Bijetora
-- Função Composta
-- Função Inversa
+XXIV. Funções
+- [x] Definição e Notação de uma Função
+- [x] Domínio
+- [x] Contradomínio
+- [x] Imagem
+- [x] Funções definidas por fórmulas matemáticas
+- [x] Domínio de uma função real
+- [x] Plano Cartesiano
+- [x] Gráficos de Funções
+- [x] Sinal da Função
+- [x] Função Crescente e Decrescente
+- [x] Função a partir de um gráfico
+- [x] Função Par e Ímpar
+- [x] Função Injetora
+- [x] Função Sobrejetora
+- [x] Função Bijetora
+- [x] Função Composta
+- [x] Função Inversa
 
-### 1. Função Exponencial
+## 1. Função Polinomial do 1º Grau - Função Afim
+- [ ] Assistir Vídeo do Ferreto
+
+## 2. Função Polinomial do 2º Grau - Função Quadrática
+- [ ] Assistir Vídeo do Ferreto
+
+## 3. Função Polinomial do 3º Grau - Função Cúbica
+- [ ] Assistir Vídeo do Ferreto
+
+
+1. Função Exponencial
 - Equações Exponenciais
 - Artifícios para Equações Exponenciais
 - Inequações Exponenciais
