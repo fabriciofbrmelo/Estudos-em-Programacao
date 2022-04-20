@@ -248,3 +248,4 @@ XXIV. Funções
 - [ ] Equação e Inequação Modular
 - [ ] Função Cosseno
 - [ ] Função Trinonométrica
+- [ ] Matrizes e Sistemas Lineares
