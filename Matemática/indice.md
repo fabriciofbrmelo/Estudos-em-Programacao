@@ -155,6 +155,9 @@ XXI. Equações Irracionais (incógnita na raiz)
 
 XXII. Equações Biquadradas
 
+- [ ] Inequação do 1º Grau
+- [ ] Inequação do 2º Grau
+
 ### Progressão
   
 XXIII. Progressão
@@ -191,49 +194,44 @@ XXIV. Funções
 ## 3. Função Polinomial do 3º Grau - Função Cúbica
 - [ ] Assistir Vídeo do Ferreto
 
+## 4. Função Exponencial
+- [x] Equações Exponenciais
+- [x] Artifícios para Equações Exponenciais
+- [x] Inequações Exponenciais
+- [x] Função Exponencial
+- [x] Gráfico da Função Exponencial
 
-1. Função Exponencial
-- Equações Exponenciais
-- Artifícios para Equações Exponenciais
-- Inequações Exponenciais
+## 5. Função Logarítmica
+- [x] Logaritmos
+  - [x] Nomenclatura
+  - [x] Logaritmos Decimais
+  - [x] Condições de Existência do Logaritmo
+  - [x] Consequência da definição do Logaritmo
+  - [x] Propriedades Operatórias do Logaritmo
+  - [x] Mudança de Base dos Logaritmos
+- [x] Logaritmos e Equações Exponenciais
+- [ ] Equações Logarítimicas
+- [ ] Inequações Logarítimicas
 
-a) Função Exponencial
-b) Gráfico da Função Exponencial
+## 6. Função Modular
+- [ ] Módulo de um Número Real
+- [ ] Propriedades do Módulo
+- [ ] Função Modular
+- [ ] Equação Modular
+- [ ] Inequação Modular
 
-### 2. Função Logarítmica
-- Logaritmos
-  - Nomenclatura
-  - Logaritmos Decimais
-  - Condições de Existência do Logaritmo
-  - Consequência da definição do Logaritmo
-  - Propriedades Operatórias do Logaritmo
-  - Mudança de Base dos Logaritmos
-- Logaritmos e Equações Exponenciais
+## 7. Função Cosseno
 
-a) Equações Logarítimicas
-b) Inequações Logarítimicas
+## 8. Função Trigonométrica
 
-### 3. Função Modular
-- Módulo de um Número Real
-- Propriedades do Módulo
-
-a) Função Modular
-b) Equação Modular
-c) Inequação Modular
-
-   </details> </p>
-
-<details><summary> Matrizes e Sistemas Lineares </summary>
-<p>
+# Matrizes e Sistemas Lineares
   
-### XXV. Matrizes
-- Classificação das Matrizes
-- Operações com Matrizes
+## XXV. Matrizes
+- [ ] Classificação das Matrizes
+- [ ] Operações com Matrizes
 
-### XXVI. Sistemas Lineares
-- Equação Linear
-- Método da Substituição
-- Método da Adição
-- Método da Comparação
-  
-   </details> </p>
+## XXVI. Sistemas Lineares
+- [ ] Equação Linear
+- [ ] Método da Substituição
+- [ ] Método da Adição
+- [ ] Método da Comparação
