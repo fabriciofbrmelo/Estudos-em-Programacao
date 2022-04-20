@@ -14,7 +14,7 @@
 |A aritmética é o ramo elementar da matemática que lida especificamente com o estudo de números e propriedades de operações tradicionais como adição, subtração, multiplicação e divisão|A álgebra é um ramo da matemática elementar que se preocupa com a relação de variáveis e constantes.|
 |Além das operações tradicionais de adição, subtração, multiplicação e divisão, a aritmética também inclui computação avançada de porcentagem, logaritmo, exponenciação e raízes quadradas|As expressões algébricas consistem em variáveis, constantes e sinais fundamentais de adição, subtração, multiplicação e divisão. Cada expressão conectada por esses sinais é referida como termos da expressão.|
 
-### Operações Simples
+## Operações Simples
   
 I. Operações Simples
 - [x] Adição
@@ -35,7 +35,7 @@ Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 :---: | :---: | :---: | :---: | :---: | :---:
 N | Z | Q | I | R | C
 
-### Decimais, Fatoração e Frações
+## Decimais, Fatoração e Frações
   
 V. Números Primos
 VI. Fatoração de Números Inteiros
@@ -72,7 +72,7 @@ VIII. Números Decimais
   - [x] Multiplicação
   - [x] Divisão
 
-### Dízimas Periódicas, Potenciação e Radiciação
+## Dízimas Periódicas, Potenciação e Radiciação
   
 IX. Dízimas Periódicas
 - [x] Dízimas Simples e Compostas
@@ -87,7 +87,7 @@ X. Potenciação
 XI. Radiciação
 - [x] Racionalização de Denominadores: transformar uma raiz irracional em um número racional
 
-### Expressões Algébricas
+## Expressões Algébricas
   
 XII. Produtos Notáveis (Expresssões Algébricas)
 - [x] Quadrado da Soma entre dois termos
@@ -108,7 +108,7 @@ XIV. Frações Algébricas
 - [x] MMC de Expressões Algébricas
 - [x] Adição e Subtração de Frações Algébricas
 
-### Razão e Proporção
+## Razão e Proporção
   
 XV. Razão e Proporção
 - [x] Razão: relação entre números
@@ -116,7 +116,7 @@ XV. Razão e Proporção
 - [x] Divisão diretamente proporcional
 - [x] Divisão inversamente proporcional
 
-### Porcentagem e Juros
+## Porcentagem e Juros
   
 XV. Regra de Três
 - [x] Simples
@@ -133,7 +133,7 @@ XVII. Juros
 - [x] Simples
 - [x] Compostos
 
-### Média 
+## Média 
 
 XVIII. Média
 - [x] Média Aritmética Simples
@@ -141,11 +141,17 @@ XVIII. Média
 - [x] Média Geométrica
 - [x] Média Harmônica
 
-### Equações
+## Progressão
   
-XIX. Equação de 1º Grau
+XIX. Progressão
+- [x] Aritmética
+- [x] Geométrica
 
-XX. Equação de 2º Grau
+# Equações
+  
+XX. Equação de 1º Grau
+
+XXI. Equação de 2º Grau
 - Se "b" ou "c" or 0 = Equação Incompleta
 - Bháskara
 - Soma e Produto para encontrar as raízes
@@ -154,21 +160,16 @@ XX. Equação de 2º Grau
   - 🔺 = 0 (2 raízes reais e iguais)
   - 🔺 < 0 (Não apresenta raízes reais - 2 raízes imaginárias)
 
-XXI. Equações Irracionais (incógnita na raiz)
+XXII. Equações Irracionais (incógnita na raiz)
 - [x] 1 Radical
 - [x] 2 Radicais
 - [x] 3 Radicais
 
-XXII. Equações Biquadradas
+XXIII. Equações Biquadradas
 
-- [ ] Inequação do 1º Grau
-- [ ] Inequação do 2º Grau
+XXIV. Inequação do 1º Grau
 
-### Progressão
-  
-XXIII. Progressão
-- [x] Aritmética
-- [x] Geométrica
+XXV. Inequação do 2º Grau
 
 # Funções
   
