@@ -1,12 +1,18 @@
 # Matemática Básica
 
-## Quadro Geral
-1. Aritmética: Números e Operações
-2. Álgebra: Expressões Algébricas, Equações, Funções, Teoria dos Conjuntos, Cálculo
-3. Geometria: Plana, Espacial, Analítica, Fractal
-4. Trigonometria: Ângulos
-5. Cálculo
-6. Estatística
+|Quadro Geral|
+|-|
+|Aritmética: Números e Operações|
+|Álgebra: Expressões Algébricas, Equações, Funções, Teoria dos Conjuntos, Cálculo|
+|Geometria: Plana, Espacial, Analítica, Fractal|
+|Trigonometria: Ângulos|
+|Cálculo|
+|Estatística|
+
+|Aritmética|Álgebra|
+|-|-|
+|A aritmética é o ramo elementar da matemática que lida especificamente com o estudo de números e propriedades de operações tradicionais como adição, subtração, multiplicação e divisão|A álgebra é um ramo da matemática elementar que se preocupa com a relação de variáveis e constantes.|
+|Além das operações tradicionais de adição, subtração, multiplicação e divisão, a aritmética também inclui computação avançada de porcentagem, logaritmo, exponenciação e raízes quadradas|As expressões algébricas consistem em variáveis, constantes e sinais fundamentais de adição, subtração, multiplicação e divisão. Cada expressão conectada por esses sinais é referida como termos da expressão.|
 
 ### Operações Simples
   
