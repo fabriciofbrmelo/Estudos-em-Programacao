@@ -290,8 +290,9 @@ print('Curso' in frase)
 ```
 > vai retornar true ou false
 
-# Transformação
-'''
+### Transformação
+
+```
 frase.replace('Python', 'Android')
 frase.upper()
 frase.lower()
@@ -300,17 +301,21 @@ frase.title()
 frase.strip()
 frase.rstrip()
 frase.lstrip()
-'''
+```
 
-# Divisão
+### Divisão
 
+```
 frase.split()
-'''divide uma string de 21 caracteres em varias de 0 a 5 caracteres
-curso em video tem 21 caracteres de 0 a 21
-curso fica com 0 a 4, em 0 a 1, video 0 a 4
-curso é classificado como 0, em como 1, video como 2'''
+```
+> divide uma string de 21 caracteres em varias de 0 a 5 caracteres
+> curso em video tem 21 caracteres de 0 a 21
+> curso fica com 0 a 4, em 0 a 1, video 0 a 4
+> curso é classificado como 0, em como 1, video como 2'''
 
-# Junção
+### Junção
 
+```
 '-'.join(frase)
-'''juntar as frases colocando tracinho'''
+```
+> juntar as frases colocando tracinho
