@@ -319,7 +319,9 @@ dividido = frase.split()
 print(dividido[2][3])
 ```
 > Curso em Vídeo se torna ['Curso', 'em', 'vídeo', 'Python']
+> 
 > dividido[2] seleciona o 3º termo da lista que começa com 0
+> 
 > dividido[2][3] seleciona a quarta letra do terceiro termo
 
 ### Junção
