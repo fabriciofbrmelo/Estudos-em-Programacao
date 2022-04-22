@@ -313,6 +313,12 @@ frase.split()
 > curso fica com 0 a 4, em 0 a 1, video 0 a 4
 > curso é classificado como 0, em como 1, video como 2'''
 
+```
+frase = 'Curso em Vídeo Python'
+dividido = frase.split()
+print(dividido[2][3])
+```
+
 ### Junção
 
 ```
