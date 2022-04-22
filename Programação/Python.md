@@ -224,3 +224,68 @@ else:
 
     print('x1: {}, x2: {}'.format(x1, x2))
 ```
+
+### Fatiamento
+
+```
+frase = 'Curso em Video Python'
+print(frase[9])
+```
+> Escreve a letra que está no numero 9
+
+```
+print(frase[9:13])
+```
+> Escreve as letras que estão de 9 até 12
+
+print(frase[9:21:2])
+'''Escreve as letras de 9 a 20 pulando 2'''
+
+print(frase[:5])
+'''Escreve do começo 0 até 5'''
+
+print(frase[15:])
+'''Escreve do numero 15 até o final'''
+
+print(frase[9::3])
+'''Escreve do numero 9 até o final pulando 3, quando pula 3 mostra o terceiro'''
+
+#Análise
+
+print(len(frase))
+'''quantos caracteres tem frase'''
+print(frase.count('o'))
+'''quantas vezes aparece o'''
+print(frase.count('o', 0, 13))
+'''quantas vezes aparece o do 0 a 12'''
+print(frase.find('deo'))
+'''onde começa deo'''
+print(frase.find('Android'))
+'''vai retornar -1, pois não existe'''
+print('Curso' in frase)
+'''vai retornar true ou false'''
+
+# Transformação
+'''
+frase.replace('Python', 'Android')
+frase.upper()
+frase.lower()
+frase.capitalize()
+frase.title()
+frase.strip()
+frase.rstrip()
+frase.lstrip()
+'''
+
+# Divisão
+
+frase.split()
+'''divide uma string de 21 caracteres em varias de 0 a 5 caracteres
+curso em video tem 21 caracteres de 0 a 21
+curso fica com 0 a 4, em 0 a 1, video 0 a 4
+curso é classificado como 0, em como 1, video como 2'''
+
+# Junção
+
+'-'.join(frase)
+'''juntar as frases colocando tracinho'''
