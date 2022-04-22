@@ -238,32 +238,57 @@ print(frase[9:13])
 ```
 > Escreve as letras que estão de 9 até 12
 
+```
 print(frase[9:21:2])
-'''Escreve as letras de 9 a 20 pulando 2'''
+```
+> Escreve as letras de 9 a 20 pulando 2
 
+```
 print(frase[:5])
-'''Escreve do começo 0 até 5'''
+```
+> Escreve do começo 0 até 5
 
+```
 print(frase[15:])
-'''Escreve do numero 15 até o final'''
+```
+> Escreve do numero 15 até o final
 
+```
 print(frase[9::3])
-'''Escreve do numero 9 até o final pulando 3, quando pula 3 mostra o terceiro'''
+```
+> Escreve do numero 9 até o final pulando 3, quando pula 3 mostra o terceiro
 
-#Análise
+### Análise
 
+```
 print(len(frase))
-'''quantos caracteres tem frase'''
+```
+> quantos caracteres tem frase
+
+```
 print(frase.count('o'))
-'''quantas vezes aparece o'''
+```
+> quantas vezes aparece o O
+
+```
 print(frase.count('o', 0, 13))
-'''quantas vezes aparece o do 0 a 12'''
+```
+> quantas vezes aparece o do 0 a 12
+
+```
 print(frase.find('deo'))
-'''onde começa deo'''
+```
+> onde começa deo
+
+```
 print(frase.find('Android'))
-'''vai retornar -1, pois não existe'''
+```
+> vai retornar -1, pois não existe
+
+```
 print('Curso' in frase)
-'''vai retornar true ou false'''
+```
+> vai retornar true ou false
 
 # Transformação
 '''
