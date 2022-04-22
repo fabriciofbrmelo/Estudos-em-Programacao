@@ -407,3 +407,36 @@ print('Centena: {}'.format(c))
 print('Milhar: {}'.format(m))
 ```
 > Esse funciona independente do número ter 2 ou 4 algarismos
+
+### Verificando as primeiras letras de um texto
+
+```
+cid = str(input('Em que cidade você nasceu? ')).strip()
+print(cid[:5].upper() == 'CAÇU')
+```
+
+### Procurando uma string dentro de outra
+
+```
+nome = str(input('Qual seu nome completo? ')).strip()
+print('Seu nome tem Silva? {}'.format('silva' in nome.lower()))
+```
+
+### Primeira e última ocorrência de uma string
+
+```
+frase = str(input('Digite uma frase: ')).strip().upper()
+print('A letra A aparece {} vezes na frase'.format(frase.count('A')))
+print('A primeira letra A apareceu na posição {}'.format(frase.find('A')+1))
+print('A última letra A apareceu na posição {}'.format(frase.rfind('A')+1))
+```
+
+### Primeiro e último nome de uma pessoa
+
+```
+n = str(input('Qual seu nome completo? ')).strip()
+nome = n.split()
+print('Prazer em conhecê-lo {}!'.format(n))
+print('Seu primeiro nome é {}'.format(nome[0]))
+print('Seu último nome é {}'.format(nome[len(nome)-1]))
+```
