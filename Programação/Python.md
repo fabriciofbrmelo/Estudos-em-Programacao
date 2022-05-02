@@ -611,36 +611,51 @@ else:
 
 ## Cores no Terminal
 
-'''
-\033[style:text:back m
-Style
-0 - none
-1 - bold
-4 - underline
-7 - negative
+> \033[style:text:back m
+> 
+> Style
+> 
+> 0 - none
+> 
+> 1 - bold
+> 
+> 4 - underline
+> 
+> 7 - negative
 
-Text
-30 - white
-31 - red
-32 - green
-33 - yellow
-34 - blue
-35 - purple
-36 - light blue
-37 - grey
+> Text
+> 
+> 30 - white
+> 
+> 31 - red
+> 
+> 32 - green
+> 
+> 33 - yellow
+> 
+> 34 - blue
+> 
+> 35 - purple
+> 
+> 36 - light blue
+> 
+> 37 - grey
 
-Back
-40 - 47 (the same as 30 - 37)
-'''
-'''
+> Back
+> 
+> 40 - 47 (the same as 30 - 37)
+
+```
 print('\033[0:30:41mOlá, Mundo!\033[m') #só a frase
 print('\033[4:33:44mOlá, Mundo!') # sem o \033 no final vai a linha toda
 print('\033[1:35:43mOlá, Mundo!\033[m')
 print('\033[30:42mOlá, Mundo!')
 print('\033[mOlá, Mundo!')
 print('\033[7:30mOlá, Mundo!')
-'''
+```
 
+```
 a = 3
 b = 5
 print('Os valores são \033[32m{}\033[m e \033[31m{}\033[m'.format(a, b))
+```
