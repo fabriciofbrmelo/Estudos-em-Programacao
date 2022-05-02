@@ -1,6 +1,6 @@
 # Python
 
-## Curso em Vídeo com Gustavo Guanabara
+### Curso em Vídeo com Gustavo Guanabara
 - Comandos que estou aprendendo com os vídeos de Gustavo Guanabara
 
 ## Módulo 1
@@ -441,24 +441,32 @@ print('Seu primeiro nome é {}'.format(nome[0]))
 print('Seu último nome é {}'.format(nome[len(nome)-1]))
 ```
 
-Condições
+## Condições
 
-'''tempo = int(input('Quantos anos tem seu carro? '))
+### if... else
+```
+tempo = int(input('Quantos anos tem seu carro? '))
 if tempo <= 3:
     print('Seu carro está novinho')
 else:
     print('Seu carro está velhinho')
-print('-FIM-')'''
+print('-FIM-')
+```
 
-'''print('carro novo' if tempo <= 3 else 'carro velho')'''
+```
+print('carro novo' if tempo <= 3 else 'carro velho')
+```
 
-'''nome = str(input('Qual é o seu nome? '))
+```
+nome = str(input('Qual é o seu nome? '))
 if nome == 'Gustavo':
     print('Que nome lindo você tem!')
 else:
     print('Seu nome é uma merda!')
-print('Bom dia, {}'.format(nome))'''
+print('Bom dia, {}'.format(nome))
+```
 
+```
 n1 = float(input('Digite a primeira nota: '))
 n2 = float(input('Digite a segunda nota: '))
 m = (n1 + n2) / 2
@@ -467,10 +475,15 @@ if m >= 6:
     print('Parabéns, você não é burro')
 else:
     print('Vergonha da Profisson')
-'''print('Parabens' if m >=6 else 'Estude mais')'''
+```
 
-Advinhação
+```
+print('Parabens' if m >=6 else 'Estude mais')
+```
 
+### Advinhação
+
+```
 from random import randint
 from time import sleep
 computador = randint(0, 5) #Faz o computador pensar
@@ -484,27 +497,33 @@ if jogador == computador:
     print('Parabéns! Você conseguiu me vencer!')
 else:
     print('Ganhei! Eu pensei no número {} e não no {}!'.format(computador, jogador))
+```
 
-Radar
+### Radar
 
+```
 velocidade = float(input('Qual é a velocidade do carro? '))
 if velocidade > 80:
     print('Multado! Você excedeu o limite permitido que é de 80Km/h.')
     multa = (velocidade - 80) * 7
     print('Você deve pagar um multa de R${:.2f}!'.format(multa))
 print('Tenha um bom dia! Dirija com segurança!')
+```
 
-Par ou ímpar
+### Par ou Ímpar
 
+```
 numero = int(input('Me diga um número qualquer: '))
 resultado = numero % 2
 if resultado == 0:
     print('O número {} é PAR'.format(numero))
 else:
     print('O número {} é ÍMPAR'.format(numero))
+```
 
-distância
+### Distância
 
+```
 distancia = float(input('Qual é a distância da sua viagem? '))
 print('Você está prestes a começar uma viagem de {} km'.format(distancia))
 '''if distancia <= 200:
@@ -513,9 +532,11 @@ else:
     preco = distancia * 0.45'''
 preco = distancia * 0.50 if distancia <= 200 else distancia * 0.45
 print('E o preço da sua passagem será de R${:.2f}'.format(preco))
+```
 
-ano bissexto
+### Ano Bissexto
 
+```
 from datetime import date
 ano = int(input('Que ano quer analisar? Coloque o para o ano atual: '))
 if ano == 0:
@@ -524,23 +545,35 @@ if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
     print('O ano {} é BISSEXTO'.format(ano))
 else:
     print('O ano {} NÃO É BISSEXTO'.format(ano))
+```
 
-maior e menor
+### Maior e Menor
 
+```
 c = int(input('Digite o terceiro valor: '))
-'''if a<b and a<c:
+if a<b and a<c:
     menor = a
 if b<c and b<a:
     menor = b
 if c<b and c<a:
-    menor = c'''
-# Verificando quem é menor
+    menor = c
+```
+
+#### Verificando quem é menor
+
+```
+c = int(input('Digite o terceiro valor: '))
 menor = a
 if b < a and b < c:
     menor = b
 if c < a and c < b:
     menor = c
-# Verificando quem é o maior
+```
+
+#### Verificando quem é o maior
+
+```
+c = int(input('Digite o terceiro valor: '))
 maior = a
 if b > a and b > c:
     maior = b
@@ -548,18 +581,22 @@ if c > a and c > b:
     maior = c
 print('O menor valor digitado foi {}'.format(menor))
 print('O maior valor digitado foi {}'.format(maior))
+```
 
-salario
+### Salário
 
+```
 salario = float(input('Qual é o salário do funcionário? R$ '))
 if salario <= 1250:
     novo = salario + (salario * 15 / 100)
 else:
     novo = salario + (salario * 10 / 100)
 print('Quem ganhava R$ {:.2f} passa a ganhar R$ {:.2f}'.format(salario, novo))
+```
 
-analisando triângulos
+### Analisando Triângulos
 
+```
 print('-=-' * 20)
 print('Analisando Triângulos')
 print('-=-' * 20)
@@ -570,8 +607,9 @@ if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
     print('Os segmentos acima podem formar TRIÂNGULOS')
 else:
     print('Os segmentos acima NÃO podem formar TRIÂNGULOS')
+```
 
-Cores no Terminal
+## Cores no Terminal
 
 '''
 \033[style:text:back m
