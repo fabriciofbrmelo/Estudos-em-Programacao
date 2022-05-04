@@ -65,7 +65,7 @@
 
 #### **Probabilidade** --> estudo da aleatoriedade e incerteza; método para quantificação das chances.
 
-#### Fenômeno Determinístico / Probabilístico
+### Fenômeno Determinístico / Probabilístico
 1. Determinístico: o resultado é sempre o mesmo (a CHUVA sempre CAI)
 2. Probabilístico: o resultado é incerto / variável
 
@@ -87,3 +87,16 @@ n --> ∞
 m = sucessos
 n = n.º de experimentos
 ```
+
+## Espaço Amostral
+
+Conjunto --> Coleção definida de objetos ou itens
+Espaço Amostral --> é o CONJUNTO de todos os possíveis resultados desse experimento
+
+|Espaço Amostral do Lançamento de uma MOEDA|Espaço amostral do Lançamento de DUAS MOEDAS|Espaço Amostral do Lançamento de um DADO|
+|-|-|-|
+|Cara(C)|Cara(C) - Cara(C)|1, 2|
+|Coroa(K)|Cara(C) - Coroa(K)|3, 4|
+||Coroa(K) - Cara(C)|5, 6|
+||Coroa(K) - Coroa(K)||
+|S = {C, K}|S = {(C, C), (C, K), (K, C), (K, K)}|S = {1, 2, 3, 4, 5, 6}|
