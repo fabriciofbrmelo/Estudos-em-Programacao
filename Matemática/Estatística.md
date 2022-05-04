@@ -122,7 +122,7 @@ Probabilidade de um Evento Aleatório (E)
 
 ```
 A = Evento Aleatório
--A- = Evento Complementar = Caso A não aconteça
+A' = Evento Complementar = Caso A não aconteça
 ```
 
 ![EVENTO COMPLEMENTAR](https://user-images.githubusercontent.com/87718178/166807248-0996e712-193b-457c-9aad-e4a9dc24d28d.jpg)
@@ -172,3 +172,16 @@ Se Ø é o Conjunto Vazio, então P(Ø) = 0
 ```
 
 ![evento mutuamente excludente](https://user-images.githubusercontent.com/87718178/166810151-e23f89fb-0804-4ca5-a862-b1d5abb8bf4b.jpg)
+
+```
+Teorema do Evento Complementar
+Se A' é o complemento do Evento A, então P(A')= 1 - P(A)
+```
+
+![EVENTO COMPLEMENTAR](https://user-images.githubusercontent.com/87718178/166807248-0996e712-193b-457c-9aad-e4a9dc24d28d.jpg)
+
+```
+Teorema da Soma
+P (A U B) = P(A) + P(B) - P(A ∩ B)
+```
+![união](https://user-images.githubusercontent.com/87718178/166809902-b95ba6ff-57c7-49df-9092-d5a85a611b09.jpg)
