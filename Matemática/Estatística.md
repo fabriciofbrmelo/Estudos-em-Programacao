@@ -79,3 +79,11 @@
 |Mesmo em condições iguais, o resultado é imprevisível|Resultado final é desconhecido até o final|
 |- Lançamento de Moedas - Dados - Carta de Baralho - Vida útil de um PC|Pode ser repetido sob as mesmas condições|
 ||Quando for repetido um grande número de vezes e houver regularidade, é possível estruturar um modelo matemático probabilístico|
+
+```
+P = lim m/n
+n --> ∞
+
+m = sucessos
+n = n.º de experimentos
+```
