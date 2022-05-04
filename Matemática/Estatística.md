@@ -136,4 +136,10 @@ P(1) = P(2) = P(3)
 
 ## Evento Mutuamente Excludente
 
+```
+Se acontecer A, não acontece B
+Se acontecer B, não acontece A
+```
+
 ![evento mutuamente excludente](https://user-images.githubusercontent.com/87718178/166808040-12859b40-68e2-4cd9-803e-f7f3242c3623.jpg)
+
