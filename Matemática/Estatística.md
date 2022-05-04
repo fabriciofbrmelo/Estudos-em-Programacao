@@ -120,9 +120,20 @@ Probabilidade de um Evento Aleatório (E)
 
 ## Evento Complementar
 
+```
 A = Evento Aleatório
 -A- = Evento Complementar = Caso A não aconteça
+```
 
 ![EVENTO COMPLEMENTAR](https://user-images.githubusercontent.com/87718178/166807248-0996e712-193b-457c-9aad-e4a9dc24d28d.jpg)
 
+## Evento Equiprovável
 
+```
+Cada ponto tem a mesma probabilidade
+P(1) = P(2) = P(3)
+```
+
+## Evento Mutuamente Excludente
+
+![evento mutuamente excludente](https://user-images.githubusercontent.com/87718178/166808040-12859b40-68e2-4cd9-803e-f7f3242c3623.jpg)
