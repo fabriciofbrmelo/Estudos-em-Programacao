@@ -124,7 +124,6 @@ Probabilidade de um Evento Aleatório (E)
 A = Evento Aleatório
 A' = Evento Complementar = Caso A não aconteça
 ```
-
 ![EVENTO COMPLEMENTAR](https://user-images.githubusercontent.com/87718178/166807248-0996e712-193b-457c-9aad-e4a9dc24d28d.jpg)
 
 ## Evento Equiprovável
@@ -140,7 +139,6 @@ P(1) = P(2) = P(3)
 Se acontecer A, não acontece B
 Se acontecer B, não acontece A
 ```
-
 ![evento mutuamente excludente](https://user-images.githubusercontent.com/87718178/166808040-12859b40-68e2-4cd9-803e-f7f3242c3623.jpg)
 
 ## Operações entre Eventos
@@ -151,7 +149,6 @@ Se acontecer B, não acontece A
 Pelo menos um dos eventos
 A ou B ou AMBOS
 ```
-
 ![união](https://user-images.githubusercontent.com/87718178/166809902-b95ba6ff-57c7-49df-9092-d5a85a611b09.jpg)
 
 
@@ -161,7 +158,6 @@ A ou B ou AMBOS
 Pontos que pertencem simultaneamente a A e B
 Só se A e B ocorrer
 ```
-
 ![intersecção](https://user-images.githubusercontent.com/87718178/166809924-c234c14b-09ef-4e06-bb28-7a55dcc4a2c8.jpg)
 
 ## Axiomas de Probabilidade
@@ -170,14 +166,12 @@ Só se A e B ocorrer
 Em um Evento Mutuamente Excludente P (A ∩ B) = 0 é impossível ter Intersecção
 Se Ø é o Conjunto Vazio, então P(Ø) = 0
 ```
-
 ![evento mutuamente excludente](https://user-images.githubusercontent.com/87718178/166810151-e23f89fb-0804-4ca5-a862-b1d5abb8bf4b.jpg)
 
 ```
 Teorema do Evento Complementar
 Se A' é o complemento do Evento A, então P(A')= 1 - P(A)
 ```
-
 ![EVENTO COMPLEMENTAR](https://user-images.githubusercontent.com/87718178/166807248-0996e712-193b-457c-9aad-e4a9dc24d28d.jpg)
 
 ```
@@ -185,3 +179,14 @@ Teorema da Soma
 P (A U B) = P(A) + P(B) - P(A ∩ B)
 ```
 ![união](https://user-images.githubusercontent.com/87718178/166809902-b95ba6ff-57c7-49df-9092-d5a85a611b09.jpg)
+
+```
+Se A e B são mutuamente exlucdentes
+P (A U B) = P(A) + P(B)
+```
+![evento mutuamente excludente](https://user-images.githubusercontent.com/87718178/166808040-12859b40-68e2-4cd9-803e-f7f3242c3623.jpg)
+
+```
+P(A U B U C) = P(A) + P(B) + P(C) - P(A ∩ B) - P(A ∩ C) - P(B ∩ C) + P(A ∩ B ∩ C)
+```
+![3](https://user-images.githubusercontent.com/87718178/166813247-4145d922-fb93-428b-9a29-8d61b3ad1c5b.jpg)
