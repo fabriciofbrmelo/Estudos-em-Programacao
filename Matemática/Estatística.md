@@ -31,17 +31,17 @@
 
 ## Tipos de Dados
 - [x] Qualitativos
-- [ ] Quantitativos
-- [ ] Modelos
-- [ ] Diferença de Média e Mediana
-- [ ] Gráficos
-- [ ] Frequência
+- [x] Quantitativos
+- [x] Modelos
+- [x] Diferença de Média e Mediana
+- [x] Gráficos
+- [x] Frequência
 
 ## Quantis, Quartis e Percentis
 - [x] Quantis
-- [ ] Quartis
-- [ ] Percentis
-- [ ] Medidas de Dispersão
-- [ ] Boxplot
-- [ ] Dados Agrupados e Não-Agrupados
+- [x] Quartis
+- [x] Percentis
+- [x] Medidas de Dispersão
+- [x] Boxplot
+- [x] Dados Agrupados e Não-Agrupados
 
