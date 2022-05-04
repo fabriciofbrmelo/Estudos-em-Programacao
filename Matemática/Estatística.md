@@ -190,3 +190,52 @@ P (A U B) = P(A) + P(B)
 P(A U B U C) = P(A) + P(B) + P(C) - P(A ∩ B) - P(A ∩ C) - P(B ∩ C) + P(A ∩ B ∩ C)
 ```
 ![3](https://user-images.githubusercontent.com/87718178/166813247-4145d922-fb93-428b-9a29-8d61b3ad1c5b.jpg)
+
+## Exercício - Cartas de Baralho
+
+|Espaço Amostral(S)||
+|-|-|
+|Espadas ♠|A 2 3 4 5 6 7 8 9 10 J Q K|
+|Paus ♣|A 2 3 4 5 6 7 8 9 10 J Q K|
+|Copas ♥|A 2 3 4 5 6 7 8 9 10 J Q K|
+|Ouro ♦|A 2 3 4 5 6 7 8 9 10 J Q K|
+```
+Cartas de Baralho: 52
+a) Chance de Copas?
+b) Chance de Figura?
+c) Chande de Figura de Copas?
+d) Chance de Figura ou Copas?
+```
+```
+a) Chance de Copas
+P(A)= M/N = 13/52 = 1/4
+```
+```
+b) Chance de ser Figura
+P(B)= M/N = 12/52 = 3/13
+```
+```
+c) Chance de ser Figura de Copas (intersecção)
+P(C)= M/N = 3/52
+```
+|Espaço Amostral(S)|Intersecção|
+|-|-|
+|Espadas ♠||
+|Paus ♣||
+|Copas ♥|J Q K|
+|Ouro ♦||
+
+```
+d) Chance de ser Figura ou Copas (união)
+P(D)= M/N = (9 + 3 + 10) / 52 = 22/52
+ou
+P(A U B) = P(A) + P(B) - P(A ∩ B)
+P(A U B) = 13 + 12 - 3
+P(A U B) = 22
+```
+|Espaço Amostral(S)||
+|-|-|
+|Espadas ♠|J Q K|
+|Paus ♣|J Q K|
+|Copas ♥|J Q K|
+|Ouro ♦|J Q K|
