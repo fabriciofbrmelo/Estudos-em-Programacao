@@ -88,7 +88,7 @@ m = sucessos
 n = n.º de experimentos
 ```
 
-## Espaço Amostral
+## Espaço Amostral (S)
 
 Conjunto --> Coleção definida de objetos ou itens
 Espaço Amostral --> é o CONJUNTO de todos os possíveis resultados desse experimento
@@ -100,3 +100,14 @@ Espaço Amostral --> é o CONJUNTO de todos os possíveis resultados desse exper
 ||Coroa(K) - Cara(C)|5, 6|
 ||Coroa(K) - Coroa(K)||
 |S = {C, K}|S = {(C, C), (C, K), (K, C), (K, K)}|S = {1, 2, 3, 4, 5, 6}|
+
+## Evento Aleatório (E)
+
+- Qualquer subconjunto de um ESPAÇO AMOSTRAL (S)
+- Resultado possível em experimentos aleatórios e que não é previsível
+
+||Lançamento de Moeda|Lançamento de Dado|Lançamento de Duas Moedas|
+|-|-|-|-|
+|Espaço Amostral|S = {C, K}|S = {1, 2, 3, 4, 5, 6}|S = {(C, K), (C, C), (K, C), (K, K)}|
+|Evento Aleatório|E = C|E = 3|E = (K, K)|
+|Probabilidade de E|P(E) = 1/2|P(E) = 1/6|P(E) = 1/4|
