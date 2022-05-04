@@ -61,3 +61,21 @@
 - [x] Boxplot
 - [x] Dados Agrupados e Não-Agrupados
 
+# Curso Unesp
+
+#### **Probabilidade** --> estudo da aleatoriedade e incerteza; método para quantificação das chances.
+
+#### Fenômeno Determinístico / Probabilístico
+1. Determinístico: o resultado é sempre o mesmo (a CHUVA sempre CAI)
+2. Probabilístico: o resultado é incerto / variável
+
+> Probabilidade: medida da informação sobre a ocorrência de um evento
+>
+> Estatística: baseia-se no estudo dos fenômenos probabilísticos
+
+|Fenômenos Aleatórios|Experimento Aleatório|
+|-|-|
+|Diferentes Resultados|Possíveis Resultados são conhecidos (**PROBABILIDADE**)|
+|Mesmo em condições iguais, o resultado é imprevisível|Resultado final é desconhecido até o final|
+|- Lançamento de Moedas - Dados - Carta de Baralho - Vida útil de um PC|Pode ser repetido sob as mesmas condições|
+||Quando for repetido um grande número de vezes e houver regularidade, é possível estruturar um modelo matemático probabilístico|
