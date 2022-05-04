@@ -237,5 +237,7 @@ P(A U B) = 22
 |-|-|
 |Espadas ♠|J Q K|
 |Paus ♣|J Q K|
-|Copas ♥|J Q K|
+|Copas ♥|A 2 3 4 5 6 7 8 9 10 J Q K|
 |Ouro ♦|J Q K|
+
+> J Q K aparece duas vezes, uma vez como figura outra como copas, por isso exclui a intersecção
