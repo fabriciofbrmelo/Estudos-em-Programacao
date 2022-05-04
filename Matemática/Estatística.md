@@ -155,7 +155,7 @@ A ou B ou AMBOS
 ![união](https://user-images.githubusercontent.com/87718178/166809902-b95ba6ff-57c7-49df-9092-d5a85a611b09.jpg)
 
 
-### Intersecção (e) - A /\ B
+### Intersecção (e) - A ∩ B
 
 ```
 Pontos que pertencem simultaneamente a A e B
@@ -163,3 +163,12 @@ Só se A e B ocorrer
 ```
 
 ![intersecção](https://user-images.githubusercontent.com/87718178/166809924-c234c14b-09ef-4e06-bb28-7a55dcc4a2c8.jpg)
+
+## Axiomas de Probabilidade
+
+```
+Em um Evento Mutuamente Excludente P (A ∩ B) = 0 é impossível ter Intersecção
+Se Ø é o Conjunto Vazio, então P(Ø) = 0
+```
+
+![evento mutuamente excludente](https://user-images.githubusercontent.com/87718178/166810151-e23f89fb-0804-4ca5-a862-b1d5abb8bf4b.jpg)
