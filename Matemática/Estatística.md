@@ -143,3 +143,23 @@ Se acontecer B, não acontece A
 
 ![evento mutuamente excludente](https://user-images.githubusercontent.com/87718178/166808040-12859b40-68e2-4cd9-803e-f7f3242c3623.jpg)
 
+## Operações entre Eventos
+
+### União (ou) - A U B
+
+```
+Pelo menos um dos eventos
+A ou B ou AMBOS
+```
+
+![união](https://user-images.githubusercontent.com/87718178/166809902-b95ba6ff-57c7-49df-9092-d5a85a611b09.jpg)
+
+
+### Intersecção (e) - A /\ B
+
+```
+Pontos que pertencem simultaneamente a A e B
+Só se A e B ocorrer
+```
+
+![intersecção](https://user-images.githubusercontent.com/87718178/166809924-c234c14b-09ef-4e06-bb28-7a55dcc4a2c8.jpg)
