@@ -111,3 +111,18 @@ Espaço Amostral --> é o CONJUNTO de todos os possíveis resultados desse exper
 |Espaço Amostral|S = {C, K}|S = {1, 2, 3, 4, 5, 6}|S = {(C, K), (C, C), (K, C), (K, K)}|
 |Evento Aleatório|E = C|E = 3|E = (K, K)|
 |Probabilidade de E|P(E) = 1/2|P(E) = 1/6|P(E) = 1/4|
+
+```
+Probabilidade de um Evento Aleatório (E)
+0 =< P(E) =< 1
+0% =< P(E) =< 100%
+```
+
+## Evento Complementar
+
+A = Evento Aleatório
+-A- = Evento Complementar = Caso A não aconteça
+
+![EVENTO COMPLEMENTAR](https://user-images.githubusercontent.com/87718178/166807248-0996e712-193b-457c-9aad-e4a9dc24d28d.jpg)
+
+
