@@ -244,7 +244,7 @@ P(A U B) = 22
 
 ## Exercício - Quatro Moedas
 
-|Espaço Amostral (S)|||||
+|Espaço Amostral (S)|16 possibilidades||||
 |:-:|:-:|:-:|:-:|:-:|
 |O CARAS|1 CARA|2 CARAS|3 CARAS|4 CARAS|
 |KKKK|CKKK|CCKK|CCCK|CCCC|
@@ -254,6 +254,7 @@ P(A U B) = 22
 |||KCKC|||
 |||KCCK|||
 |1 possibilidade|2 pssibilidades|6 possibilidades|4 possibilidades|1 possibilidade|
+
 ```
 a) obter n.º par de caras P(A)
 b) obter exatamente 3 caras P(B)
