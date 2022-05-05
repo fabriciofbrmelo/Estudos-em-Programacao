@@ -261,7 +261,7 @@ b) obter exatamente 3 caras P(B)
 c) obter ao menos 2 caras consecutivas P(C)
 d) obter 3 caras ou n.º par de caras P(B U A)
 e) obter exatamente 3 caras e ao menos 2 caras consecutivas P(B ∩ C)
-f) não ocorrer o evento "n.º par de caras e ao menos 2 caras consecutivas" P(A ∩ C)
+f) não ocorrer o evento "n.º par de caras e ao menos 2 caras consecutivas" P(B ∩ C')
 ```
 ```
 a) Obter Número PAR de CARAS
@@ -304,3 +304,11 @@ P(C) = Ao menos 2 caras consecutivas
 P(B ∩ C) = M/N = 4/16 = 1/4
 ```
 ![e](https://user-images.githubusercontent.com/87718178/166970196-884653c9-5abf-426d-b27c-0fbcee9d434e.jpg)
+```
+f) Não ocorrer o evento "n.º par de caras e ao menos 2 caras consecutivas" P(B ∩ C')
+P(B ∩ C') = 1 - P(B ∩ C)
+P(B ∩ C') = 1 - 1/4
+P(B ∩ C') = (4 - 1)/4 = 3/4
+
+P = M/N = 12/16 = 3/4
+```
