@@ -335,3 +335,20 @@ Prédio - 50 habitantes
 P(canal) = 21/50 = 0,42 = 42%
 P(só 1 canal) = (6 + 2 + 2) / 50 = 10/50 = 1/5 = 0,20 = 20%
 ```
+
+## Contagem, Combinação e Arranjo
+
+|Evento 1|1 Moeda|2 Resultados Possíveis|
+|-|-|-|
+|Evento 2|1 Dado|6 Resultados Possíveis|
+
+|2 Eventos em Conjunto: 2x6 = 12 Possibilidades|
+|-|
+|Evento 1 - m possibilidades|
+|Evento 2 - n possibilidades|
+|Ambos = m.n possibilidades|
+
+|K,1|K,2|K,3|K,4|K,5|K,6|
+|-|-|-|-|-|-|
+|C,1|C,2|C,3|C,4|C,5|C,6|
+
