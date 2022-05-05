@@ -312,3 +312,7 @@ P(B ∩ C') = (4 - 1)/4 = 3/4
 
 P = M/N = 12/16 = 3/4
 ```
+
+## Exercício - Telespectadores de uma Operadora
+
+
