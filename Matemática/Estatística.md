@@ -352,3 +352,48 @@ P(só 1 canal) = (6 + 2 + 2) / 50 = 10/50 = 1/5 = 0,20 = 20%
 |-|-|-|-|-|-|
 |C,1|C,2|C,3|C,4|C,5|C,6|
 
+### Problemas Complexos: Combinação ou Arranjo
+
+### Combinação
+
+```
+**ORDEM NÃO FAZ DIFERENÇA**
+
+Cn,p = n! / p!(n-p)!
+
+n --> número de elementos do conjunto amostral
+p --> número de elementos escolhidos
+c --> número de combinações possíveis
+```
+```
+Quantas comissões de 3 pessoas dá para formar com 10 pessoas?
+
+n --> 10 elementos
+p --> 3 escolhidos
+
+Cn,p = n! / p!(n-p)!
+C10,3 = 10! / 3!(10-3)!
+C10,3 = 120
+```
+
+### Arranjo
+
+```
+**ORDEM FAZ DIFERENÇA**
+
+Ar,p = r! / (r-p)!
+
+r --> número de elementos do conjunto amostral
+p --> número de elementos escolhidos
+a --> número de arranjos possíveis
+```
+```
+Quantas chapas de 10 pessoas, sendo que precisa ter um Presidente, um Tesoureiro e um Secretário?
+
+r --> 10 elementos
+p --> 3 escolhidos
+
+Ar,p = r! / (r-p)!
+A10,3 = 10! / (10-3)!
+A10,3 = 720
+```
