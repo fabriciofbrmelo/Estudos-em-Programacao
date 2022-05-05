@@ -315,4 +315,23 @@ P = M/N = 12/16 = 3/4
 
 ## Exercício - Telespectadores de uma Operadora
 
+```
+Prédio - 50 habitantes
+Canal A: 15 pessoas assistem
+Canal B: 10 pessoas assistem
+Canal C: 8 pessoas assistem
+Canal A e B: 6 pessoas assistem
+Canal A e C: 4 pessoas assistem
+Canal B e C: 3 pessoas assitem
+Canal A, B, C: 1 pessoa assiste
+```
+![VENN](https://user-images.githubusercontent.com/87718178/166978561-6dda6049-bb47-44c6-9b29-622ac4ea2cec.jpg)
+```
+Prédio - 50 habitantes
+6 + 5 + 2 + 1 + 3 + 2 + 2 = 21
+21 pessoas assistem algum canal (21/50)
+29 não assistem nada
 
+P(canal) = 21/50 = 0,42 = 42%
+P(só 1 canal) = (6 + 2 + 2) / 50 = 10/50 = 1/5 = 0,20 = 20%
+```
