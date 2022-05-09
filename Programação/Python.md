@@ -660,23 +660,25 @@ b = 5
 print('Os valores são \033[32m{}\033[m e \033[31m{}\033[m'.format(a, b))
 ```
 
-'''
+```
 nome = 'Guanabara'
 print('Olá! Muito prazer em conhecê-lo, {}{}{}!'.format('\033[4;34m', nome, '\33[m'))
-'''
+```
 
+```
 nome = 'Guanabara'
 cores = {'limpa':'\033[m',
          'azul':'\033[34m',
          'amarelo':'\033[33m',
          'pretoebranco':'\033[7:30m'}
 print('Olá! Muito prazer em te conhecer, {}{}{}!'.format(cores['amarelo'], nome, cores['limpa']))
+```
 
-CONDIÇÕES ANINHADAS
+## Condições Aninhadas
 
-# Estruturas de Controle
-# Condições Aninhadas
+### Estruturas de Controle e Condições Aninhadas
 
+```
 nome = str(input('Qual é o seu nome? '))
 if nome == 'Gustavo':
     print('Que nome bonito!')
@@ -687,10 +689,11 @@ elif nome in 'Ana Cláudia Jéssica Juliana':
 else:
     print('Seu nome é bem normal!')
 print('Tenha um bom dia {}'.format(nome))
+```
 
-empréstimo
+### Empréstimo
 
-'''
+```
 valor = float(input('Qual o valor da casa? '))
 salario = float(input('Qual o seu salário? '))
 meses = int(input('Em quantos meses você quer financiar? '))
@@ -701,8 +704,8 @@ if prestacao >= salario * 30 / 100:
     print('Seu empréstimo foi NEGADO')
 else:
     print('Sua prestação será de R${:.2f} por {} meses'.format(prestacao, meses))
-'''
-
+```
+```
 casa = float(input('Valor da casa: R$ '))
 salario = float(input('Salário do comprador: R$ '))
 anos = int(input('Quantos anos de financiamento? '))
@@ -714,9 +717,10 @@ if prestacao <= minimo:
     print('Empréstimo pode ser CONCEDIDO')
 else:
     print('Empréstimo NEGADO')
+```
 
-binário
-
+### Binário
+```
 num = int(input('Digite um número inteiro: '))
 print('''Escolha uma das bases para conversão:
 [1] Converter para Binário
@@ -731,9 +735,10 @@ elif opcao == 3:
     print('{} convertido para HEXADECIMAL é igual a {}'.format(num, hex(num)[2:]))
 else:
     print('OPÇÃO INVÁLIDA!!! Tente Novamente!!!')
+```
 
-maior ou menor
-
+### Maior ou Menor
+```
 num1 = int(input('Digite o primeiro número: '))
 num2 = int(input('Digite o segundo número: '))
 if num1 > num2:
@@ -742,17 +747,11 @@ elif num2 > num1:
     print('O número {} é maior que o número {}'.format(num2, num1))
 else:
     print('Os dois valores são iguais!')
+```
 
-exército
+### Exército
 
-'''nasc = int(input('Em que ano você nasceu? '))
-idade = 2022 - nasc
-if nasc >= 18:
-    print('Hoje você tem {} anos e precisa se alistar no Exército'.format(idade))
-else:
-    print('Hoje você tem {} anos e ainda não precisa se alistar no Exército'.format(idade))
-'''
-
+```
 from datetime import date
 atual = date.today().year
 nasc = int(input('Digite o ano do seu nascimento: '))
@@ -777,9 +776,10 @@ if opcao == 'M':
         print('Seu alistamento foi em {}.'.format(ano))
 else:
     print('Você não precisa se alistar')
+```
 
-média
-
+### Média
+```
 n1 = float(input('Digite a sua primeira nota: '))
 n2 = float(input('Digite a sua segunda nota: '))
 media = (n1 + n2) / 2
@@ -789,9 +789,10 @@ elif media >=5 and media <= 6.9:
     print('Sua média é {:.1f} e você está em RECUPERAÇÃO!'.format(media))
 else:
     print('Sua média é {:.1f} e você está REPROVADO!'.format(media))
+```
 
-natação
-
+### Natação
+```
 print('-=-' * 10)
 print('\033[1:31:40mConfederação Nacional de Natação\033[m')
 print('-=-' * 10)
@@ -809,9 +810,10 @@ elif 19 < idade <=20:
     print('Você tem {} anos e está na categoria SÊNIOR'.format(idade))
 else:
     print('Você tem {} anos e está na categoria MASTER'.format(idade))
+```
 
-analisando triângulos
-
+### Analisando triângulos
+```
 r1 = float(input('Primeiro segmento: '))
 r2 = float(input('Segundo segmento: '))
 r3 = float(input('Terceiro segmento: '))
@@ -825,9 +827,10 @@ if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
         print('ISÓSCELES')
 else:
     print('Os segmentos NÃO PODEM FORMAR um triângulo!')
+```
 
-imc
-
+### IMC
+```
 peso = float(input('Qual o seu peso? (Kg) '))
 altura = float(input('Qual a sua altura? (m) '))
 imc = peso / (altura ** 2)
@@ -842,9 +845,10 @@ elif 30 <= imc < 40:
     print('e ela está com OBESIDADE!')
 else:
     print('e ela está com OBESIDADE MÓRBIDA!')
+```
 
-pagamentos
-
+### Pagamentos
+```
 print('{:=^40}'.format(' LOJAS GUANABARA '))
 preco = float(input('Preço das compras: R$ '))
 print('''FORMAS DE PAGAMENTO
@@ -870,9 +874,10 @@ else:
     total = 0
     print('OPÇÃO INÁLIDA DE PAGAMENTO!!!')
 print('Sua compra de R${:.2f} vai custar R${:.2f}'.format(preco, total))
+```
 
-rock paper lizard spock
-
+### Rock paper lizard spock
+```
 from random import randint
 from time import sleep
 itens = ('Pedra', 'Papel', 'Tesoura')
@@ -920,3 +925,4 @@ elif computador == 2: #TESOURA
         print('EMPATE!')
     else:
         print('JOGADA INVÁLIDA!')
+```
