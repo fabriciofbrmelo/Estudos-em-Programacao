@@ -226,7 +226,6 @@ else:
 ```
 
 ### Fatiamento
-
 ```
 frase = 'Curso em Video Python'
 print(frase[9])
@@ -304,7 +303,6 @@ frase.lstrip()
 ```
 
 ### Divisão
-
 ```
 frase.split()
 ```
@@ -325,14 +323,12 @@ print(dividido[2][3])
 > dividido[2][3] seleciona a quarta letra do terceiro termo
 
 ### Junção
-
 ```
 '-'.join(frase)
 ```
 > juntar as frases colocando tracinho
 
 ### Sorteio
-
 ```
 from random import choice
 n1 = str(input('Primeiro aluno: '))
@@ -345,7 +341,6 @@ print('O aluno escolhido foi {}'.format(escolhido))
 ```
 
 ### Ordem de uma Lista
-
 ```
 from random import shuffle
 n1 = str(input('Primeiro aluno: '))
@@ -359,7 +354,6 @@ print(lista)
 ```
 
 ### Tocar música no Python
-
 ```
 import pygame
 pygame.init()
@@ -369,7 +363,6 @@ pygame.event.wait()
 ```
 
 ### Analisando Texto
-
 ```
 nome = str(input('Digite seu nome completo: ')).strip()
 print('Analisando seu nome...')
@@ -382,7 +375,6 @@ print('Seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa
 ```
 
 ### Separando digitos de um número
-
 ```
 num = int(input('Digite um número: '))
 n = str(num)
@@ -409,21 +401,18 @@ print('Milhar: {}'.format(m))
 > Esse funciona independente do número ter 2 ou 4 algarismos
 
 ### Verificando as primeiras letras de um texto
-
 ```
 cid = str(input('Em que cidade você nasceu? ')).strip()
 print(cid[:5].upper() == 'CAÇU')
 ```
 
 ### Procurando uma string dentro de outra
-
 ```
 nome = str(input('Qual seu nome completo? ')).strip()
 print('Seu nome tem Silva? {}'.format('silva' in nome.lower()))
 ```
 
 ### Primeira e última ocorrência de uma string
-
 ```
 frase = str(input('Digite uma frase: ')).strip().upper()
 print('A letra A aparece {} vezes na frase'.format(frase.count('A')))
@@ -432,7 +421,6 @@ print('A última letra A apareceu na posição {}'.format(frase.rfind('A')+1))
 ```
 
 ### Primeiro e último nome de uma pessoa
-
 ```
 n = str(input('Qual seu nome completo? ')).strip()
 nome = n.split()
@@ -482,7 +470,6 @@ print('Parabens' if m >=6 else 'Estude mais')
 ```
 
 ### Advinhação
-
 ```
 from random import randint
 from time import sleep
@@ -500,7 +487,6 @@ else:
 ```
 
 ### Radar
-
 ```
 velocidade = float(input('Qual é a velocidade do carro? '))
 if velocidade > 80:
@@ -511,7 +497,6 @@ print('Tenha um bom dia! Dirija com segurança!')
 ```
 
 ### Par ou Ímpar
-
 ```
 numero = int(input('Me diga um número qualquer: '))
 resultado = numero % 2
@@ -522,7 +507,6 @@ else:
 ```
 
 ### Distância
-
 ```
 distancia = float(input('Qual é a distância da sua viagem? '))
 print('Você está prestes a começar uma viagem de {} km'.format(distancia))
@@ -535,7 +519,6 @@ print('E o preço da sua passagem será de R${:.2f}'.format(preco))
 ```
 
 ### Ano Bissexto
-
 ```
 from datetime import date
 ano = int(input('Que ano quer analisar? Coloque o para o ano atual: '))
@@ -548,7 +531,6 @@ else:
 ```
 
 ### Maior e Menor
-
 ```
 c = int(input('Digite o terceiro valor: '))
 if a<b and a<c:
@@ -560,7 +542,6 @@ if c<b and c<a:
 ```
 
 #### Verificando quem é menor
-
 ```
 c = int(input('Digite o terceiro valor: '))
 menor = a
@@ -571,7 +552,6 @@ if c < a and c < b:
 ```
 
 #### Verificando quem é o maior
-
 ```
 c = int(input('Digite o terceiro valor: '))
 maior = a
@@ -584,7 +564,6 @@ print('O maior valor digitado foi {}'.format(maior))
 ```
 
 ### Salário
-
 ```
 salario = float(input('Qual é o salário do funcionário? R$ '))
 if salario <= 1250:
@@ -595,7 +574,6 @@ print('Quem ganhava R$ {:.2f} passa a ganhar R$ {:.2f}'.format(salario, novo))
 ```
 
 ### Analisando Triângulos
-
 ```
 print('-=-' * 20)
 print('Analisando Triângulos')
@@ -610,7 +588,6 @@ else:
 ```
 
 ## Cores no Terminal
-
 > \033[style:text:back m
 > 
 > Style
@@ -677,7 +654,6 @@ print('Olá! Muito prazer em te conhecer, {}{}{}!'.format(cores['amarelo'], nome
 ## Condições Aninhadas
 
 ### Estruturas de Controle e Condições Aninhadas
-
 ```
 nome = str(input('Qual é o seu nome? '))
 if nome == 'Gustavo':
@@ -692,7 +668,6 @@ print('Tenha um bom dia {}'.format(nome))
 ```
 
 ### Empréstimo
-
 ```
 valor = float(input('Qual o valor da casa? '))
 salario = float(input('Qual o seu salário? '))
