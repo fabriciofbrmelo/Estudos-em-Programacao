@@ -659,3 +659,264 @@ a = 3
 b = 5
 print('Os valores são \033[32m{}\033[m e \033[31m{}\033[m'.format(a, b))
 ```
+
+'''
+nome = 'Guanabara'
+print('Olá! Muito prazer em conhecê-lo, {}{}{}!'.format('\033[4;34m', nome, '\33[m'))
+'''
+
+nome = 'Guanabara'
+cores = {'limpa':'\033[m',
+         'azul':'\033[34m',
+         'amarelo':'\033[33m',
+         'pretoebranco':'\033[7:30m'}
+print('Olá! Muito prazer em te conhecer, {}{}{}!'.format(cores['amarelo'], nome, cores['limpa']))
+
+CONDIÇÕES ANINHADAS
+
+# Estruturas de Controle
+# Condições Aninhadas
+
+nome = str(input('Qual é o seu nome? '))
+if nome == 'Gustavo':
+    print('Que nome bonito!')
+elif nome == 'Pedro' or nome == 'Maria' or nome == 'Paulo':
+    print('Seu nome é bem popular no Brasil!')
+elif nome in 'Ana Cláudia Jéssica Juliana':
+    print('Belo nome feminino')
+else:
+    print('Seu nome é bem normal!')
+print('Tenha um bom dia {}'.format(nome))
+
+empréstimo
+
+'''
+valor = float(input('Qual o valor da casa? '))
+salario = float(input('Qual o seu salário? '))
+meses = int(input('Em quantos meses você quer financiar? '))
+anos = float(meses / 12)
+prestacao = valor / meses
+print('Você quer financiar uma casa de R${:.2f} com o salário de R${:.2f} dividido em {} meses ou {:.1f} anos'.format(valor, salario, meses, anos))
+if prestacao >= salario * 30 / 100:
+    print('Seu empréstimo foi NEGADO')
+else:
+    print('Sua prestação será de R${:.2f} por {} meses'.format(prestacao, meses))
+'''
+
+casa = float(input('Valor da casa: R$ '))
+salario = float(input('Salário do comprador: R$ '))
+anos = int(input('Quantos anos de financiamento? '))
+prestacao = casa / (anos * 12)
+minimo = salario * 30 / 100
+print('Para pagar um casa de R${:.2f} em {} anos'.format(casa, anos), end='')
+print(' e a prestação será de R${:.2f}'.format(prestacao))
+if prestacao <= minimo:
+    print('Empréstimo pode ser CONCEDIDO')
+else:
+    print('Empréstimo NEGADO')
+
+binário
+
+num = int(input('Digite um número inteiro: '))
+print('''Escolha uma das bases para conversão:
+[1] Converter para Binário
+[2] Converter para Octal
+[3] Converter para Hexadecimal''')
+opcao = int(input('Sua opção: '))
+if opcao == 1:
+    print('{} convertido para BINÁRIO é igual a {}'.format(num, bin(num)[2:]))
+elif opcao == 2:
+    print('{} convertido para OCTAL é igual a {}'.format(num, oct(num)[2:]))
+elif opcao == 3:
+    print('{} convertido para HEXADECIMAL é igual a {}'.format(num, hex(num)[2:]))
+else:
+    print('OPÇÃO INVÁLIDA!!! Tente Novamente!!!')
+
+maior ou menor
+
+num1 = int(input('Digite o primeiro número: '))
+num2 = int(input('Digite o segundo número: '))
+if num1 > num2:
+    print('O número {} é maior que o número {}'.format(num1, num2))
+elif num2 > num1:
+    print('O número {} é maior que o número {}'.format(num2, num1))
+else:
+    print('Os dois valores são iguais!')
+
+exército
+
+'''nasc = int(input('Em que ano você nasceu? '))
+idade = 2022 - nasc
+if nasc >= 18:
+    print('Hoje você tem {} anos e precisa se alistar no Exército'.format(idade))
+else:
+    print('Hoje você tem {} anos e ainda não precisa se alistar no Exército'.format(idade))
+'''
+
+from datetime import date
+atual = date.today().year
+nasc = int(input('Digite o ano do seu nascimento: '))
+idade = atual - nasc
+print('Quem nasceu em {} tem {} anos em {}.'.format(nasc, idade, atual))
+print('''Você é Homem ou Mulher?
+[M] Homem
+[F] Mulher''')
+opcao = str(input('Digite [M] para Homem ou [F] para Mulher: ').upper())
+if opcao == 'M':
+    if idade == 18:
+        print('Você tem que se alistar IMEDIATAMENTE!')
+    elif idade < 18:
+        saldo = 18 - idade
+        print('Ainda faltam {} anos para o alistamento'.format(saldo))
+        ano = atual + saldo
+        print('Seu alistamento será em {}.'.format(ano))
+    elif idade > 18:
+        saldo = idade - 18
+        print('Você já deveria ter se alistado há {} anos.'.format(saldo))
+        ano = atual - saldo
+        print('Seu alistamento foi em {}.'.format(ano))
+else:
+    print('Você não precisa se alistar')
+
+média
+
+n1 = float(input('Digite a sua primeira nota: '))
+n2 = float(input('Digite a sua segunda nota: '))
+media = (n1 + n2) / 2
+if media >= 7:
+    print('Sua média é {:.1f} e você está APROVADO!'.format(media))
+elif media >=5 and media <= 6.9:
+    print('Sua média é {:.1f} e você está em RECUPERAÇÃO!'.format(media))
+else:
+    print('Sua média é {:.1f} e você está REPROVADO!'.format(media))
+
+natação
+
+print('-=-' * 10)
+print('\033[1:31:40mConfederação Nacional de Natação\033[m')
+print('-=-' * 10)
+from datetime import date
+ano = int(input('Em que ano você nasceu? '))
+atual = date.today().year
+idade = atual - ano
+if idade <= 9:
+    print('Você tem {} anos e está na categoria MIRIM'.format(idade))
+elif 9 < idade <= 14:
+    print('Você tem {} anos e está na categoria INFANTIL'.format(idade))
+elif 14 < idade <= 19:
+    print('Você tem {} anos e está na categoria JUNIOR'.format(idade))
+elif 19 < idade <=20:
+    print('Você tem {} anos e está na categoria SÊNIOR'.format(idade))
+else:
+    print('Você tem {} anos e está na categoria MASTER'.format(idade))
+
+analisando triângulos
+
+r1 = float(input('Primeiro segmento: '))
+r2 = float(input('Segundo segmento: '))
+r3 = float(input('Terceiro segmento: '))
+if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
+    print('Os segmentos PODEM FORMAR um triângulo ', end='')
+    if r1 == r2 and r2 == r3:
+        print('EQUILÁTERO!')
+    elif r1 != r2 != r3 != r1:
+        print('ESCALENO')
+    else:
+        print('ISÓSCELES')
+else:
+    print('Os segmentos NÃO PODEM FORMAR um triângulo!')
+
+imc
+
+peso = float(input('Qual o seu peso? (Kg) '))
+altura = float(input('Qual a sua altura? (m) '))
+imc = peso / (altura ** 2)
+print('O IMC dessa pessoa é de {:.1f} '.format(imc), end='')
+if imc < 18.5:
+    print('e ela está ABAIXO DO PESO!')
+elif 18.5 <= imc < 25:
+    print('e ela está no PESO IDEAL!')
+elif 25 <= imc < 30:
+    print('e ela está com SOBREPESO!')
+elif 30 <= imc < 40:
+    print('e ela está com OBESIDADE!')
+else:
+    print('e ela está com OBESIDADE MÓRBIDA!')
+
+pagamentos
+
+print('{:=^40}'.format(' LOJAS GUANABARA '))
+preco = float(input('Preço das compras: R$ '))
+print('''FORMAS DE PAGAMENTO
+[1] À VISTA (DINHEIRO/CHEQUE)
+[2] À VISTA (CARTÃO)
+[3] 2X NO CARTÃO
+[4] 3X OU MAIS NO CARTÃO''')
+opcao = int(input('Qual é a opção? '))
+if opcao == 1:
+    total = preco - (preco * 10 / 100)
+elif opcao == 2:
+    total = preco - (preco * 5 / 100)
+elif opcao == 3:
+    total = preco
+    parcela = total/2
+    print('Sua compra será parcelada em 2x de R${:.2f}'.format(parcela))
+elif opcao == 4:
+    total = preco + (preco * 20 / 100)
+    totparc = int(input('Quantas parcelas? '))
+    parcela = total / totparc
+    print('Sua compra será parcelada em {}x de R${:.2f} COM JUROS'.format(totparc, parcela))
+else:
+    total = 0
+    print('OPÇÃO INÁLIDA DE PAGAMENTO!!!')
+print('Sua compra de R${:.2f} vai custar R${:.2f}'.format(preco, total))
+
+rock paper lizard spock
+
+from random import randint
+from time import sleep
+itens = ('Pedra', 'Papel', 'Tesoura')
+computador = randint(0, 2)
+print('''Suas opções:
+[0] PEDRA
+[1] PAPEL
+[2] TESOURA
+''')
+jogador = int(input('Qual é a sua jogada? '))
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PÔ')
+sleep(1)
+print('-=' * 10)
+print('O computador jogou {}'.format(itens[computador]))
+print('Jogador jogou {}'.format(itens[jogador]))
+print('-=' * 10)
+if computador == 0: #PEDRA
+    if jogador == 0:
+        print('EMPATE')
+    elif jogador == 1:
+        print('JOGADOR VENCE')
+    elif jogador == 2:
+        print('COMPUTADOR VENCE!')
+    else:
+        print('JOGADA INVÁLIDA!')
+elif computador == 1: #PAPEL
+    if jogador == 0:
+        print('CONPUTADOR VENCE!')
+    elif jogador == 1:
+        print('EMPATE!')
+    elif jogador == 2:
+        print('JOGADOR VENCE!')
+    else:
+        print('JOGADA INVÁLIDA!')
+elif computador == 2: #TESOURA
+    if jogador == 0:
+        print('JOGADOR VENCE!')
+    elif jogador == 1:
+        print('COMPUTADOR VENCE!')
+    elif jogador == 2:
+        print('EMPATE!')
+    else:
+        print('JOGADA INVÁLIDA!')
