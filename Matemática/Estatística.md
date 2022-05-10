@@ -61,7 +61,7 @@
 - [x] Boxplot
 - [x] Dados Agrupados e Não-Agrupados
 
-# Curso Unesp
+# Curso Univesp
 
 #### **Probabilidade** --> estudo da aleatoriedade e incerteza; método para quantificação das chances.
 
