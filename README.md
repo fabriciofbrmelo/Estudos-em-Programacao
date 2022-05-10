@@ -19,3 +19,9 @@
 |Manhã|Python|Python|Python|PowerBI|Francês|
 |Tarde|Estatística|Estatística|Estatística|Estatística|Estatística|
 |Noite|-|-|-|-|-|
+
+- [ ] Estatística UNIVESP
+- [ ] Vídeos de Função do Ferretto
+- [ ] Geometria para entender Funções Trigonométricas
+- [ ] Ciência da Computação - EDX
+- [ ] Estatística - EDX
