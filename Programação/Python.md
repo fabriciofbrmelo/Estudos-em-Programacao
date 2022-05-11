@@ -851,53 +851,100 @@ else:
 print('Sua compra de R${:.2f} vai custar R${:.2f}'.format(preco, total))
 ```
 
-### Rock paper lizard spock
+### Rock, Paper, Scissors, Lizard, Spock
 ```
 from random import randint
 from time import sleep
-itens = ('Pedra', 'Papel', 'Tesoura')
-computador = randint(0, 2)
-print('''Suas opções:
-[0] PEDRA
-[1] PAPEL
-[2] TESOURA
+itens = ('Rock', 'Paper', 'Scissors', 'Lizard', 'Spock')
+computador = randint(0, 4)
+print('=' * 50)
+print('Welcome to ROCK, PAPER, SCISSORS, LIZARD, SPOCK')
+print('=' * 50)
+print('''Your options are:
+[0] ROCK
+[1] PAPER
+[2] SCISSORS
+[3] LIZARD
+[4] SPOCK
 ''')
-jogador = int(input('Qual é a sua jogada? '))
-print('JO')
-sleep(1)
-print('KEN')
-sleep(1)
-print('PÔ')
-sleep(1)
+jogador = int(input('What is your move? '))
+print('ROCK')
+sleep(0.5)
+print('PAPER')
+sleep(0.5)
+print('SCISSORS')
+sleep(0.5)
+print('LIZARD')
+sleep(0.5)
+print('SPOCK')
+sleep(0.5)
 print('-=' * 10)
-print('O computador jogou {}'.format(itens[computador]))
-print('Jogador jogou {}'.format(itens[jogador]))
+print('Computer played {}'.format(itens[computador]))
+print('You played {}'.format(itens[jogador]))
 print('-=' * 10)
-if computador == 0: #PEDRA
-    if jogador == 0:
-        print('EMPATE')
-    elif jogador == 1:
-        print('JOGADOR VENCE')
-    elif jogador == 2:
-        print('COMPUTADOR VENCE!')
+if computador == 0: # ROCK
+    if jogador == 0: # ROCK
+        print('TIE!')
+    elif jogador == 1: # PAPER
+        print('Paper covers Rock. Player wins! Congratulations!')
+    elif jogador == 2: # SCISSORS
+        print('Rock crushes Scissors. Computer wins! You lost!')
+    elif jogador == 3: # LIZARD
+        print('Rock crushes Lizard. Computer wins! You lost!')
+    elif jogador == 4: # SPOCK
+        print('Spock vaporizes Rock. Player wins! Congratulations!')
     else:
-        print('JOGADA INVÁLIDA!')
-elif computador == 1: #PAPEL
-    if jogador == 0:
-        print('CONPUTADOR VENCE!')
-    elif jogador == 1:
-        print('EMPATE!')
-    elif jogador == 2:
-        print('JOGADOR VENCE!')
+        print('Try Again!!!')
+if computador == 1: # PAPER
+    if jogador == 0: # ROCK
+        print('Paper covers Rock. Computer wins! You lost!')
+    elif jogador == 1: # PAPER
+        print('TIE!')
+    elif jogador == 2: # SCISSORS
+        print('Scissors cuts Paper. Player wins! Congratulations!')
+    elif jogador == 3: # LIZARD
+        print('Lizard eats paper. Player wins! Congratulations!')
+    elif jogador == 4: # SPOCK
+        print('Paper disproves Spock. Computer wins! You lost!')
     else:
-        print('JOGADA INVÁLIDA!')
-elif computador == 2: #TESOURA
-    if jogador == 0:
-        print('JOGADOR VENCE!')
-    elif jogador == 1:
-        print('COMPUTADOR VENCE!')
-    elif jogador == 2:
-        print('EMPATE!')
+        print('Try Again!!!')
+if computador == 2: # SCISSORS
+    if jogador == 0: # ROCK
+        print('Rock crushes scissors. Player wins! Congratulations!')
+    elif jogador == 1: # PAPER
+        print('Scissors cuts paper. Compute wins! You lost!')
+    elif jogador == 2: # SCISSORS
+        print('TIE!')
+    elif jogador == 3: # LIZARD
+        print('Scissors decapitates Lizard. Computer wins! You lost!')
+    elif jogador == 4: # SPOCK
+        print('Spock smashes scissors. Player wins! Congratulations!')
     else:
-        print('JOGADA INVÁLIDA!')
+        print('Try Again!!!')
+if computador == 3: # LIZARD
+    if jogador == 0: # ROCK
+        print('Rock crushes Lizard. Player wins! Congratulations!')
+    elif jogador == 1: # PAPER
+        print('Lizard eats paper. Computer wins! You lost!')
+    elif jogador == 2: # SCISSORS
+        print('Scissors decapitates Lizard. Player wins! Congratulations!')
+    elif jogador == 3: # LIZARD
+        print('TIE!')
+    elif jogador == 4: # SPOCK
+        print('Lizard poisons Spock. Computer wins! You lost!')
+    else:
+        print('Try Again!!!')
+if computador == 4: # SPOCK
+    if jogador == 0: # ROCK
+        print('Spock vaporizes Rock. Computer wins! You lost!')
+    elif jogador == 1: # PAPER
+        print('Paper disproves Spock. Player wins! Congratulations!')
+    elif jogador == 2: # SCISSORS
+        print('Spock smashes Scissors. Computer wins! You lost!')
+    elif jogador == 3: # LIZARD
+        print('Lizard poisons Spock. Player wins! Congratulations!')
+    elif jogador == 4: # SPOCK
+        print('TIE!')
+    else:
+        print('Try Again!!!')
 ```
