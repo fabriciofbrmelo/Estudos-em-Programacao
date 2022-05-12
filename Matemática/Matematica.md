@@ -217,8 +217,8 @@ I. Funções
   - [x] Propriedades Operatórias do Logaritmo
   - [x] Mudança de Base dos Logaritmos
 - [x] Logaritmos e Equações Exponenciais
-- [ ] Equações Logarítimicas
-- [ ] Inequações Logarítimicas
+- [x] Equações Logarítimicas
+- [x] Inequações Logarítimicas
 
 ## 6. Função Modular
 - [ ] Módulo de um Número Real
