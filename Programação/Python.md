@@ -949,71 +949,82 @@ if computador == 4: # SPOCK
         print('Try Again!!!')
 ```
 
-# conta de 0 a 6
-'''for c in range(0, 6):
+## Laços de Repetição
+
+### Contar de 0 a 6
+```
+for c in range(0, 6):
     print(c)
 print('Fim')
-'''
-# conta de 6 a 1 de trás para frente (último número não conta)
-'''for c in range(6, 0, -1):
+```
+
+### Contar de 6 a 1 de trás para frente (último número não conta)
+```for c in range(6, 0, -1):
     print(c)
 print('Fim')
-'''
-# conta de 0 a 7 pulando de 2 em 2
-'''for c in range(0, 8, 2):
+```
+
+### Contar de 0 a 7 pulando de 2 em 2
+```
+for c in range(0, 8, 2):
     print(c)
 print('Fim')
-'''
-#Escolhendo até onde você digitar
-'''n = int(input('Digite um número: '))
+```
+
+### Escolhendo até onde você digitar
+```
+n = int(input('Digite um número: '))
 for c in range(0, n):
     print(c)
 print('Fim')
-'''
-'''
+```
+```
 i = int(input('Início: '))
 f = int(input('Fim: '))
 p = int(input('Passo: '))
 for c in range(i, f + 1, p):
     print(c)
 print('Fim')
-'''
-
+```
+```
 s = 0
 for c in range(0, 3):
     n = int(input('Digite um valor: '))
     s = s + n # s += n
 print('O somatório de todos os valores foi {}'.format(s))
+```
 
-contagem regressiva
+### Contagem regressiva
+```
 from time import sleep
 for c in range(10, 0, -1):
     print(c)
     sleep(1)
 print('Feliz Ano Novo!')
+```
 
-pares entre 1 e 50
-
-'''
+### Números Pares entre 1 e 50
+```
 for c in range(0, 50, 2):
     print('{} '.format(c), end='')
 print('Fim')
-'''
-'''
+```
+```
 for n in range(1, 51):
     print('.', end='')
     if n % 2 == 0:
         print(n, end='')
 print('Acabou!')
-'''
+```
+```
 for n in range(2, 51, 2):
     print('.', end='')
     print(n, end=' ')
 print('Acabou!')
+```
 
-soma ímpares multiplos de tres de 1 a 500
-#Soma ímpares múltiplos de três de 1 a 500
-
+### Soma de ímpares múltiplos de três de 1 a 500
+```
 soma = 0
 cont = 0
 for c in range(1, 501, 2):
@@ -1021,16 +1032,19 @@ for c in range(1, 501, 2):
         cont = cont + 1 # cont += 1
         soma = soma + c # soma += c
 print('A soma de todos os {} valores múltiplos de três entre 1 e 500 é {}'.format(cont, soma))
+```
 
-tabuada 2.0
+### Tabuada 2.0
+```
 from time import sleep
 num = int(input('Digite um número para ver sua tabuada: '))
 for c in range(1, 11):
     print('{} x {:2} = {}'.format(num, c, num*c))
     sleep(1)
+```
 
-seis numeros inteiros e soma dos pares
-#seis números inteiros e mostre a soma dos pares
+### Seis números inteiros e mostre a soma dos pares
+```
 soma = 0
 cont = 0
 for c in range(1, 7):
@@ -1039,9 +1053,10 @@ for c in range(1, 7):
         soma += num
         cont += 1
 print('Você informou {} números PARES e a soma foi {}'.format(cont, soma))
+```
 
-progressão aritmética
-
+### Progressão Aritmética
+```
 print('=' * 20)
 print('10 TERMOS DE UMA PA')
 print('=' * 20)
@@ -1051,9 +1066,10 @@ decimo = primeiro + (10 - 1) * razao
 for c in range(primeiro, decimo + razao, razao):
     print('{} '.format(c), end=' -> ')
 print('ACABOU!')
+```
 
-numeros primos
-
+### Números Primos
+```
 num = int(input('Digite um número: '))
 tot = 0
 for c in range(1, num + 1):
@@ -1068,10 +1084,11 @@ if tot == 2:
     print('E por isso ele é PRIMO!')
 else:
     print('E por isso ele NÃO é PRINO')
+```
 
-palindromo
-
-'''frase = str(input('Digite uma frase: ')).strip().upper()
+### Palindromo
+```
+frase = str(input('Digite uma frase: ')).strip().upper()
 palavras = frase.split()
 junto = ''.join(palavras)
 inverso = ''
@@ -1082,7 +1099,8 @@ if inverso == junto:
     print('Temos um palíndromo')
 else:
     print('A frase digitada não é um palíndromo')
-'''
+```
+```
 frase = str(input('Digite uma frase: ')).strip().upper()
 palavras = frase.split()
 junto = ''.join(palavras)
@@ -1092,3 +1110,4 @@ if inverso == junto:
     print('Temos um palíndromo')
 else:
     print('A frase digitada não é um palíndromo')
+```
