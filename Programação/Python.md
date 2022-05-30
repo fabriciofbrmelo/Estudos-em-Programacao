@@ -121,6 +121,12 @@ preco = float(input('Qual o preço do produto? R$ '))
 novo = preco - (preco * 5 / 100)
 print('O produto que custava R$ {:.2f}, na promoção com desconto de 5% vai custar R$ {:.2f}'.format(preco, novo))
 ```
+```
+preco = float(input('Qual o preço do produto? R$ '))
+novo = preco * 0.95
+print('O produto que custava R$ {:.2f}, na promoção com desconto de 5% vai custar R$ {:.2f}'.format(preco, novo))
+```
+> Se você quer aumentar 10% em um valor, multiplica o valor por 1.1, sendo 1.0 os 100% e 0.1 os 10% a mais, já se quiser diminuir é só multiplicar pelo valor diminuído, tipo multiplica por 0.9 para diminuir 10%, multipllica por 0.8 para diminuir 20%
 
 ### Salário
 ```
