@@ -553,7 +553,24 @@ difference = abs(next_year - today)
 print('only {} days untill next year'.format(difference.days))
 ```
 > Para saber quantos dias faltam para o próximo ano
-
+```
+NikolaTesla = date(1856, 7, 10)
+print('Nikola Tesla was born on:', NikolaTesla)
+```
+> Você escolhe a data e sai no formato data
+```
+NikolaTesla = date(1856, 7, 10)
+NikolaTesla = date.fromisoformat('1856-07-10')
+print('Nikola Tesla was born on:', NikolaTesla)
+print(NikolaTesla.weekday())
+```
+> Saiu 3 porque Segunda é 0, Terça é 1, Quarta é 2, Quinta é 3, etc...
+```
+from datetime import date, datetime
+now = datetime.now()
+print(now)
+```
+> Imprime data e hora com segundos
 ### Ano Bissexto
 ```
 from datetime import date
@@ -565,12 +582,7 @@ if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
 else:
     print('O ano {} NÃO É BISSEXTO'.format(ano))
 ```
-```
-NikolaTesla = date(1856, 7, 10)
-print('Nikola Tesla was born on:', NikolaTesla)
-```
-> Você escolhe a data e sai no formato data
-> 
+
 ### Maior e Menor
 ```
 c = int(input('Digite o terceiro valor: '))
