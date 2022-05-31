@@ -526,6 +526,16 @@ preco = distancia * 0.50 if distancia <= 200 else distancia * 0.45
 print('E o preço da sua passagem será de R${:.2f}'.format(preco))
 ```
 
+### Biblioteca DateTime
+```
+from datetime import date
+today = date.today()
+print(today)
+print('day:', today.day)
+print('month:', today.month)
+print('year:', today.year)
+```
+
 ### Ano Bissexto
 ```
 from datetime import date
