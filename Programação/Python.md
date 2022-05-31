@@ -526,7 +526,7 @@ preco = distancia * 0.50 if distancia <= 200 else distancia * 0.45
 print('E o preço da sua passagem será de R${:.2f}'.format(preco))
 ```
 
-### Biblioteca DateTime
+### Biblioteca DateTime - Date
 ```
 from datetime import date
 today = date.today()
@@ -535,43 +535,73 @@ print('day:', today.day)
 print('month:', today.month)
 print('year:', today.year)
 ```
+> 2022-05-31
+> 
+> day: 31
+> 
+> month: 5
+> 
+> year: 2022
 ```
+from datetime import date
 print(today.strftime('%A %d %B %Y'))
 ```
 > strftime para imprimir o dia da semana, o mês de maio em vez do número 5
+> 
+> Tuesday 31 May 2022
 ```
+from datetime import date
 print(today.strftime('%A, %dth of %B %Y'))
 ```
-> Vai sair Tuesday, 31th of May 2022
+> Tuesday, 31th of May 2022
 ```
+from datetime import date
 next_year = today.replace(year = today.year + 1)
 print(next_year)
 ```
 > Para saber o próximo ano
+> 
+> 2023-05-31
 ```
+from datetime import date
 difference = abs(next_year - today)
 print('only {} days untill next year'.format(difference.days))
 ```
 > Para saber quantos dias faltam para o próximo ano
+> 
+> only 365 days untill next year
 ```
+from datetime import date
 NikolaTesla = date(1856, 7, 10)
 print('Nikola Tesla was born on:', NikolaTesla)
 ```
 > Você escolhe a data e sai no formato data
+> 
+> Nikola Tesla was born on: 1856-07-10
 ```
+from datetime import date
 NikolaTesla = date(1856, 7, 10)
 NikolaTesla = date.fromisoformat('1856-07-10')
 print('Nikola Tesla was born on:', NikolaTesla)
 print(NikolaTesla.weekday())
 ```
 > Saiu 3 porque Segunda é 0, Terça é 1, Quarta é 2, Quinta é 3, etc...
+> 
+> Nikola Tesla was born on: 1856-07-10
+> 
+> 3
+
+### Biblioteca DateTime - DateTime (Horas)
 ```
 from datetime import date, datetime
 now = datetime.now()
 print(now)
 ```
 > Imprime data e hora com segundos
+> 
+> 2022-05-31 19:35:19.846711
 ```
+from datetime import date, datetime
 now = datetime.now()
 print(now)
 print("it's the {}th minute of the {}nd hour, of the {}th day of the {}nd month".format(now.minute, now.hour, now.day, now.month))
@@ -579,22 +609,29 @@ print("it's the {}th minute of the {}nd hour, of the {}th day of the {}nd month"
 > 2022-05-31 18:55:22.431856
 > 
 > it's the 55th minute of the 18nd hour, of the 31th day of the 5nd month
-```
-Nuclear disaster in Chernobyl
 
+### Biblioteca DateTime - DateTime (Horas com Time Zone)
+#### Nuclear disaster in Chernobyl
+```
+from datetime import date, datetime
 chernobyl = datetime.fromisoformat('1986-04-26 01:23:40:000+04:00')
-# (ano-mês-dia hora:minuto:segundo:milissegundos timezone)
 print('the nuclear disaster in Chernobyl occured on: ', chernobyl)
 ```
+> (ano-mês-dia hora:minuto:segundo:milissegundos timezone)
+> 
 > the nuclear disaster in Chernobyl occured on:  1986-04-26 01:23:40+04:00
 ```
+from datetime import date, datetime
 print(chernobyl.strftime('The Chernobyl accident occured on %A %B %dth, %Y at %X MSD(%Z)'))
 ```
 > The Chernobyl accident occured on Saturday April 26th, 1986 at 01:23:40 MSD(UTC+04:00)
 ```
+from datetime import date, datetime
 print('MSD is actually:', chernobyl.tzinfo)
 ```
 > MSD is actually: UTC+04:00
+
+### Biblioteca DateTime - Time
 ```
 from datetime import date, datetime, time
 my_time = time(15, 33, 8)
@@ -616,6 +653,14 @@ print(my_time)
 print(my_time.strftime('%I:%M %p'))
 ```
 > 03:33 PM
+```
+from datetime import date, datetime, time
+my_date = date(2022, 5, 22)
+my_birthday = datetime.combine(my_date, my_time)
+print(my_birthday)
+```
+> 2022-05-22 15:33:08-07:00
+
 ### Ano Bissexto
 ```
 from datetime import date
