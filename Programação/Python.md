@@ -571,6 +571,31 @@ now = datetime.now()
 print(now)
 ```
 > Imprime data e hora com segundos
+```
+now = datetime.now()
+print(now)
+print("it's the {}th minute of the {}nd hour, of the {}th day of the {}nd month".format(now.minute, now.hour, now.day, now.month))
+```
+> 2022-05-31 18:55:22.431856
+> 
+> it's the 55th minute of the 18nd hour, of the 31th day of the 5nd month
+```
+Nuclear disaster in Chernobyl
+
+chernobyl = datetime.fromisoformat('1986-04-26 01:23:40:000+04:00')
+# (ano-mês-dia hora:minuto:segundo:milissegundos timezone)
+print('the nuclear disaster in Chernobyl occured on: ', chernobyl)
+```
+> the nuclear disaster in Chernobyl occured on:  1986-04-26 01:23:40+04:00
+```
+print(chernobyl.strftime('The Chernobyl accident occured on %A %B %dth, %Y at %X MSD(%Z)'))
+```
+> The Chernobyl accident occured on Saturday April 26th, 1986 at 01:23:40 MSD(UTC+04:00)
+```
+print('MSD is actually:', chernobyl.tzinfo)
+```
+> MSD is actually: UTC+04:00
+
 ### Ano Bissexto
 ```
 from datetime import date
