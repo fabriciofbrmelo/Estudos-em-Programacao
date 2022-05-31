@@ -595,7 +595,27 @@ print(chernobyl.strftime('The Chernobyl accident occured on %A %B %dth, %Y at %X
 print('MSD is actually:', chernobyl.tzinfo)
 ```
 > MSD is actually: UTC+04:00
-
+```
+from datetime import date, datetime, time
+my_time = time(15, 33, 8)
+print(my_time)
+```
+> 15:33:08
+```
+from datetime import date, datetime, time
+my_time = time(15, 33, 8)
+my_time = time.fromisoformat('15:33:08-07:00')
+print(my_time)
+```
+> 15:33:08-07:00
+```
+from datetime import date, datetime, time
+my_time = time(15, 33, 8)
+my_time = time.fromisoformat('15:33:08-07:00')
+print(my_time)
+print(my_time.strftime('%I:%M %p'))
+```
+> 03:33 PM
 ### Ano Bissexto
 ```
 from datetime import date
