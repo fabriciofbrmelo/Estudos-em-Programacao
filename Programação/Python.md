@@ -543,8 +543,16 @@ print(today.strftime('%A %d %B %Y'))
 print(today.strftime('%A, %dth of %B %Y'))
 ```
 > Vai sair Tuesday, 31th of May 2022
-
-
+```
+next_year = today.replace(year = today.year + 1)
+print(next_year)
+```
+> Para saber o próximo ano
+```
+difference = abs(next_year - today)
+print('only {} days untill next year'.format(difference.days))
+```
+> Para saber quantos dias faltam para o próximo ano
 ### Ano Bissexto
 ```
 from datetime import date
