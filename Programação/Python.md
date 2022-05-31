@@ -529,7 +529,7 @@ print('E o preço da sua passagem será de R${:.2f}'.format(preco))
 ### Ano Bissexto
 ```
 from datetime import date
-ano = int(input('Que ano quer analisar? Coloque o para o ano atual: '))
+ano = int(input('Que ano quer analisar? Coloque 0 para o ano atual: '))
 if ano == 0:
     ano = date.today().year
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
