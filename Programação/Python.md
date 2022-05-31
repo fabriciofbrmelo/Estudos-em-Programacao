@@ -535,6 +535,15 @@ print('day:', today.day)
 print('month:', today.month)
 print('year:', today.year)
 ```
+```
+print(today.strftime('%A %d %B %Y'))
+```
+> strftime para imprimir o dia da semana, o mês de maio em vez do número 5
+```
+print(today.strftime('%A, %dth of %B %Y'))
+```
+> Vai sair Tuesday, 31th of May 2022
+
 
 ### Ano Bissexto
 ```
