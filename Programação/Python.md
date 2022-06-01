@@ -1108,6 +1108,19 @@ for c in range(0, 6):
     print(c)
 print('Fim')
 ```
+> 0
+> 
+> 1
+> 
+> 2
+> 
+> 3
+> 
+> 4
+> 
+> 5
+> 
+> Fim
 
 ### Contar de 6 a 1 de trás para frente (último número não conta)
 ```
@@ -1115,6 +1128,19 @@ for c in range(6, 0, -1):
     print(c)
 print('Fim')
 ```
+> 6
+> 
+> 5
+> 
+> 4
+> 
+> 3
+> 
+> 2
+> 
+> 1
+> 
+> Fim
 
 ### Contar de 0 a 7 pulando de 2 em 2
 ```
@@ -1122,6 +1148,15 @@ for c in range(0, 8, 2):
     print(c)
 print('Fim')
 ```
+> 0
+> 
+> 2
+> 
+> 4
+> 
+> 6
+> 
+> Fim
 
 ### Escolhendo até onde você digitar
 ```
@@ -1130,6 +1165,14 @@ for c in range(0, n):
     print(c)
 print('Fim')
 ```
+> Digite um número: 2
+> 
+> 0
+> 
+> 1
+> 
+> Fim
+
 ```
 i = int(input('Início: '))
 f = int(input('Fim: '))
@@ -1138,6 +1181,34 @@ for c in range(i, f + 1, p):
     print(c)
 print('Fim')
 ```
+> Início: 1
+> 
+> Fim: 10
+> 
+> Passo: 1
+> 
+> 1
+> 
+> 2
+> 
+> 3
+> 
+> 4
+> 
+> 5
+> 
+> 6
+> 
+> 7
+> 
+> 8
+> 
+> 9
+> 
+> 10
+> 
+> Fim
+
 ```
 s = 0
 for c in range(0, 3):
@@ -1145,6 +1216,13 @@ for c in range(0, 3):
     s = s + n # s += n
 print('O somatório de todos os valores foi {}'.format(s))
 ```
+> Digite um valor: 2
+> 
+> Digite um valor: 3
+> 
+> Digite um valor: 4
+> 
+> O somatório de todos os valores foi 9
 
 ### Contagem regressiva
 ```
