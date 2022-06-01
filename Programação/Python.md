@@ -1280,6 +1280,7 @@ for c in range(1, 501, 2):
         soma = soma + c # soma += c
 print('A soma de todos os {} valores múltiplos de três entre 1 e 500 é {}'.format(cont, soma))
 ```
+> A soma de todos os 83 valores múltiplos de três entre 1 e 500 é 20667
 
 ### Tabuada 2.0
 ```
@@ -1301,6 +1302,19 @@ for c in range(1, 7):
         cont += 1
 print('Você informou {} números PARES e a soma foi {}'.format(cont, soma))
 ```
+> Digite o 1º valor: 2
+> 
+> Digite o 2º valor: 3
+> 
+> Digite o 3º valor: 6
+> 
+> Digite o 4º valor: 9
+> 
+> Digite o 5º valor: 6
+> 
+> Digite o 6º valor: 5
+> 
+> Você informou 3 números PARES e a soma foi 14
 
 ### Progressão Aritmética
 ```
