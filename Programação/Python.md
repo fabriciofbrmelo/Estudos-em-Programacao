@@ -675,28 +675,35 @@ else:
 
 ### Maior e Menor
 ```
+a = int(input('Digite o primeiro valor: '))
+b = int(input('Digite o segundo valor: '))
 c = int(input('Digite o terceiro valor: '))
-if a<b and a<c:
+if a < b and a < c:
     menor = a
-if b<c and b<a:
+if b < c and b < a:
     menor = b
-if c<b and c<a:
+if c < b and c < a:
     menor = c
+if a > b and a > c:
+    maior = a
+if b > c and b > a:
+    maior = b
+if c > b and c > a:
+    maior = c
+print('O menor valor digitador foi', menor)
+print('O maior valor digitado foi', maior)
 ```
 
-#### Verificando quem é menor
+#### Maior e Menor - Simplificado
 ```
+a = int(input('Digite o primeiro valor: '))
+b = int(input('Digite o segundo valor: '))
 c = int(input('Digite o terceiro valor: '))
 menor = a
 if b < a and b < c:
     menor = b
 if c < a and c < b:
     menor = c
-```
-
-#### Verificando quem é o maior
-```
-c = int(input('Digite o terceiro valor: '))
 maior = a
 if b > a and b > c:
     maior = b
