@@ -1243,17 +1243,32 @@ print('Fim')
 
 ```
 for n in range(1, 51):
-    print('.', end='')
     if n % 2 == 0:
-        print(n, end='')
+        print(n, end=' ')
 print('Acabou!')
 ```
+> 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 Acabou!
+
+```
+for n in range(1, 51):
+    print('.', end='')
+    if n % 2 == 0:
+        print(n, end=' ')
+print('Acabou!')
+```
+> ..2 ..4 ..6 ..8 ..10 ..12 ..14 ..16 ..18 ..20 ..22 ..24 ..26 ..28 ..30 ..32 ..34 ..36 ..38 ..40 ..42 ..44 ..46 ..48 ..50 Acabou!
+> 
+> Vai fazer um ponto para cada vez que roda o laço
+
 ```
 for n in range(2, 51, 2):
     print('.', end='')
     print(n, end=' ')
 print('Acabou!')
 ```
+> .2 .4 .6 .8 .10 .12 .14 .16 .18 .20 .22 .24 .26 .28 .30 .32 .34 .36 .38 .40 .42 .44 .46 .48 .50 Acabou!
+> 
+> Repete um ponto só uma vez
 
 ### Soma de ímpares múltiplos de três de 1 a 500
 ```
