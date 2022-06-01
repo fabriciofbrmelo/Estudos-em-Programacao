@@ -861,6 +861,7 @@ elif opcao == 3:
 else:
     print('OPÇÃO INVÁLIDA!!! Tente Novamente!!!')
 ```
+> Coloca-se [2:0] para que se comece do 3º número, pois na hora que imprime binário vai ser 0b1101101010
 
 ### Maior ou Menor
 ```
