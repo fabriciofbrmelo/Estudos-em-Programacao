@@ -1110,7 +1110,8 @@ print('Fim')
 ```
 
 ### Contar de 6 a 1 de trás para frente (último número não conta)
-```for c in range(6, 0, -1):
+```
+for c in range(6, 0, -1):
     print(c)
 print('Fim')
 ```
