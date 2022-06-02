@@ -1389,16 +1389,103 @@ else:
 ```
 frase = str(input('Digite uma frase: ')).strip().upper()
 palavras = frase.split()
+print('Você digitou a frase {}'.format(palavras))
+```
+> Digite uma frase: Fabricio Freitas
+> 
+> Você digitou a frase ['FABRICIO', 'FREITAS']
+
+```
+frase = str(input('Digite uma frase: ')).strip().upper()
+palavras = frase.split()
+junto = ''.join(palavras)
+print('Você digitou a frase {}'.format(junto))
+```
+> Digite uma frase: Fabrício Freitas
+> 
+> Você digitou a frase FABRÍCIOFREITAS
+
+```
+frase = str(input('Digite uma frase: ')).strip().upper()
+palavras = frase.split()
 junto = ''.join(palavras)
 inverso = ''
 for letra in range(len(junto) - 1, -1, -1):
-    inverso += junto[letra]
+    print(junto[letra])
+```
+> Digite uma frase: Fabricio
+> 
+> OICIRBAF
+
+> len(junto) --> conta o número de letras de junto
+> 
+> len(junto) - 1 porque se tem 20 letras é do 0 ao 19
+> 
+> outro - 1 porque a primeira letra é 0
+> 
+> outro - 1 porque está voltando uma letra
+
+```
+frase = str(input('Digite uma frase: ')).strip().upper()
+palavras = frase.split()
+junto = ''.join(palavras)
+inverso = ''
+for letra in range(len(junto) - 1, -1, -1):
+    inverso = inverso + junto[letra]
+print(inverso)
+```
+> Digite uma frase: Fabricio
+> 
+> OICIRBAF
+
+```
+frase = str(input('Digite uma frase: ')).strip().upper()
+palavras = frase.split()
+junto = ''.join(palavras)
+inverso = ''
+for letra in range(len(junto) - 1, -1, -1):
+    inverso = inverso + junto[letra]
+print(junto, inverso)
+```
+> Digite uma frase: Ana
+> 
+> ANA ANA
+> 
+> Ana é palíndromo, pois junto == inverso
+
+```
+frase = str(input('Digite uma frase: ')).strip().upper()
+palavras = frase.split()
+junto = ''.join(palavras)
+inverso = ''
+for letra in range(len(junto) - 1, -1, -1):
+    inverso = inverso + junto[letra]
+if inverso == junto:
+    print('Temos um PALÍNDROMO!')
+else:
+    print('A frase digitada NÃO É UM PALÍNDROMO!')
+```
+> Digite uma frase: Ana
+> 
+> Temos um PALÍNDROMO!
+
+```
+frase = str(input('Digite uma frase: ')).strip().upper()
+palavras = frase.split()
+junto = ''.join(palavras)
+inverso = ''
+for letra in range(len(junto) - 1, -1, -1):
+    inverso = inverso + junto[letra]
 print('O inverso de {} é {}'.format(junto, inverso))
 if inverso == junto:
-    print('Temos um palíndromo')
+    print('Temos um PALÍNDROMO!')
 else:
-    print('A frase digitada não é um palíndromo')
+    print('A frase digitada NÃO É UM PALÍNDROMO!')
 ```
+> O inverso de ATORREDADERROTA é ATORREDADERROTA
+> 
+> Temos um PALÍNDROMO!
+
 ```
 frase = str(input('Digite uma frase: ')).strip().upper()
 palavras = frase.split()
@@ -1410,3 +1497,4 @@ if inverso == junto:
 else:
     print('A frase digitada não é um palíndromo')
 ```
+> inverso = junto[::-1] substitutiu o for
