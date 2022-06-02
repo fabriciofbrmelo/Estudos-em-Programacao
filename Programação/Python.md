@@ -1332,6 +1332,44 @@ print('ACABOU!')
 ### Números Primos
 ```
 num = int(input('Digite um número: '))
+for c in range(1, num + 1):
+    print('{} '.format(c), end='')
+```
+> Digite um número: 5
+> 
+> 1 2 3 4 5
+
+```
+num = int(input('Digite um número: '))
+for c in range(1, num + 1):
+    if num % c == 0:
+        print('\033[33m', end='')
+    else:
+        print('\033[31m', end='')
+    print('{} '.format(c), end='')
+```
+> Digite um número: 5
+> 
+> 1 2 3 4 5 (1 e 5 saem pintados)
+
+```
+num = int(input('Digite um número: '))
+tot = 0
+for c in range(1, num + 1):
+    if num % c == 0:
+        print('\033[33m', end='')
+        tot += 1
+    else:
+        print('\033[31m', end='')
+    print('{} '.format(c), end='')
+print('O número {} foi divisível {} vezes'.format(num, tot))
+```
+> Digite um número: 5
+> 
+> 1 2 3 4 5 O número 5 foi divisível 2 vezes
+
+```
+num = int(input('Digite um número: '))
 tot = 0
 for c in range(1, num + 1):
     if num % c == 0:
