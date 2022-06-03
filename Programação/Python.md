@@ -1584,6 +1584,7 @@ print('Ao todo tivemos {} pessoas maiores de idade \n e também tivemos {} pesso
 > 
 > E também tivemos 4 pessoas menores de idade
 
+### Maior e Menor Sequência
 ```
 maior = 0
 menor = 0
