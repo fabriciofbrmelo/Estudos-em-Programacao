@@ -1498,3 +1498,89 @@ else:
     print('A frase digitada não é um palíndromo')
 ```
 > inverso = junto[::-1] substitutiu o for
+
+### Maioridade
+```
+from datetime import date
+atual = date.today().year
+nasc = int(input('Em que ano a pessoa nasceu? '))
+idade = atual - nasc
+print('Essa pessoa tem {} anos'.format(idade))
+```
+> Em que ano a pessoa nasceu? 1993
+> 
+> Essa pessoa tem 29 anos
+
+```
+from datetime import date
+atual = date.today().year
+nasc = int(input('Em que ano a pessoa nasceu? '))
+idade = atual - nasc
+if idade >= 21:
+    print('Essa pessoa é maior de idade!')
+else:
+    print('Essa pessoa é menor idade!')
+```
+> Em que ano a pessoa nasceu? 2005
+> 
+> Essa pessoa é menor idade!
+
+```
+from datetime import date
+atual = date.today().year
+for pess in range(1, 8):
+    nasc = int(input('Em que ano a pessoa nasceu? '))
+    idade = atual - nasc
+    if idade >= 21:
+        print('Essa pessoa é maior de idade!')
+    else:
+        print('Essa pessoa é menor idade!')
+```
+> Em que ano a pessoa nasceu? 2002
+> 
+> Essa pessoa é menor idade!
+> 
+> Em que ano a pessoa nasceu? 2006
+> 
+> Essa pessoa é menor idade!
+> 
+> Em que ano a pessoa nasceu? 2004
+> 
+> Essa pessoa é menor idade!
+
+```
+from datetime import date
+atual = date.today().year
+totmaior = 0
+totmenor = 0
+for pess in range(1, 8):
+    nasc = int(input('Em que ano a {}ª pessoa nasceu? '.format(pess)))
+    idade = atual - nasc
+    if idade >= 21:
+        totmaior += 1
+    else:
+        totmenor += 1
+print('Ao todo tivemos {} pessoas maiores de idade'.format(totmaior))
+print('E também tivemos {} pessoas menores de idade'.format(totmenor))
+```
+```
+print('Ao todo tivemos {} pessoas maiores de idade \n e também tivemos {} pessoas menores de idade'.format(totmaior, totmenor))
+```
+> Em que ano a 1ª pessoa nasceu? 1993
+> 
+> Em que ano a 2ª pessoa nasceu? 1990
+> 
+> Em que ano a 3ª pessoa nasceu? 1999
+> 
+> Em que ano a 4ª pessoa nasceu? 2005
+> 
+> Em que ano a 5ª pessoa nasceu? 2012
+> 
+> Em que ano a 6ª pessoa nasceu? 2009
+> 
+> Em que ano a 7ª pessoa nasceu? 2010
+> 
+> Ao todo tivemos 3 pessoas maiores de idade
+> 
+> E também tivemos 4 pessoas menores de idade
+
