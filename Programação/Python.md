@@ -1584,3 +1584,85 @@ print('Ao todo tivemos {} pessoas maiores de idade \n e também tivemos {} pesso
 > 
 > E também tivemos 4 pessoas menores de idade
 
+```
+maior = 0
+menor = 0
+for p in range(1, 6):
+    peso = float(input('Peso da {}ª pessoa: '.format(p)))
+```
+> Peso da 1ª pessoa: 10
+> 
+> Peso da 2ª pessoa: 15
+> 
+> Peso da 3ª pessoa: 20
+> 
+> Peso da 4ª pessoa: 30
+> 
+> Peso da 5ª pessoa: 40
+
+```
+maior = 0
+menor = 0
+for p in range(1, 6):
+    peso = float(input('Peso da {}ª pessoa: '.format(p)))
+    if p == 1:
+        maior = peso
+        menor = peso
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
+print('O maior peso lido foi de {}Kg'.format(maior))
+print('O menor peso lido foi de {}Kg'.format(menor))
+```
+> Peso da 1ª pessoa: 10
+> 
+> Peso da 2ª pessoa: 15
+> 
+> Peso da 3ª pessoa: 20
+> 
+> Peso da 4ª pessoa: 25
+> 
+> Peso da 5ª pessoa: 30
+> 
+> O maior peso lido foi de 30.0Kg
+> 
+> O menor peso lido foi de 10.0Kg
+
+```
+maior = 0
+menor = 0
+pessoamaior = 0
+pessoamenor = 0
+for p in range(1, 6):
+    peso = float(input('Peso da {}ª pessoa: '.format(p)))
+    if p == 1:
+        maior = peso
+        menor = peso
+        pessoamaior = p
+        pessoamenor = p
+    else:
+        if peso > maior:
+            maior = peso
+            pessoamaior = p
+        if peso < menor:
+            menor = peso
+            pessoamenor = p
+print('A pessoa com maior peso é a {}ª pessoa com {}Kg'.format(pessoamaior, maior))
+print('A pessoa com menor peso é a {}ª pessoa com {}Kg'.format(pessoamenor, menor))
+```
+> Peso da 1ª pessoa: 5
+> 
+> Peso da 2ª pessoa: 10
+> 
+> Peso da 3ª pessoa: 15
+> 
+> Peso da 4ª pessoa: 20
+> 
+> Peso da 5ª pessoa: 25
+> 
+> A pessoa com maior peso é a 5ª pessoa com 25.0Kg
+> 
+> A pessoa com menor peso é a 1ª pessoa com 5.0Kg
+
