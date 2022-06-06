@@ -1,7 +1,7 @@
 # Python
 
 ### Curso em Vídeo com Gustavo Guanabara
-- Comandos que estou aprendendo com os vídeos de Gustavo Guanabara
+- Comandos que estou aprendendo com os vídeos de [Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
 
 ## Módulo 1
 
