@@ -1,5 +1,8 @@
 # SQL
 
+## Curso em Vídeo do Gustavo Guanabara
+- Comandos que estou aprendendo com [Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
+
 ### Para que serve e o que é o SQL?
 1. Banco de Dados Relacional
 2. Registros --> Tabelas --> Arquivos
