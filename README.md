@@ -9,6 +9,7 @@
 
 ### Programação
 
+- Curso de Git e GitHub --> [Curso em Vídeo - Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
 - Curso de Lógica de Programação --> [Curso em Vídeo - Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
 - Curso de Banco de Dados no MySQL --> [Curso em Vídeo - Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
 - Curso de Python --> [Curso em Vídeo - Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
