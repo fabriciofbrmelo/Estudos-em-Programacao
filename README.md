@@ -1,27 +1,24 @@
 # Estudos em Programação
 
-### Índice do que estou estudando para aprender programação
+## Índice do que estou estudando para aprender programação
 
-- [x] Matemática e Fundamentos Estatísticos para Programação (Vídeos do Canal do Ferretto) - 100%
-- [x] SQL (Curso em Vídeo) - 100%
-- [x] Github (Curso em Vídeo) - 100%
-- [ ] Estatística (Vídeos do Canal da UNIVESP) - 30%
-- [ ] Python 3 (Curso em Vídeo) - 30%
-- [ ] Java (Google) - 2%
-- [ ] Linguagem R - 0%
-- [ ] Excel (Hashtag Cursos) - 0%
-- [ ] Tableau e Pandas - 0%
+### Estatística e Matemática para Ciência de Dados
+- Noções Básicas de Aritmética, Álgebra e Funções --> [Ferretto Matemática Básica](https://www.youtube.com/playlist?list=PLTPg64KdGgYgFpOFt2TETLdEuBB4fvxxf)
+- Noções de Cálculo, Derivas e Funções Trigonomêtricas --> [Ferretto Cálculo](https://www.youtube.com/playlist?list=PLTPg64KdGgYhACfQUtMf3CuhWOfLoTf_a)
+- Estatística Básica --> [Estatística - UNIVESP](https://www.youtube.com/playlist?list=PLxI8Can9yAHdJq561NyRN9wZpTqVJn0Z0)
 
-# Agenda de Estudos
+### Programação
 
-|-|Seg|Ter|Qua|Qui|Sex|
-|-|-|-|-|-|-|
-|Manhã|Python|Python|Python|PowerBI|Francês|
-|Tarde|Estatística|Estatística|Estatística|Estatística|Estatística|
-|Noite|-|-|-|-|-|
+- Curso de Lógica de Programação --> [Curso em Vídeo - Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
+- Curso de Banco de Dados no MySQL --> [Curso em Vídeo - Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
+- Curso de Python --> [Curso em Vídeo - Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
 
-- [ ] Estatística UNIVESP
-- [ ] Vídeos de Função do Ferretto
-- [ ] Geometria para entender Funções Trigonométricas
-- [ ] Ciência da Computação - EDX
-- [ ] Estatística - EDX
+## Canais que eu recomendo:
+
+### Português
+- [Curso em Vídeo do Gustavo Guanabara](https://www.youtube.com/c/CursoemV%C3%ADdeo)
+- [Programação Dinâmica](https://www.youtube.com/c/Programa%C3%A7%C3%A3oDin%C3%A2mica)
+- [Ferretto Matemática](https://www.youtube.com/user/professorferretto)
+
+### Inglês
+- [Python Simplified](https://www.youtube.com/c/PythonSimplified)
