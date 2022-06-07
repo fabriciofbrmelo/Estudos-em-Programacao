@@ -1667,3 +1667,61 @@ print('A pessoa com menor peso é a {}ª pessoa com {}Kg'.format(pessoamenor, me
 > 
 > A pessoa com menor peso é a 1ª pessoa com 5.0Kg
 
+### Analisador Completo
+```
+somaidade = 0
+mediaidade = 0
+maioridadehomem = 0
+nomevelho = ''
+for p in range(1, 5):
+    print('---- {}ª PESSOA ----'.format(p))
+    nome = str(input('Nome: ')).strip()
+    idade = int(input('Idade: '))
+    sexo = str(input('Sexo [M/F]: ')).strip()
+    somaidade = somaidade + idade
+    if p == 1 and sexo in 'Mm':
+        maioridadehomem = idade
+        nomevelho = nome
+    if sexo in 'Mm' and idade > maioridadehomem:
+        maioridadehomem = idade
+        nomevelho = nome
+mediaidade = somaidade / 4
+print('A média de idade do grupo é de {} anos'.format(mediaidade))
+print('O homem mais velho tem {} anos e se chama {}'.format(maioridadehomem, nomevelho))
+```
+> ---- 1ª PESSOA ----
+> 
+> Nome: João
+> 
+> Idade: 22
+> 
+> Sexo [M/F]: m
+> 
+> ---- 2ª PESSOA ----
+> 
+> Nome: maria
+> 
+> Idade: 99
+> 
+> Sexo [M/F]: f
+> 
+> ---- 3ª PESSOA ----
+> 
+> Nome: pedro
+> 
+> Idade: 12
+> 
+> Sexo [M/F]: m
+> 
+> ---- 4ª PESSOA ----
+> 
+> Nome: claudia
+> 
+> Idade: 85
+> 
+> Sexo [M/F]: f
+> 
+> A média de idade do grupo é de 54.5 anos
+> 
+> O homem mais velho tem 22 anos e se chama João
+
