@@ -1100,7 +1100,7 @@ if computador == 4: # SPOCK
         print('Try Again!!!')
 ```
 
-## Laços de Repetição
+## Laços de Repetição (for)
 
 ### Contar de 0 a 6
 ```
@@ -1787,3 +1787,147 @@ print('Ao todo são {} mulheres com menos de 20 anos'.format(totmulher20))
 > O homem mais velho tem 75 anos e se chama pedro
 > 
 > Ao todo são 1 mulheres com menos de 20 anos
+
+## Laços de Repetição (while)
+```
+for c in range(1, 10):
+    print(c)
+print('Fim')
+```
+> 1
+> 
+> 2
+> 
+> 3
+> 
+> 4
+> 
+> 5
+> 
+> 6
+> 
+> 7
+> 
+> 8
+> 
+> 9
+> 
+> Fim
+
+```
+c = 1
+while c < 10:
+    print(c)
+    c = c + 1
+print('Fim')
+```
+> 1
+> 
+> 2
+> 
+> 3
+> 
+> 4
+> 
+> 5
+> 
+> 6
+> 
+> 7
+> 
+> 8
+> 
+> 9
+> 
+> Fim
+
+```
+n = 1
+while n != 0:
+    n = int(input('Digite um valor: '))
+print('Fim')
+```
+> Você irá digitar números indefinidamente até ser 0
+> 
+> Digite um valor: 1
+> 
+> Digite um valor: 2
+> 
+> Digite um valor: 2
+> 
+> Digite um valor: 5
+> 
+> Digite um valor: 0
+> 
+> Fim
+
+```
+r = 'S'
+while r == 'S':
+    n = int(input('Digite um valor: '))
+    r = str(input('Quer continuar? [S/N] ')).upper()
+print('Fim')
+```
+> Digite um valor: 2
+> 
+> Quer continuar? [S/N] s
+> 
+> Digite um valor: 3
+> 
+> Quer continuar? [S/N] s
+> 
+> Digite um valor: 5
+> 
+> Quer continuar? [S/N] n
+> 
+> Fim
+
+```
+par = impar = 0
+n = 1
+while n != 0:
+    n = int(input('Digite um valor: '))
+    if n % 2 == 0:
+        par += 1
+    else:
+        impar += 1
+print('Você digitou {} pares e {} ímpares!'.format(par, impar))
+```
+> Conta os pares, inclusive o '0'
+> 
+> Digite um valor: 2
+> 
+> Digite um valor: 3
+> 
+> Digite um valor: 6
+> 
+> Digite um valor: 5
+> 
+> Digite um valor: 0
+> 
+> Você digitou 3 pares e 2 ímpares!
+
+```
+par = impar = 0
+n = 1
+while n != 0:
+    n = int(input('Digite um valor: '))
+    if n != 0:
+        if n % 2 == 0:
+            par += 1
+        else:
+            impar += 1
+print('Você digitou {} pares e {} ímpares!'.format(par, impar))
+```
+> Aqui conta os pares, sem o '0'
+> 
+> Digite um valor: 2
+> 
+> Digite um valor: 3
+> 
+> Digite um valor: 6
+> 
+> Digite um valor: 0
+> 
+> Você digitou 2 pares e 1 ímpares!
+> 
