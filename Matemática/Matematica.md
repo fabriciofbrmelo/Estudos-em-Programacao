@@ -9,6 +9,27 @@
 |Cálculo|
 |Estatística|
 
+|Conteúdo|Onde Estudar?|
+|-|-|
+|Matemática Básica|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYgFpOFt2TETLdEuBB4fvxxf)|
+|Conjuntos|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYhAmCsPaU0-D27LCuv1Nge0)|
+|Conjuntos 2|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYgTXWPsURDnPBd7GUwPVBLx)|
+|Conceitos Básicos de Funções|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYiYqKmotPzPJVchCwKpTLzm)|
+|Função Polinomial do 1º Grau|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYjMtxN9pJGBaenIRwNX1EtI)|
+|Função Polinomial do 2º Grau|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYjXe1Gcc6ji-juawdTSouUU)|
+|Função Modular|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYg0ySZNYbCo9Xrjg-FB7Djb)|
+|Função Exponencial|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYhllRJbaGMQGRa-3-3RNGzb)|
+|Função Logarítmica e Logaritmos|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYiyW4u-g8y-dSkT1iz2cUKA)|
+|Inequação do 1º grau|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYjq9MkANvpReo5I4r3RNSkt)|
+|Inequação do 2º grau|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYiUA7XOMzIqJTcCPQzdfwKD)|
+|Geometria Plana|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYhy8stGM4z2_Hzb3zTfA77Z)|
+|Progressão Aritmética(PA)|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYgS8sru4K9F2t2wpLuAR-Me)|
+|Progressão Geométrica(PG)|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYht7VXcqA5VWLCgeOAJjCqj)|
+|Cálculo|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYhACfQUtMf3CuhWOfLoTf_a)|
+|Exercícios de Regras de Derivação|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYgVCp8VfusV_Sc53--58baf)|
+|Exercícios de Derivadas de Funções Trigonométricas|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYiUUdXtvzTNuJuJ9tz20p0J)|
+|Exercícios de Derivadas da Função Exponencial e Logarítmica|[Ferretto](https://www.youtube.com/playlist?list=PLTPg64KdGgYjDa84y40d69tidoPkw6vgK)|
+
 |Aritmética|Álgebra|
 |-|-|
 |A aritmética é o ramo elementar da matemática que lida especificamente com o estudo de números e propriedades de operações tradicionais como adição, subtração, multiplicação e divisão|A álgebra é um ramo da matemática elementar que se preocupa com a relação de variáveis e constantes.|
