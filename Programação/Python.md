@@ -1952,3 +1952,83 @@ print('Sexo {} registrado com sucesso'.format(sexo))
 > 
 > Sexo M registrado com sucesso
 
+## Jogo da Advinhação 2.0
+```
+from random import randint
+computador = randint(0, 10)
+print('Sou seu computador... Acabei de pensar em um número entre 0 e 10.')
+print('Será que você consegue advinhar qual foi? ')
+acertou = False
+while not acertou:
+    jogador = int(input('Qual é seu palpite? '))
+    if jogador == computador:
+        acertou = True
+print('Acertou!')
+```
+> Qual é seu palpite? 0
+> 
+> Qual é seu palpite? 1
+> 
+> Qual é seu palpite? 8
+> 
+> Acertou!
+
+```
+from random import randint
+computador = randint(0, 10)
+print('Sou seu computador... Acabei de pensar em um número entre 0 e 10.')
+print('Será que você consegue advinhar qual foi? ')
+acertou = False
+palpites = 0
+while not acertou:
+    jogador = int(input('Qual é seu palpite? '))
+    palpites += 1
+    if jogador == computador:
+        acertou = True
+print('Acertou com {} tentativas. Parabéns!'.format(palpites))
+```
+> Qual é seu palpite? 0
+> 
+> Qual é seu palpite? 1
+> 
+> Qual é seu palpite? 2
+> 
+> Acertou com 3 tentativas. Parabéns!
+
+```
+from random import randint
+computador = randint(0, 10)
+print('Sou seu computador... Acabei de pensar em um número entre 0 e 10.')
+print('Será que você consegue advinhar qual foi? ')
+acertou = False
+palpites = 0
+while not acertou:
+    jogador = int(input('Qual é seu palpite? '))
+    palpites += 1
+    if jogador == computador:
+        acertou = True
+    else:
+        if jogador < computador:
+            print('Mais... Tente mais uma vez.')
+        elif jogador > computador:
+            print('Menos... Tente mais uma vez.')
+print('Acertou com {} tentativas. Parabéns!'.format(palpites))
+```
+
+> Será que você consegue advinhar qual foi?
+> 
+> Qual é seu palpite? 4
+> 
+> Menos... Tente mais uma vez.
+> 
+> Qual é seu palpite? 3
+> 
+> Menos... Tente mais uma vez.
+> 
+> Qual é seu palpite? 0
+> 
+> Mais... Tente mais uma vez.
+> 
+> Qual é seu palpite? 1
+> 
+> Acertou com 4 tentativas. Parabéns!
