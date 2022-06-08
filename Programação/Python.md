@@ -1930,4 +1930,25 @@ print('Você digitou {} pares e {} ímpares!'.format(par, impar))
 > Digite um valor: 0
 > 
 > Você digitou 2 pares e 1 ímpares!
+
+## Validação de dados
+```
+sexo = str(input('Informe seu sexo: [M/F] ')).strip().upper()[0]
+print(sexo)
+```
+> Informe seu sexo: [M/F] masculino
 > 
+> M
+
+```
+sexo = str(input('Informe seu sexo: [M/F] ')).strip().upper()[0]
+while sexo not in 'MmFf':
+    sexo = str(input('Dados inválidos. Por favor, informe seu sexo: [M/F] ')).strip().upper()[0]
+print('Sexo {} registrado com sucesso'.format(sexo))
+```
+> Informe seu sexo: [M/F] k
+> 
+> Dados inválidos. Por favor, informe seu sexo: [M/F] m
+> 
+> Sexo M registrado com sucesso
+
