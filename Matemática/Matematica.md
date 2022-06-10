@@ -364,6 +364,28 @@ I. Funções
 - x / y = a /b
 
 ## 7. Quadriláteros - Paralelogramo
+- [x] Propriedades
+- [x] Área de um paralelogramo - A= b.h
+
+## 8. Quadriláteros - Retângulo
+- [x] Propriedades
+- [x] Diagonal - d² = a² + b²
+
+## 9. Quadriláteros - Losango
+- [x] Propriedades
+- [x] A= D.d / 2
+
+## 10. Quadriláteros - Quadrado
+- [x] Propriedades
+- [x] A = l²
+- [x] d = l.raiz[2]
+
+## Conjunto dos Paralelogramos
+
+|Paralelogramos||
+|-|-|
+|Retângulos|Quadrado|
+|Losando|Quadrado|
 
 # Para assistir e tomar notas
 - [ ] Cálculo
