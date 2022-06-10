@@ -301,7 +301,7 @@ I. Funções
 ## 4. Diagonais
 - [x] d= n.(n - 3) / 2
 - [x] Soma dos ângulos internos --> Si= 180º.(n - 2)
-- [ ] Soma dos ângulos externos --> Se= 360º
+- [x] Soma dos ângulos externos --> Se= 360º
 
 ## 5. Triângulos
 - [x] Soma dos ângulos internos = 180°
@@ -320,14 +320,55 @@ I. Funções
 - TRIÂNGULO OBTUSÂNGULO: um ângulo OBTUSO (90° < a < 180°)
 
 ## Pontos Notáveis do Triângulo
+1. Baricentro
+2. Incentro
+3. Circuncentro
+4. Ortocentro
 
+## Áreas de Triângulos
+1. Área em Função dos LADOS e da ALTURA: A = b.h / 2
+2. Área em Função dos LADOS e do SENO: A = a.c.sen alfa / 2
+3. Área em Função dos LADOS:
+- Perímetro = P = a + b + c
+- Semiperímetro = p = a + b + c / 2
+- A = Raiz[p.(p -a).(p - b).(p - c)]
+4. Área em Função dos LADOS e da CIRCUNFERÊNCIA INSCRITA
+- Apótema = Raio = r
+- A = p.r
+5. Área em Função dos LADOS e da CIRCUNFERÊNCIA CIRCUNSCRITA
+- A = a.b.c / 4R
+
+## Semelhança de Triângulos
+- [x] Razão de Semelhança: a/x = b/y = c/z = K
+- [x] Teorema Fundamental = se uma reta é paralela a um dos lados de um triângulo e intercepte outros dois pontos distintos, então o triângulo que ela determina é semelhante ao primeiro.
+
+## Relações Métricas - Triângulo Retângulo
+1. Elementos:
+- H - altura relativa à hipotenusa como base
+- m - projeção do cateto c sobre a hipotenusa
+- n - projeção do cateto b sobre a hipotenusa
+2. Semelhanças
+3. Relações Métricas:
+- a.h = b.c
+- h² = m.n
+- c² = a.m
+- b² = a.n
+4. Teorema de Pitágoras: a² = b² + c²
+
+## Triângulo Equilátero
+1. A= b.h /2 --> l²raiz[3] / 4
+2. Circunferência INSCRITA --> r= 1/3h
+3. Circunferência CIRCUNSCRITA --> R= 2r
+
+## 6. Teorema de TALES
+- x / y = a /b
+
+## 7. Quadriláteros - Paralelogramo
 
 # Para assistir e tomar notas
-- [ ] Geometria Plana
 - [ ] Cálculo
 - [ ] Progressão Geométrica e Aritmética
 - [ ] Inequações do 1º e 2º Graus
-- [ ] Conjuntos Numéricos (reassistir)
 - [ ] Função Polinomial do 1º Grau - Função Afim
 - [ ] Função Polinomial do 2º Grau - Função Quadrática
 - [ ] Função Polinomial do 3º Grau - Função Cúbica
