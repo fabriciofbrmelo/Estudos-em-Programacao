@@ -268,7 +268,7 @@ I. Funções
 
 ## Geometria Plana
 
-## 1. Âmgulos
+### 1. Âmgulos
 - [x] Bissetriz
 - [x] Ângulo Reto (90º)
 - [x] Ângulo Agudo (a < 90º)
@@ -277,10 +277,10 @@ I. Funções
 - [x] Ângulos Complementares (a + b = 90º)
 - [x] Ângulos Suplementares (a + b = 180º)
 
-## 2. Paralelismo entre Retas no Plano
+### 2. Paralelismo entre Retas no Plano
 - [x] Alternos e Internos
 
-## 3. Polígonos
+### 3. Polígonos
 - [x] Côncavo (4 pontos)
 - [x] Convexo (2 pontos)
 
@@ -298,17 +298,17 @@ I. Funções
 |Dodecágono|12|
 |Icoságono|20|
 
-## 4. Diagonais
+### 4. Diagonais
 - [x] d= n.(n - 3) / 2
 - [x] Soma dos ângulos internos --> Si= 180º.(n - 2)
 - [x] Soma dos ângulos externos --> Se= 360º
 
-## 5. Triângulos
+### 5. Triângulos
 - [x] Soma dos ângulos internos = 180°
 - [x] Soma dos ângulos externos = 360°
 - [x] Teorema do Ângulo Externo = Em toda triângulo, a medida de um ângulo externo é igual a soma das medidas dos dois ângulos internos não adjacentes a ele.
 
-## Classificação dos Triângulos
+### Classificação dos Triângulos
 1. Quanto aos LADOS:
 - EQUILÁTERO: todos os lados iguais, ângulos iguais ou congruentes (60º) - Todo Equilátero também é Isósceles
 - ISÓSCELES: 2 lados iguais ou congruentes
@@ -319,13 +319,13 @@ I. Funções
 - TRIÂNGULO ACUTÂNGULO: três ângulos AGUDOS (a < 90º) -- a² < b² + c²
 - TRIÂNGULO OBTUSÂNGULO: um ângulo OBTUSO (90° < a < 180°)
 
-## Pontos Notáveis do Triângulo
+### Pontos Notáveis do Triângulo
 1. Baricentro
 2. Incentro
 3. Circuncentro
 4. Ortocentro
 
-## Áreas de Triângulos
+### Áreas de Triângulos
 1. Área em Função dos LADOS e da ALTURA: A = b.h / 2
 2. Área em Função dos LADOS e do SENO: A = a.c.sen alfa / 2
 3. Área em Função dos LADOS:
@@ -338,11 +338,11 @@ I. Funções
 5. Área em Função dos LADOS e da CIRCUNFERÊNCIA CIRCUNSCRITA
 - A = a.b.c / 4R
 
-## Semelhança de Triângulos
+### Semelhança de Triângulos
 - [x] Razão de Semelhança: a/x = b/y = c/z = K
 - [x] Teorema Fundamental = se uma reta é paralela a um dos lados de um triângulo e intercepte outros dois pontos distintos, então o triângulo que ela determina é semelhante ao primeiro.
 
-## Relações Métricas - Triângulo Retângulo
+### Relações Métricas - Triângulo Retângulo
 1. Elementos:
 - H - altura relativa à hipotenusa como base
 - m - projeção do cateto c sobre a hipotenusa
@@ -355,37 +355,74 @@ I. Funções
 - b² = a.n
 4. Teorema de Pitágoras: a² = b² + c²
 
-## Triângulo Equilátero
+### Triângulo Equilátero
 1. A= b.h /2 --> l²raiz[3] / 4
 2. Circunferência INSCRITA --> r= 1/3h
 3. Circunferência CIRCUNSCRITA --> R= 2r
 
-## 6. Teorema de TALES
+### 6. Teorema de TALES
 - x / y = a /b
 
-## 7. Quadriláteros - Paralelogramo
+### 7. Quadriláteros - Paralelogramo
 - [x] Propriedades
 - [x] Área de um paralelogramo - A= b.h
 
-## 8. Quadriláteros - Retângulo
+### 8. Quadriláteros - Retângulo
 - [x] Propriedades
 - [x] Diagonal - d² = a² + b²
 
-## 9. Quadriláteros - Losango
+### 9. Quadriláteros - Losango
 - [x] Propriedades
 - [x] A= D.d / 2
 
-## 10. Quadriláteros - Quadrado
+### 10. Quadriláteros - Quadrado
 - [x] Propriedades
 - [x] A = l²
 - [x] d = l.raiz[2]
 
-## Conjunto dos Paralelogramos
+### Conjunto dos Paralelogramos
 
 |Paralelogramos||
 |-|-|
 |Retângulos|Quadrado|
 |Losando|Quadrado|
+
+### Circunferência Inscrita e Circunscrita no Quadrado
+1. Circunferência Inscrita - r = l/2
+2. Circunferência Circunscrita - R = d/2 --> R = l.raiz[2] / 2
+
+### 11. Quadrilátero - Trapézio
+- [x] Propriedades: Base Maior e base menor, Base Média
+- [x] Trapézio Isósceles
+- [x] Trapézio Retângulo
+- [x] A= (B+b).h / 2
+
+### 12. Hexágono Regular
+- [x] Propriedades: hexágono são 6 triângulos equiláteros, logo sua área é 6x a Área de um Triângulo Equilátero
+- [x] A= 6.l².raiz[3] / 4
+- [x] Raio = lado
+
+## Circunferência
+
+|Circunferência|Círculo|
+|-|-|
+|Anel|Moeda|
+
+1. Tangente
+2. Setor Circular
+3. Flecha
+4. Corda
+5. Arco
+6. Diâmetro = 2R
+7. Segmento Circular
+8. Secante
+
+### 1. Ponto e Circunferência
+- [x] Ponto Externo a Circunferência
+- [x] Ponto sobre a Circunferência
+- [x] Ponto Interno a Circunferência
+
+### 2. Reta e Circunferência
 
 # Para assistir e tomar notas
 - [ ] Cálculo
