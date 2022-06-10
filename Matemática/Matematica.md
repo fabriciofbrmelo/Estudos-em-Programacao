@@ -484,7 +484,18 @@ alfa -- Asetor
 
 # Trigonometria
 
-## Trigonometria no Triângulo Retângulo
+## Trigonometria no Triângulo Retângulo - Razões Trigonométricas
+- [x] Seno = cateto oposto / hipotenusa
+- [x] Cosseno = cateto adjacente / hipotenusa
+- [x] Tangente = cateto oposto / cateto adjacente
+
+## Tabela das Razões Trigonométricas - Arcos Notáveis
+
+||30°|45°|60°|
+|-|-|-|-|
+|Seno|1/2|√2/2|√3/2|
+|Cosseno|√3/2|√2/2|1/2|
+|Tangente|√3/3|1|√3|
 
 # Para assistir e tomar notas
 - [ ] Cálculo
