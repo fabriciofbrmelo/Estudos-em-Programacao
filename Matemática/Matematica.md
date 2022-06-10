@@ -418,11 +418,38 @@ I. Funções
 8. Secante
 
 ### 1. Ponto e Circunferência
-- [x] Ponto Externo a Circunferência
+- [x] Ponto Externo à Circunferência
 - [x] Ponto sobre a Circunferência
-- [x] Ponto Interno a Circunferência
+- [x] Ponto Interno à Circunferência
 
 ### 2. Reta e Circunferência
+- [x] Reta Externa à Circunferência
+- [x] Reta Tangente à Circunferência
+- [x] Reta Secante à Circunferência
+
+### 3. Posições Relativas entre duas Circunferências
+1. Tangente Interna a outra = r1 - r2 = d
+2. Interna a outra = r1 - r2 > d
+3. Tangente Externa a outra = r1 + r2 = d
+4. Secante = r1 - r2 < d < r1 + r2
+5. Externas = d > r1 + r2
+
+### 4. Relações Métricas na Circunferência
+1. Tangente
+2. Secante
+3. Segmentos Tangentes
+4. Quadrilátero Convexo
+
+### 5. Potência de Ponto na Circunferência
+- 1º Caso: Ponto Interior - a.b = c.d (NÃO É O TEOREMA DE TALES)
+- 2º Caso: Ponto Exterior - duas secantes - a.(a+b) = c.(c+d)
+- 3º Caso: Ponto Exterior - uma tangente - a² = b.(b+c)
+
+### 6. Ângulos na Circunferência
+- Ângulo Central
+- Ângulo Inscrito
+- Propriedade: triângulo retângulo inscrito em uma circunferência - hipotenusa = diâmetro
+- Propriedade: quadrilátero inscrito em uma circunferência - ângulos opostos = suplementares
 
 # Para assistir e tomar notas
 - [ ] Cálculo
