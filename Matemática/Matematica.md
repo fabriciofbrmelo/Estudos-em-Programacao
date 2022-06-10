@@ -497,6 +497,17 @@ alfa -- Asetor
 |Cosseno|√3/2|√2/2|1/2|
 |Tangente|√3/3|1|√3|
 
+## Ciclo Trigonométrico
+1. Circunferência Trigonométrica: 4 QUADRANTES
+2. Ciclo Trigonométrico em Graus: 360°
+3. Ciclo Trigonométrico em Radianos: 2.pi
+4. O que é um radiano?
+
+## Redução ao primeiro quadrante - SENO
+## Redução ao primeiro quadrante - COSSENO
+## Relação Fundamental da Trigonometria: sen²x + cos²x = 1
+## Equação Trigonométrica com SENO
+
 # Para assistir e tomar notas
 - [ ] Cálculo
 - [ ] Progressão Geométrica e Aritmética
