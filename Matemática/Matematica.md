@@ -451,6 +451,39 @@ I. Funções
 - Propriedade: triângulo retângulo inscrito em uma circunferência - hipotenusa = diâmetro
 - Propriedade: quadrilátero inscrito em uma circunferência - ângulos opostos = suplementares
 
+### 7. Ângulo de Segmento
+- Propriedades
+- Arco Capaz
+- Ângulo Excêntrico Interior
+- Ângulo Excêntrico Exterior
+
+### 8. Comprimento da Circunferência
+- [x] Perímetro
+- [x] Comprimento - C= 2.pi.r
+
+### 9. Comprimento de um Arco da Circunferência
+- [x] Para alfa em graus - l = pi.R.alfa / 180°
+- [x] Para alfa em radianos - l = alfa.R
+
+### 10. Área do Círculo e do Setor Circular
+- [x] Área do Círculo - A = pi.r²
+- [x] Área do Setor Circular - Em função do comprimento do arco - Regra de Três
+2.pi.r -- pi.r²
+l -- Asetor
+- [x] Área do Setor Circular - Em função do ângulo central - Regra de Três
+300° -- pi.r²
+alfa -- Asetor
+
+### 11. Área de Segmento e Coroa Circulares
+- Aseg = Asetor = Atriângulo
+- Acoroa = Acírculomaior - Acírculomenor
+
+### 12. Áreas Semelhantes
+- Razão entre áreas semelhantes: a razão entre as áreas de duas superfícies semelhantes é igual ao quadrado da razão da semelhança
+- A1/A2 = K²
+
+
+
 # Para assistir e tomar notas
 - [ ] Cálculo
 - [ ] Progressão Geométrica e Aritmética
