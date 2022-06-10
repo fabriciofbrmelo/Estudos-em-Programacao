@@ -264,6 +264,64 @@ I. Funções
 - [ ] Método da Adição
 - [ ] Método da Comparação
 
+# Geometria e Trigonometria
+
+## Geometria Plana
+
+## 1. Âmgulos
+- [x] Bissetriz
+- [x] Ângulo Reto (90º)
+- [x] Ângulo Agudo (a < 90º)
+- [x] Ângulo Obtuso (90º < a < 180º)
+- [x] Unidades de Medidas dos ângulos: graus, radianos (rad) e grado (gon)
+- [x] Ângulos Complementares (a + b = 90º)
+- [x] Ângulos Suplementares (a + b = 180º)
+
+## 2. Paralelismo entre Retas no Plano
+- [x] Alternos e Internos
+
+## 3. Polígonos
+- [x] Côncavo (4 pontos)
+- [x] Convexo (2 pontos)
+
+|Nomes dos Polígonos|Lados|
+|-|-|
+|Triângulo/Trilátero|3|
+|Quadrilátero|4|
+|Pentágono|5|
+|Hexágono|6|
+|Heptágono|7|
+|Octágono|8|
+|Eneágono|9|
+|Decágono|10|
+|Undecágono|11|
+|Dodecágono|12|
+|Icoságono|20|
+
+## 4. Diagonais
+- [x] d= n.(n - 3) / 2
+- [x] Soma dos ângulos internos --> Si= 180º.(n - 2)
+- [ ] Soma dos ângulos externos --> Se= 360º
+
+## 5. Triângulos
+- [x] Soma dos ângulos internos = 180°
+- [x] Soma dos ângulos externos = 360°
+- [x] Teorema do Ângulo Externo = Em toda triângulo, a medida de um ângulo externo é igual a soma das medidas dos dois ângulos internos não adjacentes a ele.
+
+## Classificação dos Triângulos
+1. Quanto aos LADOS:
+- EQUILÁTERO: todos os lados iguais, ângulos iguais ou congruentes (60º) - Todo Equilátero também é Isósceles
+- ISÓSCELES: 2 lados iguais ou congruentes
+- ESCALENO: 3 lados diferentes
+
+2. Quanto aos ÂNGULOS
+- TRIÂNGULO RETÂNGULO: um ângulo RETO(90°) -- Pitágoras = a² = b² + c²
+- TRIÂNGULO ACUTÂNGULO: três ângulos AGUDOS (a < 90º) -- a² < b² + c²
+- TRIÂNGULO OBTUSÂNGULO: um ângulo OBTUSO (90° < a < 180°)
+
+## Pontos Notáveis do Triângulo
+
+
 # Para assistir e tomar notas
 - [ ] Geometria Plana
 - [ ] Cálculo
