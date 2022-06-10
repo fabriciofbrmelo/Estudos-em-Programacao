@@ -264,7 +264,7 @@ I. Funções
 - [ ] Método da Adição
 - [ ] Método da Comparação
 
-# Geometria e Trigonometria
+# Geometria
 
 ## Geometria Plana
 
@@ -482,7 +482,9 @@ alfa -- Asetor
 - Razão entre áreas semelhantes: a razão entre as áreas de duas superfícies semelhantes é igual ao quadrado da razão da semelhança
 - A1/A2 = K²
 
+# Trigonometria
 
+## Trigonometria no Triângulo Retângulo
 
 # Para assistir e tomar notas
 - [ ] Cálculo
