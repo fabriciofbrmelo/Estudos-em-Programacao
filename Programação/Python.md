@@ -2149,3 +2149,58 @@ print('{}'.format(f))
 > Digite um número para calcular seu Fatorial: 5
 > 
 > Calculando 5! = 5 x 4 x 3 x 2 x 1 = 120
+
+## Progressão Aritmética 2.0
+```
+print('-=-' * 10)
+primeiro = int(input('Primeiro termo: '))
+razao = int(input('Razão da PA: '))
+termo = primeiro
+cont = 1
+total = 0
+mais = 10
+while mais != 0:
+    total = total + mais
+    while cont <= total:
+        print('{} -> '.format(termo), end='')
+        termo += razao
+        cont += 1
+    print('PAUSA')
+    mais = int(input('Quantos termos você quer mostrar a mais? '))
+print('FIM')
+```
+> Gerador de PA
+> 
+> -=--=--=--=--=--=--=--=--=--=-
+> 
+> Primeiro termo: 2
+> 
+> Razão da PA: 2
+> 
+> 2 -> 4 -> 6 -> 8 -> 10 -> 12 -> 14 -> 16 -> 18 -> 20 -> PAUSA
+> 
+> Quantos termos você quer mostrar a mais? 10
+> 
+> 22 -> 24 -> 26 -> 28 -> 30 -> 32 -> 34 -> 36 -> 38 -> 40 -> PAUSA
+> 
+> Quantos termos você quer mostrar a mais? 0
+> 
+> FIM
+
+## Sequência de Fibonacci
+```
+print('-' * 25)
+print('Sequência de Fibonacci')
+print('-' * 25)
+n = int(input('Quantos termos você quer mostrar? '))
+t1 = 0
+t2 = 1
+print('~' * 25)
+print('{} -> {}'.format(t1, t2), end='')
+cont = 3
+while cont <= n:
+    t3 = t1 + t2
+    print(' -> {}'.format(t3), end='')
+print('FIM')
+```
+> 
