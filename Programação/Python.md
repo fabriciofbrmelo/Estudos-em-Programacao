@@ -2032,3 +2032,64 @@ print('Acertou com {} tentativas. Parabéns!'.format(palpites))
 > Qual é seu palpite? 1
 > 
 > Acertou com 4 tentativas. Parabéns!
+
+## Menu de opções
+```
+from time import sleep
+n1 = int(input('Primeiro valor: '))
+n2 = int(input('Segundo valor: '))
+opcao = 0
+while opcao != 5:
+    print('''
+    [ 1 ] Somar
+    [ 2 ] Multiplicar
+    [ 3 ] Maior
+    [ 4 ] Novos Números
+    [ 5 ] Sair do programa
+    ''')
+    opcao = int(input('>>>>>>> Qual é a sua opção? '))
+    if opcao == 1:
+        soma = n1 + n2
+        print('A soma entre {} e {} é {}'.format(n1, n2, soma))
+    elif opcao == 2:
+        produto = n1 * n2
+        print('O resultado de {} vezes {} é {}'.format(n1, n2, produto))
+    elif opcao == 3:
+        if n1 > n2:
+            maior = n1
+        else:
+            maior = n2
+        print('Entre {} e {}, o maior valor é {}'.format(n1, n2, maior))
+    elif opcao == 4:
+        print('Informe os números novamente: ')
+        n1 = int(input('Primeiro valor: '))
+        n2 = int(input('Segundo valor: '))
+    elif opcao == 5:
+        print('Finalizando...')
+    else:
+        print('Opção inválida. Tente novamente!')
+    print('=-=' * 10)
+    sleep(2)
+print('Fim do programa! Volte sempre!')
+```
+> Primeiro valor: 2
+> 
+> Segundo valor: 3
+>
+>    [ 1 ] Somar
+>    
+>    [ 2 ] Multiplicar
+>    
+>    [ 3 ] Maior
+>    
+>    [ 4 ] Novos Números
+>    
+>    [ 5 ] Sair do programa
+>    
+> >>>>>> Qual é a sua opção? 1
+> 
+> A soma entre 2 e 3 é 5
+> 
+> O resultado de 2 vezes 3 é 6
+> 
+> Entre 2 e 3, o maior valor é 3
