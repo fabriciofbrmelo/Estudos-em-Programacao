@@ -2086,10 +2086,66 @@ print('Fim do programa! Volte sempre!')
 >    
 >    [ 5 ] Sair do programa
 >    
-> >>>>>> Qual é a sua opção? 1
+> Qual é a sua opção? 1
 > 
 > A soma entre 2 e 3 é 5
 > 
 > O resultado de 2 vezes 3 é 6
 > 
 > Entre 2 e 3, o maior valor é 3
+
+## Fatorial 2.0
+```
+from math import factorial
+n = int(input('Digite um número para calcular seu Fatorial: '))
+f = factorial(n)
+print('O fatorial de {} é {}.'.format(n, f))
+```
+> Digite um número para calcular seu Fatorial: 7
+> 
+> O fatorial de 7 é 5040.
+
+```
+from math import factorial
+n = int(input('Digite um número para calcular seu Fatorial: '))
+c = n
+f = factorial(n)
+while c > 0:
+    print('{} x '.format(c), end='')
+    c -= 1
+print('O fatorial de {} é {}.'.format(n, f))
+```
+> Digite um número para calcular seu Fatorial: 5
+> 
+> 5 x 4 x 3 x 2 x 1 x O fatorial de 5 é 120.
+
+```
+from math import factorial
+n = int(input('Digite um número para calcular seu Fatorial: '))
+c = n
+f = factorial(n)
+while c > 0:
+    print('{}'.format(c), end='')
+    print(' x ' if c > 1 else ' = ', end='')
+    c -= 1
+print('O fatorial de {} é {}.'.format(n, f))
+```
+> Digite um número para calcular seu Fatorial: 5
+> 
+> 5 x 4 x 3 x 2 x 1 = O fatorial de 5 é 120.
+
+```
+n = int(input('Digite um número para calcular seu Fatorial: '))
+c = n
+f = 1
+print('Calculando {}! = '.format(n), end='')
+while c > 0:
+    print('{}'.format(c), end='')
+    print(' x ' if c > 1 else ' = ', end='')
+    f = f * c # f *= c
+    c -= 1
+print('{}'.format(f))
+```
+> Digite um número para calcular seu Fatorial: 5
+> 
+> Calculando 5! = 5 x 4 x 3 x 2 x 1 = 120
