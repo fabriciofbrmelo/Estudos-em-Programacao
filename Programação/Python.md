@@ -2188,6 +2188,7 @@ print('FIM')
 > FIM
 
 ## Sequência de Fibonacci
+### Problema quando usa while: se você não define como o cont vai chegar no n, cont = 3 começa com 3 e você digita n = 10, ele nunca vai chegar no n, logo ficará rodando em loop para sempre
 ```
 print('-' * 25)
 print('Sequência de Fibonacci')
@@ -2203,8 +2204,7 @@ while cont <= n:
     print(' --> {}'.format(t3), end='')
 print('FIM')
 ```
-### Problema quando usa while: se você não define como o cont vai chegar no n, cont = 3 começa com 3 e você digita n = 10, ele nunca vai chegar no n, logo ficará rodando em loop para sempre
-
+### Resolveu o problema do loop com cont += 1, porém ainda não soma os números
 ```
 print('-' * 25)
 print('Sequência de Fibonacci')
@@ -2221,7 +2221,136 @@ while cont <= n:
     cont += 1
 print('FIM')
 ```
-### Resolveu o problema do loop com cont += 1, porém ainda não soma os números
 > Quantos termos você quer mostrar? 10
 > 
 > 0 --> 1 --> 1 --> 1 --> 1 --> 1 --> 1 --> 1 --> 1 --> 1FIM
+
+```
+print('-' * 25)
+print('Sequência de Fibonacci')
+print('-' * 25)
+n = int(input('Quantos termos você quer mostrar? '))
+t1 = 0
+t2 = 1
+print('~'* 25)
+print('{} --> {}'.format(t1, t2), end='')
+cont = 3
+while cont <= n:
+    t3 = t1 + t2
+    print(' --> {}'.format(t3), end='')
+    t1 = t2
+    t2 = t3
+    cont += 1
+print(' --> FIM')
+```
+> Quantos termos você quer mostrar? 10
+> 
+> 0 --> 1 --> 1 --> 2 --> 3 --> 5 --> 8 --> 13 --> 21 --> 34 --> FIM
+
+## Validando Valores
+```
+while num != 999:
+    num = int(input('Digite um número [999 para parar]: '))
+print('Acabou! ')
+```
+> ERRO
+
+```
+num = 0
+while num != 999:
+    num = int(input('Digite um número [999 para parar]: '))
+print('Acabou! ')
+```
+> Funciona, mas é uma improvisação
+> 
+> Digite um número [999 para parar]: 3
+> 
+> Digite um número [999 para parar]: 6
+> 
+> Digite um número [999 para parar]: 999
+> 
+> Acabou!
+
+```
+num = 0
+cont = 0
+while num != 999:
+    num = int(input('Digite um número [999 para parar]: '))
+    cont += 1 # cont = cont + 1
+print('Você digitou {} números'.format(cont))
+```
+> Conta os números digitados, inclusive o 999
+> 
+> Digite um número [999 para parar]: 2
+> 
+> Digite um número [999 para parar]: 3
+> 
+> Digite um número [999 para parar]: 5
+> 
+> Digite um número [999 para parar]: 999
+> 
+> Você digitou 4 números
+
+```
+num = 0
+cont = 0
+soma = 0
+# num = cont = soma = 0
+while num != 999:
+    num = int(input('Digite um número [999 para parar]: '))
+    cont += 1 # cont = cont + 1
+    soma += num # soma = soma + num
+print('Você digitou {} números e a soma entre eles foi {}'.format(cont, soma))
+```
+> Soma os números digitados, inclusive o 999
+> 
+> Digite um número [999 para parar]: 2
+> 
+> Digite um número [999 para parar]: 6
+> 
+> Digite um número [999 para parar]: 999
+> 
+> Você digitou 3 números e a soma entre eles foi 1007
+
+```
+num = 0
+cont = 0
+soma = 0
+# num = cont = soma = 0
+while num != 999:
+    num = int(input('Digite um número [999 para parar]: '))
+    cont += 1 # cont = cont + 1
+    soma += num # soma = soma + num
+print('Você digitou {} números e a soma entre eles foi {}'.format(cont - 1, soma - 999))
+```
+> Funciona, mas é um improviso
+> 
+> Digite um número [999 para parar]: 2
+> 
+> Digite um número [999 para parar]: 4
+> 
+> Digite um número [999 para parar]: 999
+> 
+> Você digitou 2 números e a soma entre eles foi 6
+
+```
+num = 0
+cont = 0
+soma = 0
+# num = cont = soma = 0
+num = int(input('Digite um número [999 para parar]: '))
+while num != 999:
+    cont += 1 # cont = cont + 1
+    soma += num # soma = soma + num
+    num = int(input('Digite um número [999 para parar]: '))
+print('Você digitou {} números e a soma entre eles foi {}'.format(cont, soma))
+```
+> Digite um número [999 para parar]: 2
+> 
+> Digite um número [999 para parar]: 3
+> 
+> Digite um número [999 para parar]: 5
+> 
+> Digite um número [999 para parar]: 999
+> 
+> Você digitou 3 números e a soma entre eles foi 10
