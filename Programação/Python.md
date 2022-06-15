@@ -2354,3 +2354,60 @@ print('Você digitou {} números e a soma entre eles foi {}'.format(cont, soma))
 > Digite um número [999 para parar]: 999
 > 
 > Você digitou 3 números e a soma entre eles foi 10
+
+## Maior e Menor, Média e While
+```
+resp = 'S'
+soma = quant = media = 0
+while resp in 'Ss':
+    num = int(input('Digite um número: '))
+    soma += num
+    quant += 1
+    resp = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
+media = soma / quant
+print('Você digitou {} números e a média foi {}'.format(quant, media))
+```
+> Digite um número: 2
+> 
+> Quer continuar? [S/N] s
+> 
+> Digite um número: 4
+> 
+> Quer continuar? [S/N] n
+> 
+> Você digitou 2 números e a média foi 3.0
+
+```
+resp = 'S'
+soma = quant = media = maior = menor = 0
+while resp in 'Ss':
+    num = int(input('Digite um número: '))
+    soma += num
+    quant += 1
+    if quant == 1:
+        maior = menor = num
+    else:
+        if num > maior:
+            maior = num
+        if num < menor:
+            menor = num
+    resp = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
+media = soma / quant
+print('Você digitou {} números e a média foi {}'.format(quant, media))
+print('O maior valor foi {} e o menor valor foi {}'.format(maior, menor))
+```
+> Digite um número: 2
+> 
+> Quer continuar? [S/N] s
+> 
+> Digite um número: 4
+> 
+> Quer continuar? [S/N] s
+> 
+> Digite um número: 6
+> 
+> Quer continuar? [S/N] n
+> 
+> Você digitou 3 números e a média foi 4.0
+> 
+> O maior valor foi 6 e o menor valor foi 2
