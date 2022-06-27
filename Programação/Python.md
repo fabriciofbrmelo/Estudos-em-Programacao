@@ -2411,3 +2411,107 @@ print('O maior valor foi {} e o menor valor foi {}'.format(maior, menor))
 > Você digitou 3 números e a média foi 4.0
 > 
 > O maior valor foi 6 e o menor valor foi 2
+
+## Interrompendo repetições while
+```
+cont = 1
+while cont <= 10:
+    print(cont, '-> ', end='')
+    cont += 1
+print('Acabou')
+```
+> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> Acabou
+
+```
+cont = 1
+while True:
+    print(cont, ' -> ', end='')
+    cont += 1
+print('Acabou')
+```
+> LOOP INFINITO
+
+```
+n = 0
+while n != 999:
+    n = int(input('Digite um número: '))
+```
+> Digite um número: 10
+> 
+> Digite um número: 20
+> 
+> Digite um número: 30
+> 
+> Sem um indicativo de pausa, vai pedir para digitar números em loop
+
+```
+n = cont = 0
+while cont < 3:
+    n = int(input('Digite um número: '))
+    cont += 1
+```
+> Digite um número: 2
+> 
+> Digite um número: 2
+> 
+> Digite um número: 2
+
+```
+n = s = 0
+while n != 999:
+    n = int(input('Digite um número: '))
+    s += n
+print('A soma vale {}'.format(s))
+```
+> Digite um número: 2
+> 
+> Digite um número: 3
+> 
+> Digite um número: 5
+> 
+> Digite um número: 999
+> 
+> A soma vale 1009
+> 
+> o 999 é o flag (o ponto de parada), mas ele é somado também
+> 
+> poderia resolver colocando a gambiarra s -= 999, mas é só um improviso
+
+```
+n = s = 0
+while True:
+    n = int(input('Digite um número: '))
+    if n == 999:
+        break
+    s += n
+print(f'A soma vale {s}') ou print('A soma vale {}'.format(s))
+```
+> Digite um número: 2
+> 
+> Digite um número: 3
+> 
+> Digite um número: 999
+> 
+> A soma vale 5
+
+```
+nome = 'José'
+idade = 33
+print(f'O {nome} tem {idade} anos') #PYTHON última versão
+print('O {} tem {} anos'.format(nome, idade)) #PYTHON ANTIGO
+print('O %s tem %d anos' % (nome, idade)) #PYTHON MAIS ANTIGO
+salario = 987.35
+print(f'O {nome} tem {idade} anos e ganha R${salario:.2f}')
+print(f'O {nome:^20} tem {idade} anos e ganha R${salario:.2f}')
+```
+
+> O José tem 33 anos
+> 
+> O José tem 33 anos
+> 
+> O José tem 33 anos
+> 
+> O José tem 33 anos e ganha R$987.35
+> 
+> O         José         tem 33 anos e ganha R$987.35
+
