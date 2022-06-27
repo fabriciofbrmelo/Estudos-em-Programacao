@@ -1931,7 +1931,7 @@ print('Você digitou {} pares e {} ímpares!'.format(par, impar))
 > 
 > Você digitou 2 pares e 1 ímpares!
 
-## Validação de dados
+### Validação de dados
 ```
 sexo = str(input('Informe seu sexo: [M/F] ')).strip().upper()[0]
 print(sexo)
@@ -1952,7 +1952,7 @@ print('Sexo {} registrado com sucesso'.format(sexo))
 > 
 > Sexo M registrado com sucesso
 
-## Jogo da Advinhação 2.0
+### Jogo da Advinhação 2.0
 ```
 from random import randint
 computador = randint(0, 10)
@@ -2033,7 +2033,7 @@ print('Acertou com {} tentativas. Parabéns!'.format(palpites))
 > 
 > Acertou com 4 tentativas. Parabéns!
 
-## Menu de opções
+### Menu de opções
 ```
 from time import sleep
 n1 = int(input('Primeiro valor: '))
@@ -2094,7 +2094,7 @@ print('Fim do programa! Volte sempre!')
 > 
 > Entre 2 e 3, o maior valor é 3
 
-## Fatorial 2.0
+### Fatorial 2.0
 ```
 from math import factorial
 n = int(input('Digite um número para calcular seu Fatorial: '))
@@ -2150,7 +2150,7 @@ print('{}'.format(f))
 > 
 > Calculando 5! = 5 x 4 x 3 x 2 x 1 = 120
 
-## Progressão Aritmética 2.0
+### Progressão Aritmética 2.0
 ```
 print('-=-' * 10)
 primeiro = int(input('Primeiro termo: '))
@@ -2247,7 +2247,7 @@ print(' --> FIM')
 > 
 > 0 --> 1 --> 1 --> 2 --> 3 --> 5 --> 8 --> 13 --> 21 --> 34 --> FIM
 
-## Validando Valores
+### Validando Valores
 ```
 while num != 999:
     num = int(input('Digite um número [999 para parar]: '))
@@ -2355,7 +2355,7 @@ print('Você digitou {} números e a soma entre eles foi {}'.format(cont, soma))
 > 
 > Você digitou 3 números e a soma entre eles foi 10
 
-## Maior e Menor, Média e While
+### Maior e Menor, Média e While
 ```
 resp = 'S'
 soma = quant = media = 0
@@ -2514,4 +2514,69 @@ print(f'O {nome:^20} tem {idade} anos e ganha R${salario:.2f}')
 > O José tem 33 anos e ganha R$987.35
 > 
 > O         José         tem 33 anos e ganha R$987.35
+
+### Vários númmeros com flag
+```
+num = soma = 0
+while num != 999:
+    num = int(input('Digite um valor (999 para parar): '))
+    soma += num
+print(f'A soma dos valores foi {soma}!')
+```
+> Soma o 999 junto
+> 
+> Digite um valor (999 para parar): 22
+> 
+> Digite um valor (999 para parar): 33
+> 
+> Digite um valor (999 para parar): 999
+> 
+> A soma dos valores foi 1054!
+
+```
+num = soma = 0
+while num != 999:
+    num = int(input('Digite um valor (999 para parar): '))
+    soma += num
+soma -= 999
+print(f'A soma dos valores foi {soma}!')
+```
+> Gambiarra para não somar o 999, mas não é bom
+> 
+> Digite um valor (999 para parar): 2
+> 
+> Digite um valor (999 para parar): 6
+> 
+> Digite um valor (999 para parar): 999
+> 
+> A soma dos valores foi 8!
+
+```
+soma = 0
+while True:
+    num = int(input('Digite um valor (999 para parar): '))
+    soma += num
+print(f'A soma dos valores foi {soma}!')
+```
+> LOOP INFINITO
+
+```
+soma = cont = 0
+while True:
+    num = int(input('Digite um valor (999 para parar): '))
+    if num == 999:
+        break
+    cont += 1
+    soma += num
+print(f'A soma dos {cont} valores foi {soma}!')
+```
+> Digite um valor (999 para parar): 3
+> 
+> Digite um valor (999 para parar): 66
+> 
+> Digite um valor (999 para parar): 999
+> 
+> A soma dos 2 valores foi 69!
+
+> Se colocar cont e soma antes do if, eles seriam contados também
 
