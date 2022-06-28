@@ -2515,7 +2515,7 @@ print(f'O {nome:^20} tem {idade} anos e ganha R${salario:.2f}')
 > 
 > O         José         tem 33 anos e ganha R$987.35
 
-### Vários númmeros com flag
+### Vários números com flag
 ```
 num = soma = 0
 while num != 999:
@@ -2580,3 +2580,248 @@ print(f'A soma dos {cont} valores foi {soma}!')
 
 > Se colocar cont e soma antes do if, eles seriam contados também
 
+### Tabuada 3.0
+```
+while True:
+    n = int(input('Quer ver a tabuada de qual valor? '))
+    print('-' * 30)
+    for c in range(1, 11):
+        print(f'{n} x {c} = {n * c}')
+    print('-' * 30)
+```
+> CONTINUA EM LOOP INDEFINIDAMENTE
+> 
+> Quer ver a tabuada de qual valor? 2
+> 
+> ------------------------------
+> 
+> 2 x 1 = 2
+> 
+> 2 x 2 = 4
+> 
+> 2 x 3 = 6
+> 
+> 2 x 4 = 8
+> 
+> 2 x 5 = 10
+> 
+> 2 x 6 = 12
+> 
+> 2 x 7 = 14
+> 
+> 2 x 8 = 16
+> 
+> 2 x 9 = 18
+> 
+> 2 x 10 = 20
+> 
+> ------------------------------
+> 
+> Quer ver a tabuada de qual valor? 3
+
+```
+while True:
+    n = int(input('Quer ver a tabuada de qual valor? '))
+    if n < 0:
+        break
+    print('-' * 30)
+    for c in range(1, 11):
+        print(f'{n} x {c} = {n * c}')
+    print('-' * 30)
+print('PROGRAMA TABUADA ENCERRADO!')
+```
+> Quer ver a tabuada de qual valor? 2
+> 
+> ------------------------------
+> 
+> 2 x 1 = 2
+> 
+> 2 x 2 = 4
+> 
+> 2 x 3 = 6
+> 
+> 2 x 4 = 8
+> 
+> 2 x 5 = 10
+> 
+> 2 x 6 = 12
+> 
+> 2 x 7 = 14
+> 
+> 2 x 8 = 16
+> 
+> 2 x 9 = 18
+> 
+> 2 x 10 = 20
+> 
+> ------------------------------
+> 
+> Quer ver a tabuada de qual valor? -1
+> 
+> PROGRAMA TABUADA ENCERRADO!
+
+### Par ou Ímpar
+```
+from random import randint
+v = 0
+while True:
+    jogador = int(input('Diga um valor: '))
+    computador = randint(0, 11)
+    total = jogador + computador
+    tipo = ' '
+    while tipo not in 'PI':
+        tipo = str(input('Par ou Ímpar? [P/I] ')).strip().upper()[0]
+    print(f'Você jogou {jogador} e o computador {computador}. Total de {total}. ', end='')
+    print('DEU PAR!' if total % 2 == 0 else 'DEU ÍMPAR!')
+    if tipo == 'P':
+        if total % 2 == 0:
+            print('Você VENCEU!')
+            v += 1
+        else:
+            print('Você PERDEU!')
+            break
+    elif tipo == 'I':
+        if total % 2 == 1:
+            print('Você VENCEU!')
+            v += 1
+        else:
+            print('Você PERDEU!')
+            break
+    print('Vamos jogar novamente...')
+print(f'GAME OVER! Você venceu {v} vezes.')
+```
+> Diga um valor: 2
+> 
+> Par ou Ímpar? [P/I] p
+> 
+> Você jogou 2 e o computador 1. Total de 3. DEU ÍMPAR!
+> 
+> Você PERDEU!
+> 
+> GAME OVER! Você venceu 0 vezes.
+
+> Diga um valor: 2
+> 
+> Par ou Ímpar? [P/I] i
+> 
+> Você jogou 2 e o computador 11. Total de 13. DEU ÍMPAR!
+> 
+> Você VENCEU!
+> 
+> Vamos jogar novamente...
+> 
+> Diga um valor: 5
+> 
+> Par ou Ímpar? [P/I] i
+> 
+> Você jogou 5 e o computador 3. Total de 8. DEU PAR!
+> 
+> Você PERDEU!
+> 
+> GAME OVER! Você venceu 2 vezes.
+
+### Análise de dados do grupo
+```
+tot18 = totH = totM20 = 0
+while True:
+    idade = int(input('Idade: '))
+    sexo = ' '
+    while sexo not in 'MF':
+        sexo = str(input('Sexo: [M/F] ')).strip().upper()[0]
+    if idade >= 18:
+        tot18 += 1
+    if sexo == 'M':
+        totH += 1
+    if sexo == 'F' and idade < 20:
+        totM20 += 1
+    resp = ' '
+    while resp not in 'SN':
+        resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
+    if resp == 'N':
+        break
+print(f'Total de pessoas com mais de 18 anos: {tot18}')
+print(f'Ao todo temos {totH} homens cadastrados. ', end='')
+print(f'E temos {totM20} mulheres com menos de 20 anos.')
+```
+> Idade: 19
+> 
+> Sexo: [M/F] m
+> 
+> Quer continuar? [S/N] s
+> 
+> Idade: 20
+> 
+> Sexo: [M/F] f
+> 
+> Quer continuar? [S/N] n
+> 
+> Total de pessoas com mais de 18 anos: 2
+> 
+> Ao todo temos 1 homens cadastrados. E temos 0 mulheres com menos de 20 anos.
+
+### Estatística em produtos
+```
+total = totmil = menor = cont = 0
+barato = ' '
+while True:
+    produto = str(input('Nome do Produto: '))
+    preco = float(input('Preço: R$ '))
+    cont += 1
+    total += preco
+    if preco > 1000:
+        totmil += 1
+    if cont == 1:
+        menor = preco
+        barato = produto
+    else:
+        if preco < menor:
+            menor = preco
+            barato = produto
+    resp = ' '
+    while resp not in 'SN':
+        resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
+    if resp == 'N':
+        break
+print('{:-^40}'.format('FIM DO PROGRAMA'))
+print(f'O total da compra foi R$ {total:.2f}')
+print(f'Temos {totmil} produtos custanddo mais do que R$ 1.000,00')
+print(f'O produto de menor preço foi {barato} e custa R$ {menor:.2f}')
+```
+```
+if cont == 1:
+        menor = preco
+        barato = produto
+    else:
+        if preco < menor:
+            menor = preco
+            barato = produto
+```
+> PODE SER SUBSTITUÍDO POR: 
+```
+if cont == 1 or preco < menor:
+        menor = preco
+        barato = produto
+```
+> Nome do Produto: Playstation
+> 
+> Preço: R$ 1500
+> 
+> Quer continuar? [S/N] s
+> 
+> Nome do Produto: RelógioPreço: R$ 10400
+> 
+> Quer continuar? [S/N] s
+> 
+> Nome do Produto: Jogo de prato
+> 
+> Preço: R$ 50
+> 
+> Quer continuar? [S/N] n
+> 
+> ------------FIM DO PROGRAMA-------------
+> 
+> O total da compra foi R$ 11950.00
+> 
+> Temos 2 produtos custanddo mais do que R$ 1.000,00
+> 
+> O produto de menor preço foi Jogo de prato e custa R$ 50.00
