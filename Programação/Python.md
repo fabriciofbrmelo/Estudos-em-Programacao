@@ -2825,3 +2825,49 @@ if cont == 1 or preco < menor:
 > Temos 2 produtos custanddo mais do que R$ 1.000,00
 > 
 > O produto de menor preço foi Jogo de prato e custa R$ 50.00
+
+### Simulador de Caixa Eletrônico
+```
+print('=' * 30)
+print('{:^30}'.format('Banco Cev'))
+print('=' * 30)
+valor = int(input('Que valor você quer sacar? R$ '))
+total = valor
+ced = 50
+totced = 0
+while True:
+    if total >= ced:
+        total -= ced
+        totced += 1
+    else:
+        if totced > 0:
+            print(f'Total de {totced} cédulas de R$ {ced}')
+        if ced == 50:
+            ced = 20
+        elif ced == 20:
+            ced = 10
+        elif ced == 10:
+            ced = 1
+        totced = 0
+        if total == 0:
+            break
+print('=' * 30)
+print('Volte sempre ao Banco Cev')
+```
+> ==============================
+> 
+>          Banco Cev           
+>          
+> ==============================
+> 
+> Que valor você quer sacar? R$ 575
+> 
+> Total de 11 cédulas de R$ 50
+> 
+> Total de 1 cédulas de R$ 20
+> 
+> Total de 5 cédulas de R$ 1
+> 
+> ==============================
+> 
+> Volte sempre ao Banco Cev
