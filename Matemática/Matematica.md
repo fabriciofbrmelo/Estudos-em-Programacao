@@ -79,24 +79,28 @@ N | Z | Q | I | R | C
 ||Divisão de Frações||
 ||Frações Mistas||
 
-VIII. Números Decimais
-- [x] Fração Decimal
-- [x] Numeral Decimal
-- [x] Numeral Decimal --> Fração Decimal
-- [x] Fração Decimal --> Numeral Decimal
-- [x] Operações com Decimais
-  - [x] Adição
-  - [x] Subtração
-  - [x] Multiplicação
-  - [x] Divisão
+## Números Decimais
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Númros Decimais|Fração Decimal||
+||Numeral Decimal||
+||Numeral Decimal --> Fração Decimal||
+||Fração Decimal --> Numeral Decimal||
+||Operações com Decimais|Adição|
+|||Subtração|
+|||Multiplicação|
+|||Divisão|
 
-## Dízimas Periódicas, Potenciação e Radiciação
-  
-IX. Dízimas Periódicas
-- [x] Dízimas Simples e Compostas
-- [x] Fração Geratriz
+## Dízimas Periódicas
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Dízimas Periódicas|Dízimas Simples||
+||Dízimas Compostas||
+|Fração Geratriz|||
 
-X. Potenciação
+## Potenciação
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
 - [x] Potência de 10 e Notação Científica
 - [x] Operações com Potências de 10
 - [x] Sistema de Numeração Decimal (Base 10)
