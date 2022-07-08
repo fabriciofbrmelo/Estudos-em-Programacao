@@ -21,20 +21,35 @@
 - [x] Função Inversa
 
 ## Função Polinomial do 1º Grau - Função Afim
-|
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Função Afim|Constante|a = 0|
+||Identidade|a > 0|
+||Linear|a < 0|
 
-## 2. Função Polinomial do 2º Grau - Função Quadrática
-- [ ] Assistir Vídeo do Ferreto
+## Função Polinomial do 2º Grau - Função Quadrática
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Função Quadrática|Vértice|a > 0|
+|||a < 0|
 
-## 3. Função Polinomial do 3º Grau - Função Cúbica
-- [ ] Assistir Vídeo do Ferreto
+## Função Polinomial do 3º Grau - Função Cúbica
+|Conteúdo|Tópico|
+|-|-|
+|Função Cúbica|a > 0|
+||a < 0|
+||1 a 3 raízes reais|
 
-## 4. Função Exponencial
-- [x] Equações Exponenciais
-- [x] Artifícios para Equações Exponenciais
-- [x] Inequações Exponenciais
-- [x] Função Exponencial
-- [x] Gráfico da Função Exponencial
+## Função Exponencial
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Função Exponencial|Equações Exponenciais||
+||Artifícios para Equações Exponenciais||
+||Inequações Exponenciais||
+||Função Exponencial||
+||Lei de formação a partir do gráfico||
+||Gráfico da Função Exponencial|Crescente|
+|||Decrescente|
 
 ## 5. Função Logarítmica
 - [x] Logaritmos
