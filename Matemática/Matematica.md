@@ -36,15 +36,15 @@
 |Além das operações tradicionais de adição, subtração, multiplicação e divisão, a aritmética também inclui computação avançada de porcentagem, logaritmo, exponenciação e raízes quadradas|As expressões algébricas consistem em variáveis, constantes e sinais fundamentais de adição, subtração, multiplicação e divisão. Cada expressão conectada por esses sinais é referida como termos da expressão.|
 
 ## Operações Simples
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Operações Simples|Adição||
-||Subtração||
-||Multiplicação||
+|Conteúdo|Tópico|
+|-|-|
+|Operações Simples|Adição|
+||Subtração|
+||Multiplicação|
 ||Divisão||
-|Expressões Numéricas|Prioridades: (Parênteses)[Colchetes]{Chaves}||
-||Potências ou Raízes, Multiplicação ou Divisão, Adição ou Subtração||
-|Critérios de Divisibilidade|2 até 11||
+|Expressões Numéricas|Prioridades: (Parênteses)[Colchetes]{Chaves}|
+||Potências ou Raízes, Multiplicação ou Divisão, Adição ou Subtração|
+|Critérios de Divisibilidade|2 até 11|
 
 ## Conjuntos
 
@@ -52,16 +52,16 @@ Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 :---: | :---: | :---: | :---: | :---: | :---:
 N | Z | Q | I | R | C
 
-## Decimais, Fatoração e Frações
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Números Primos|||
-|Fatoração de Números Inteiros|Decomposição em Fatores Primos|||
-||Quantidade de Divisores de um Número Inteiro (Natural)||
-||Divisores de um Número Inteiro (Natural)||
-|Mínimo Múltiplo Comum|||
-|Máximo Divisor Comum|Algoritmo de Euclides|||
-||Decomposição Simultânea em Fatores Primos||
+## Números Primos, Fatoração e MMC/MDC
+|Conteúdo|Tópico|
+|-|-|
+|Números Primos||
+|Fatoração de Números Inteiros|Decomposição em Fatores Primos||
+||Quantidade de Divisores de um Número Inteiro (Natural)|
+||Divisores de um Número Inteiro (Natural)|
+|Mínimo Múltiplo Comum||
+|Máximo Divisor Comum|Algoritmo de Euclides|
+||Decomposição Simultânea em Fatores Primos|
 
 ## Frações
 |Conteúdo|Tópico|Subtópico|
@@ -92,11 +92,11 @@ N | Z | Q | I | R | C
 |||Divisão|
 
 ## Dízimas Periódicas
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Dízimas Periódicas|Dízimas Simples||
-||Dízimas Compostas||
-|Fração Geratriz|||
+|Conteúdo|Tópico|
+|-|-|
+|Dízimas Periódicas|Dízimas Simples|
+||Dízimas Compostas|
+|Fração Geratriz||
 
 ## Potenciação
 |Conteúdo|Tópico|Subtópico|
