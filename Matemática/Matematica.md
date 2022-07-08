@@ -36,51 +36,48 @@
 |Além das operações tradicionais de adição, subtração, multiplicação e divisão, a aritmética também inclui computação avançada de porcentagem, logaritmo, exponenciação e raízes quadradas|As expressões algébricas consistem em variáveis, constantes e sinais fundamentais de adição, subtração, multiplicação e divisão. Cada expressão conectada por esses sinais é referida como termos da expressão.|
 
 ## Operações Simples
-  
-I. Operações Simples
-- [x] Adição
-- [x] Subtração
-- [x] Multiplicação
-- [x] Divisão
-  
-II. Expressões Numéricas
-- [x] Prioridades: ()[]{}
-- [x] Prioridades: Potências ou Raízes, Multiplicação ou Divisão, Adição ou Subtração
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Operações Simples|Adição||
+||Subtração||
+||Multiplicação||
+||Divisão||
+|Expressões Numéricas|Prioridades: (Parênteses)[Colchetes]{Chaves}||
+||Potências ou Raízes, Multiplicação ou Divisão, Adição ou Subtração||
+|Critérios de Divisibilidade|2 até 11||
 
-III. Critérios de Divisibilidade
-- [x] 2 até 11
-
-IV. Conjuntos
+## Conjuntos
 
 Naturais | Inteiros | Racionais | Irracionais | Reais | Complexos
 :---: | :---: | :---: | :---: | :---: | :---:
 N | Z | Q | I | R | C
 
 ## Decimais, Fatoração e Frações
-  
-V. Números Primos
-VI. Fatoração de Números Inteiros
-- [x] Decomposição em Fatores Primos
-- [x] Quantidade de Divisores de um Número Inteiro (Natural)
-- [x] Divisores de um Número Inteiro (Natural)
-- [x] Mínimo Múltiplo Comum
-- [x] Máximo Divisor Comum
-  - [x] Algoritmo de Euclides
-  - [x] Decomposição Simultânea em Fatores Primos
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Números Primos|||
+|Fatoração de Números Inteiros|Decomposição em Fatores Primos|||
+||Quantidade de Divisores de um Número Inteiro (Natural)||
+||Divisores de um Número Inteiro (Natural)||
+|Mínimo Múltiplo Comum|||
+|Máximo Divisor Comum|Algoritmo de Euclides|||
+||Decomposição Simultânea em Fatores Primos||
 
-VII. Frações
-- [x] Fração Própria (Numerador < Denominador)
-- [x] Fração Imprópria (Numerador > Denominador)
-- [x] Fração Aparente
-- [x] Frações Equivalentes
-- [x] Simplificação de Frações
-- [x] Redução de Frações a um mesmo Denominador
-- [x] Comparação de Frações (Denominadores Iguais e Diferentes)
-- [x] Operações com Frações
-  - [x] Adição e Subtração de Frações
-  - [x] Multiplicação de Frações
-  - [x] Divisão de Frações
-- [x] Frações Mistas
+## Frações
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Frações|Notação|||
+||Fração Própria|Numerador < Denominador|
+||Fração Imprópria|Numerador > Denominador|
+||Fração Aparente||
+||Frações Equivalentes||
+||Simplificação de Frações||
+||Redução de Frações a um mesmo Denominador||
+||Comparação de Frações|Denominadores Iguais e Diferentes|
+||Operações com Frações|Adição e Subtração de Frações|
+||Multiplicação de Frações||
+||Divisão de Frações||
+||Frações Mistas||
 
 VIII. Números Decimais
 - [x] Fração Decimal
