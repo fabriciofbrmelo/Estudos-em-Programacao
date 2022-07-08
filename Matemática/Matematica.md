@@ -115,92 +115,100 @@ N | Z | Q | I | R | C
 ||Ordens e Classes|
 ||Sistema Métrico Decimal (Base 10)|
 
-XI. Radiciação
-- [x] Racionalização de Denominadores: transformar uma raiz irracional em um número racional
+## Radiciação
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Radiciação|Racionalização de Denominadores: transformar uma raiz irracional em um número racional|1º a 3º caso|
 
 ## Expressões Algébricas
-  
-XII. Produtos Notáveis (Expresssões Algébricas)
-- [x] Quadrado da Soma entre dois termos
-- [x] Quadrado da Diferença entre dois termos
-- [x] Produto da Soma pela Diferença
-- [x] Triângulo de Pascal
-- [x] Cubo da Soma ou Diferença entre dois termos
-
-XIII. Fatoração de Expressões Algébricas
-- [x] Fator Comum
-- [x] Agrupamento
-- [x] Diferença dos Quadrados
-- [x] Trinômio Quadrado Perfeito
-- [x] Trinômio do Tipo Soma e Produto: X² + Sx + P
-- [x] Soma ou Diferença entre Cubos
-
-XIV. Frações Algébricas
-- [x] MMC de Expressões Algébricas
-- [x] Adição e Subtração de Frações Algébricas
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Expresssões Algébricas|Produtos Notáveis||
+||Quadrado da Soma entre dois termos||
+||Quadrado da Diferença entre dois termos||
+||Produto da Soma pela Diferença||
+||Triângulo de Pascal||
+||Cubo da Soma ou Diferença entre dois termos||
+||Fatoração de Expressões Algébricas|Fator Comum|
+|||Agrupamento|
+|||Diferença de Quadrados|
+|||Trinômio Quadrado Perfeito|
+|||Trinômio do Tipo x² + Sx + P|
+|||Soma e Diferença entre Cubos|
+||Frações Algébricas|Simplificação de Frações Algébricas|
+|||M.M.C. de Frações Algébricas|
+|||Adição e Subtração de Frações Algébricas|
+|||Multiplicação e Divisão de Frações Algébricas|
 
 ## Razão e Proporção
-  
-XV. Razão e Proporção
-- [x] Razão: relação entre números
-- [x] Proporção: igualdade de frações
-- [x] Divisão diretamente proporcional
-- [x] Divisão inversamente proporcional
+|Conteúdo|Tópico|
+|-|-|
+|Razão e Proporção|Razão: relação entre números|
+||Proporção: igualdade de frações|
+||Divisão diretamente proporcional|
+||Divisão inversamente proporcional|
 
-## Porcentagem e Juros
-  
-XV. Regra de Três
-- [x] Simples
-- [x] Composta
+## Regra de Três
+|Conteúdo|Tópico|
+|-|-|
+|Regra de Três|Simples|
+||Composta|
 
-XVI. Porcentagem
-- [x] Razão Centesimal (percentual)
-- [x] Transformação de uma Razão em Porcentagem
-- [x] Cálculo da Porcentagem de um Número
-- [x] Cálculo de um Número dada a Porcentagem
-- [x] Lucro ou Prejuízo
+## Porcentagem
+|Conteúdo|Tópico|
+|-|-|
+|Porcentagem|Razão Centesimal (percentual)|
+||Transformação de uma Razão em Porcentagem|
+||Cálculo da Porcentagem de um Número|
+||Cálculo de um Número dada a Porcentagem|
+||Lucro ou Prejuízo|
 
-XVII. Juros
-- [x] Simples
-- [x] Compostos
+## Juros
+|Conteúdo|Tópico|
+|-|-|
+|Juros|Simples|
+||Compostos|
 
 ## Média 
+|Conteúdo|Tópico|
+|-|-|
+|Média Aritmética|Média Aritmética Simples|
+||Média Aritmética Ponderada|
+||Média Geométrica|
+||Média Harmônica|
 
-XVIII. Média
-- [x] Média Aritmética Simples
-- [x] Média Aritmética Ponderada
-- [x] Média Geométrica
-- [x] Média Harmônica
-
-## Progressão
+### Progressão
   
-XIX. Progressão
-- [x] Aritmética
-- [x] Geométrica
+Progressão
+- [ ] Aritmética
+- [ ] Geométrica
 
 # Equações
   
-## I. Equação de 1º Grau
+## Equação de 1º Grau
 
-## II. Equação de 2º Grau
-- Se "b" ou "c" or 0 = Equação Incompleta
-- Bháskara
-- Soma e Produto para encontrar as raízes
-- Natureza das Raízes
-  - 🔺 > 0 (2 raízes reais e diferentes)
-  - 🔺 = 0 (2 raízes reais e iguais)
-  - 🔺 < 0 (Não apresenta raízes reais - 2 raízes imaginárias)
+## Equação de 2º Grau
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Equação de 2º Grau|Se "b" ou "c" or 0 = Equação Incompleta|
+||Bháskara|
+||Soma e Produto para encontrar as raízes|
+||Natureza das Raízes|🔺 > 0 (2 raízes reais e diferentes)|
+|||🔺 = 0 (2 raízes reais e iguais)|
+|||🔺 < 0 (Não apresenta raízes reais - 2 raízes imaginárias)|
 
-## III. Equações Irracionais (incógnita na raiz)
-- [x] 1 Radical
-- [x] 2 Radicais
-- [x] 3 Radicais
+## Equações Irracionais (incógnita na raiz)
+|Conteúdo|Tópico|
+|-|-|
+|Equações Irracionais|1 Radical|
+||2 Radicais|
+||3 Radicais|
 
-## IV. Equações Biquadradas
+## Equações Biquadradas
 
-## V. Inequação do 1º Grau
+### Inequação do 1º Grau
 
-## VI. Inequação do 2º Grau
+### Inequação do 2º Grau
 
 # Funções
   
