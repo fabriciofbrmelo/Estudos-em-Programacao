@@ -98,13 +98,22 @@ N | Z | Q | I | R | C
 ||Dízimas Compostas|
 |Fração Geratriz||
 
-## Potenciação
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-- [x] Potência de 10 e Notação Científica
-- [x] Operações com Potências de 10
-- [x] Sistema de Numeração Decimal (Base 10)
-- [x] Sistema Métrico Decimal (Base 10)
+## Potenciação, Base 10 e Sistema Métrico Decimal
+|Conteúdo|Tópico|
+|-|-|
+|Potenciação|Definição e Propriedades|
+||Multiplicação de Bases Iguais|
+||Potência de potência|
+||Expoente Negativo|
+||Divisão de Bases Iguais|
+||Multiplicação de Bases Diferentes e Expoentes Iguais|
+||Divisão de Bases Diferentes e Expoentes Iguais|
+||Expoente Negativo de Fração|
+|Potência de 10 e Notação Científica|Operações com Potências de 10|
+|Sistema de Numeração Decimal (Base 10)|Decimal|
+||Sistema Posicional|
+||Ordens e Classes|
+||Sistema Métrico Decimal (Base 10)|
 
 XI. Radiciação
 - [x] Racionalização de Denominadores: transformar uma raiz irracional em um número racional
