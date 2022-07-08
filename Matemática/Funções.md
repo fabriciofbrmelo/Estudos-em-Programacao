@@ -40,7 +40,7 @@
 ||a < 0|
 ||1 a 3 raízes reais|
 
-## Função Exponencial
+## Função Exponencial (Inverso da Logarítmica)
 |Conteúdo|Tópico|Subtópico|
 |-|-|-|
 |Função Exponencial|Equações Exponenciais||
@@ -51,24 +51,32 @@
 ||Gráfico da Função Exponencial|Crescente|
 |||Decrescente|
 
-## 5. Função Logarítmica
-- [x] Logaritmos
-  - [x] Nomenclatura
-  - [x] Logaritmos Decimais
-  - [x] Condições de Existência do Logaritmo
-  - [x] Consequência da definição do Logaritmo
-  - [x] Propriedades Operatórias do Logaritmo
-  - [x] Mudança de Base dos Logaritmos
-- [x] Logaritmos e Equações Exponenciais
-- [x] Equações Logarítimicas
-- [x] Inequações Logarítimicas
+## Função Logarítmica (Inverso da Exponencial)
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Função Logarítmica|Logaritmos||
+||Nomenclatura||
+||Logaritmos Decimais||
+||Condições de Existência do Logaritmo||
+||Consequência da definição do Logaritmo||
+||Propriedades Operatórias do Logaritmo|Logaritmo do Produto|
+|||Logaritmo do Quociente|
+|||Logaritmo da Potência|
+|||Mudança de Base|
+|||Equações Exponenciais|
+||Gráfico da Função Logarítmica|Crescente|
+|||Decrescente|
+||Equações Logarítimicas||
+||Inequações Logarítimicas||
 
-## 6. Função Modular
-- [ ] Módulo de um Número Real
-- [ ] Propriedades do Módulo
-- [ ] Função Modular
-- [ ] Equação Modular
-- [ ] Inequação Modular
+## Função Modular
+|Conteúdo|Tópico|
+|-|-|
+|Função Modular|Módulo de um Número Real|
+||Propriedades do Módulo|
+||Função Modular|
+||Equação Modular|
+||Inequação Modular|
 
 ## 7. Função Cosseno
 
