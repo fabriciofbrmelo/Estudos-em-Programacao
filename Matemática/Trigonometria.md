@@ -41,6 +41,7 @@
 ||Soma dos ângulos internos --> Si= 180º.(n - 2)|
 ||Soma dos ângulos externos --> Se= 360º|
 
+### Triângulos
 |Conteúdo|Tópico|
 |-|-|
 |Triângulos|Soma dos ângulos internos = 180°|
@@ -70,68 +71,71 @@
 ||A = a.b.c / 4R|
 
 ### Semelhança de Triângulos
-- [x] Razão de Semelhança: a/x = b/y = c/z = K
-- [x] Teorema Fundamental = se uma reta é paralela a um dos lados de um triângulo e intercepte outros dois pontos distintos, então o triângulo que ela determina é semelhante ao primeiro.
+|Conteúdo|Tópico|
+|-|-|
+|Razão de Semelhança|a/x = b/y = c/z = K|
+|Teorema Fundamental|se uma reta é paralela a um dos lados de um triângulo e intercepte outros dois pontos distintos, então o triângulo que ela determina é semelhante ao primeiro.|
 
 ### Relações Métricas - Triângulo Retângulo
-1. Elementos:
-- H - altura relativa à hipotenusa como base
-- m - projeção do cateto c sobre a hipotenusa
-- n - projeção do cateto b sobre a hipotenusa
-2. Semelhanças
-3. Relações Métricas:
-- a.h = b.c
-- h² = m.n
-- c² = a.m
-- b² = a.n
-4. Teorema de Pitágoras: a² = b² + c²
+|Conteúdo|Tópico|
+|-|-|
+|1. Elementos|H - altura relativa à hipotenusa como base|
+||m - projeção do cateto c sobre a hipotenusa|
+||n - projeção do cateto b sobre a hipotenusa|
+|2. Semelhanças||
+|3. Relações Métricas|a.h = b.c|
+||h² = m.n|
+||c² = a.m|
+||b² = a.n|
+|4. Teorema de Pitágoras|a² = b² + c²|
 
 ### Triângulo Equilátero
-1. A= b.h /2 --> l²raiz[3] / 4
-2. Circunferência INSCRITA --> r= 1/3h
-3. Circunferência CIRCUNSCRITA --> R= 2r
+|Conteúdo|Tópico|
+|-|-|
+|1. A= b.h /2 --> l²raiz[3] / 4||
+|2. Circunferência INSCRITA|r= 1/3h|
+|3. Circunferência CIRCUNSCRITA|R= 2r|
 
-### 6. Teorema de TALES
-- x / y = a /b
+### Teorema de TALES
+|Conteúdo|
+|-|
+|x / y = a /b|
 
-### 7. Quadriláteros - Paralelogramo
-- [x] Propriedades
-- [x] Área de um paralelogramo - A= b.h
-
-### 8. Quadriláteros - Retângulo
-- [x] Propriedades
-- [x] Diagonal - d² = a² + b²
-
-### 9. Quadriláteros - Losango
-- [x] Propriedades
-- [x] A= D.d / 2
-
-### 10. Quadriláteros - Quadrado
-- [x] Propriedades
-- [x] A = l²
-- [x] d = l.raiz[2]
+### Quadriláteros
+|Conteúdo|Tópico|
+|-|-|
+|Paralelogramo|Área de um paralelogramo - A= b.h|
+|Retângulo|Diagonal - d² = a² + b²|
+|Losango|A= D.d / 2|
+|Quadrado|A = l²|
+||d = l.raiz[2]|
 
 ### Conjunto dos Paralelogramos
-
 |Paralelogramos||
 |-|-|
 |Retângulos|Quadrado|
 |Losando|Quadrado|
 
 ### Circunferência Inscrita e Circunscrita no Quadrado
-1. Circunferência Inscrita - r = l/2
-2. Circunferência Circunscrita - R = d/2 --> R = l.raiz[2] / 2
+|Conteúdo|Tópico|
+|-|-|
+|Circunferência Inscrita|r = l/2|
+|Circunferência Circunscrita|R = d/2 --> R = l.raiz[2] / 2|
 
-### 11. Quadrilátero - Trapézio
-- [x] Propriedades: Base Maior e base menor, Base Média
-- [x] Trapézio Isósceles
-- [x] Trapézio Retângulo
-- [x] A= (B+b).h / 2
+### Quadrilátero - Trapézio
+|Conteúdo|Tópico|
+|-|-|
+|Propriedades|Base Maior e base menor, Base Média|
+||Trapézio Isósceles|
+||Trapézio Retângulo|
+||A= (B+b).h / 2|
 
-### 12. Hexágono Regular
-- [x] Propriedades: hexágono são 6 triângulos equiláteros, logo sua área é 6x a Área de um Triângulo Equilátero
-- [x] A= 6.l².raiz[3] / 4
-- [x] Raio = lado
+### Hexágono Regular
+|Conteúdo|Tópico|
+|-|-|
+|Propriedades|hexágono são 6 triângulos equiláteros, logo sua área é 6x a Área de um Triângulo Equilátero|
+||A= 6.l².raiz[3] / 4|
+||Raio = lado|
 
 ## Circunferência
 
