@@ -220,15 +220,3 @@
 ## Redução ao primeiro quadrante - COSSENO
 ## Relação Fundamental da Trigonometria: sen²x + cos²x = 1
 ## Equação Trigonométrica com SENO
-
-# Para assistir e tomar notas
-- [ ] Cálculo
-- [ ] Progressão Geométrica e Aritmética
-- [ ] Inequações do 1º e 2º Graus
-- [ ] Função Polinomial do 1º Grau - Função Afim
-- [ ] Função Polinomial do 2º Grau - Função Quadrática
-- [ ] Função Polinomial do 3º Grau - Função Cúbica
-- [ ] Equação e Inequação Modular
-- [ ] Função Cosseno
-- [ ] Função Trinonométrica
-- [ ] Matrizes e Sistemas Lineares
