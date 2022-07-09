@@ -75,8 +75,8 @@ N | Z | Q | I | R | C
 ||Redução de Frações a um mesmo Denominador||
 ||Comparação de Frações|Denominadores Iguais e Diferentes|
 ||Operações com Frações|Adição e Subtração de Frações|
-||Multiplicação de Frações||
-||Divisão de Frações||
+|||Multiplicação de Frações|
+|||Divisão de Frações|
 ||Frações Mistas||
 
 ## Números Decimais
@@ -177,12 +177,6 @@ N | Z | Q | I | R | C
 ||Média Geométrica|
 ||Média Harmônica|
 
-### Progressão
-  
-Progressão
-- [ ] Aritmética
-- [ ] Geométrica
-
 # Equações
   
 ## Equação de 1º Grau
@@ -206,9 +200,63 @@ Progressão
 
 ## Equações Biquadradas
 
+## Para Estudar Ainda
+
 ### Inequação do 1º Grau
 
 ### Inequação do 2º Grau
+
+### Progressão Aritmética e Geométrica
+
+# Sistemas Lineares e Matrizes
+
+## Matrizes
+|Conteúdo|Tópico|
+|-|-|
+|Matrizes|Classificação das Matrizes|
+||Matriz Quadrada|
+||Lei de Formação das Matrizes|
+||Matrizes Transpostas e Simétricas|
+||Multiplicação, Adição e Subtração de Matrizes|
+||Determinantes|
+||Matriz Unitária, Linha, Coluna, Retangular e Quadrada|
+||Elementos de uma Matriz|
+||Matriz Quadrada e suas Diagonais|
+||Matriz Inversa|
+||Matriz Identidade|
+||Teorema de Laplace|
+||Menor Complementar e Cofator|
+||Propriedades dos Determinantes|
+||Fila Nula - Linha ou Coluna|
+||Troca de Filas Paralelas|
+||Multiplicação de uma Fila por um Número Real|
+||Filas Paralelas Iguais|
+||Matriz Transposta|
+||Teorema de Binet|
+||Teorema de Jacobi|
+||Regras de Chió|
+||Determinante de Vandermonde|
+
+## Sistemas Lineares
+|Conteúdo|Tópico|
+|-|-|
+|Sistemas Lineares|Equação Linear|
+||Resolução de Sistemas: adição, subtração e comparação|
+||Escalonamento|
+||Regra de Cramer|
+||Sistemas Impossíveis e Possíveis|
+||Sistemas Possíveis Determinados e Indeterminados|
+
+# Binário
+
+## Binário
+|Conteúdo|Tópico|
+|-|-|
+|Binário|Notação Posicional - Decimal - Base 10|
+||Número --> Binário --> Número|
+||Octal|
+||Hexadecimal|
+
 
 # Funções
   
