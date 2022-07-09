@@ -152,70 +152,48 @@
 7. Segmento Circular
 8. Secante
 
-### 1. Ponto e Circunferência
-- [x] Ponto Externo à Circunferência
-- [x] Ponto sobre a Circunferência
-- [x] Ponto Interno à Circunferência
-
-### 2. Reta e Circunferência
-- [x] Reta Externa à Circunferência
-- [x] Reta Tangente à Circunferência
-- [x] Reta Secante à Circunferência
-
-### 3. Posições Relativas entre duas Circunferências
-1. Tangente Interna a outra = r1 - r2 = d
-2. Interna a outra = r1 - r2 > d
-3. Tangente Externa a outra = r1 + r2 = d
-4. Secante = r1 - r2 < d < r1 + r2
-5. Externas = d > r1 + r2
-
-### 4. Relações Métricas na Circunferência
-1. Tangente
-2. Secante
-3. Segmentos Tangentes
-4. Quadrilátero Convexo
-
-### 5. Potência de Ponto na Circunferência
-- 1º Caso: Ponto Interior - a.b = c.d (NÃO É O TEOREMA DE TALES)
-- 2º Caso: Ponto Exterior - duas secantes - a.(a+b) = c.(c+d)
-- 3º Caso: Ponto Exterior - uma tangente - a² = b.(b+c)
-
-### 6. Ângulos na Circunferência
-- Ângulo Central
-- Ângulo Inscrito
-- Propriedade: triângulo retângulo inscrito em uma circunferência - hipotenusa = diâmetro
-- Propriedade: quadrilátero inscrito em uma circunferência - ângulos opostos = suplementares
-
-### 7. Ângulo de Segmento
-- Propriedades
-- Arco Capaz
-- Ângulo Excêntrico Interior
-- Ângulo Excêntrico Exterior
-
-### 8. Comprimento da Circunferência
-- [x] Perímetro
-- [x] Comprimento - C= 2.pi.r
-
-### 9. Comprimento de um Arco da Circunferência
-- [x] Para alfa em graus - l = pi.R.alfa / 180°
-- [x] Para alfa em radianos - l = alfa.R
-
-### 10. Área do Círculo e do Setor Circular
-- [x] Área do Círculo - A = pi.r²
-- [x] Área do Setor Circular - Em função do comprimento do arco - Regra de Três
-2.pi.r -- pi.r²
-l -- Asetor
-- [x] Área do Setor Circular - Em função do ângulo central - Regra de Três
-300° -- pi.r²
-alfa -- Asetor
-
-### 11. Área de Segmento e Coroa Circulares
-- Aseg = Asetor = Atriângulo
-- Acoroa = Acírculomaior - Acírculomenor
-
-### 12. Áreas Semelhantes
-- Razão entre áreas semelhantes: a razão entre as áreas de duas superfícies semelhantes é igual ao quadrado da razão da semelhança
-- A1/A2 = K²
+### Circunferência
+|Conteúdo|Tópico|
+|-|-|
+|Ponto e Circunferência|Ponto Externo à Circunferência|
+||Ponto sobre a Circunferência|
+||Ponto Interno à Circunferência|
+|Reta e Circunferência|Reta Externa à Circunferência|
+||Reta Tangente à Circunferência|
+||Reta Secante à Circunferência|
+|Posições Relativas entre duas Circunferências|Tangente Interna a outra = r1 - r2 = d|
+||Interna a outra = r1 - r2 > d|
+||Tangente Externa a outra = r1 + r2 = d|
+||Secante = r1 - r2 < d < r1 + r2|
+||Externas = d > r1 + r2|
+|Relações Métricas na Circunferência|Tangente|
+||Secante|
+||Segmentos Tangentes|
+||Quadrilátero Convexo|
+|Potência de Ponto na Circunferência|1º Caso: Ponto Interior - a.b = c.d (NÃO É O TEOREMA DE TALES)|
+||2º Caso: Ponto Exterior - duas secantes - a.(a+b) = c.(c+d)|
+||3º Caso: Ponto Exterior - uma tangente - a² = b.(b+c)|
+|Ângulos na Circunferência|Ângulo Central|
+||Ângulo Inscrito|
+||Propriedade: triângulo retângulo inscrito em uma circunferência - hipotenusa = diâmetro|
+||Propriedade: quadrilátero inscrito em uma circunferência - ângulos opostos = suplementares|
+|Ângulo de Segmento|Arco Capaz|
+||Ângulo Excêntrico Interior|
+||Ângulo Excêntrico Exterior|
+|Comprimento da Circunferência|Perímetro|
+||Comprimento - C= 2.pi.r|
+|Comprimento de um Arco da Circunferência|Para alfa em graus - l = pi.R.alfa / 180°|
+||Para alfa em radianos - l = alfa.R|
+|Área do Círculo e do Setor Circular|Área do Círculo - A = pi.r²|
+||Área do Setor Circular - Em função do comprimento do arco - Regra de Três|
+||2.pi.r -- pi.r²|
+||l -- Asetor|
+|Área do Setor Circular - Em função do ângulo central - Regra de Três|300° -- pi.r²|
+||alfa -- Asetor|
+|Área de Segmento e Coroa Circulares|Aseg = Asetor = Atriângulo|
+||Acoroa = Acírculomaior - Acírculomenor|
+|Áreas Semelhantes|Razão entre áreas semelhantes: a razão entre as áreas de duas superfícies semelhantes é igual ao quadrado da razão da semelhança|
+||A1/A2 = K²|
 
 # Trigonometria
 
