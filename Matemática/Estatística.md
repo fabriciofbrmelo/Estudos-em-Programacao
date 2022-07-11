@@ -144,13 +144,48 @@
 ||Acumulada|
 |Ponto Médio da Classe||
 
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Medidas de Posição e Dispersão|Medidas de Posição Central||
+||Média||
+||Moda||
+||Mediana||
+|Dispersão|Amplitude||
+||Desvio Padrão||
+||Variância|Dados Não-Agrupados|
+||Assimetria|Dados Agrupados|
+||Curtose||
+||Coeficiente de Variação|Assimetria|
+|||Simetria|
+
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Média Aritmética|Simples||
+||Ponderada||
+|Dados Agrupados|sem Intervalo de Classe||
+|Dados Agrupados|com Intervalo de Classe||
+|Moda|Dados Tabelados|sem Intervalo de Classe|
+|||com Intervalo de Classe|
+|Mediana|Dados Não Tabelados|Número Ímpar de Itens|
+|||Número Par de Itens|
+||Dados Tabelados|sem Intervalo de Classe|
+|||com Intervalo de Classe|
+
 |Conteúdo|Tópico|
 |-|-|
-|Medidas de Posição e Dispersão|Medidas de Posição Central|
-||Média|
-||Moda|
-||Mediana|
-|Dispersão|Amplitude|
-||Variância|
-||Assimetria|
-||Curtose|
+|Ferramentas de Qualidade|Fluxograma|
+||Diagrama de Ishikawa|
+||Checklist - Folha de Verificação|
+||Diagrama de Pareto|
+||Diagrama de Dispersão|
+||Cartas de Controle|
+
+|Conteúdo|Tópico|
+|-|-|
+|Intervalo de Confiança para Média|Inferência Estatística|
+||Estatística Descritiva|
+||População|
+||Amostra|
+||Estimativa de parâmetros populacionais|
+||Parâmetro|
+||Estimador|
