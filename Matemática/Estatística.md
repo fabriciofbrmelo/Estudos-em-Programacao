@@ -87,8 +87,70 @@
 |Conteúdo|Tópico|Subtópico|
 |-|-|-|
 |Conjuntos Numéricos|Conjunto das Partes||
-||Complementar||
+||Complementar|Diferença e Complementar de Conjuntos|
 ||Intervalos de Conjuntos||
 ||Intervalos de Subconjuntos||
 ||Intervalo Aberto e Fechado||
-||Operações com Intervalos||
+||Operações com Intervalos|União e Intersecção|
+
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Distribuições de Probabilidade|Esperança Matemática|Média|
+||Variância||
+||Desvio Padrão||
+||Distribuição|de Bernoulli|
+|||Binomial|
+|||de Poisson|
+|||Normal|
+||Tabela Reduzida Normal||
+
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Estatística Descritiva|Método Estatístico|Definição do Problema|
+|||Planejamento da Pesquisa|
+|||Coleta de Dados|
+|||Apuração dos Dados|
+|||Apresentação dos Dados|
+|||Análise e Interpretação dos Dados|
+|Conceitos|Amostragem||
+||Amostra||
+||Riscos||
+||População-Alvo||
+|Amostragem|Não-Probabilística|Acidental|
+|||Intencional|
+|||por Quotas|
+||Probabilística|Aleatória Simples|
+|||Aleatória Estratificada|
+|||Sistemática|
+|||por Conglomerado|
+
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Frequência de uma observação|Com ou Sem Intervalo de Classe||
+||Distribuição de Frequência|sem Intervalo de Classe|
+|||com Intervalo de Classe|
+
+|Conteúdo|Tópico|
+|-|-|
+|Classificação dos dados|rol|
+|Histogramas||
+|Dados|Discretos|
+||Contínuos|
+|Amplitude||
+|Classes||
+|Limites|Aparentes|
+||Reais|
+|Frequência|Relativa|
+||Acumulada|
+|Ponto Médio da Classe||
+
+|Conteúdo|Tópico|
+|-|-|
+|Medidas de Posição e Dispersão|Medidas de Posição Central|
+||Média|
+||Moda|
+||Mediana|
+|Dispersão|Amplitude|
+||Variância|
+||Assimetria|
+||Curtose|
