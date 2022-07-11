@@ -43,3 +43,23 @@
 |Meidana|para Dados não Agrupados||
 ||para Dados Agrupados|por Ponto|
 |||por Intervalo|
+
+
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Coeficiente de Variação|Desvio Padrão e Variância|Amostra e População|
+|Propriedade da Média e Desvio Padrão|||
+|Probabilidade|Experimento Aleatório||
+||Espaço Amostral||
+||Teorra da Contagem||
+||Evento Aleatório||
+||Evento Complementar||
+||Evento Equiprovável||
+||Evntos mutuamente excludentes||
+||Eventos Independentes||
+||Operações entre Evetos||
+|||União|
+|||Intersecção|
+|||União|
+||Fenômeno|Determinístico|
+|||Probabilístico|
