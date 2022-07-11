@@ -15,48 +15,31 @@
 |||Séries Temporais|Modelos Estatísticos - Famílias de Probabilidade|
 ||||Estimadores - Estatísticas Suficientes, Completas e Ancilares|
 
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Estatística Descritiva|Medidas de Tendência Central|Média, Moda e Mediana|
+|Média Aritmética|Média Simples, Ponderada, Geométrica e Harmônica||
+|Desvio|Desvio Média, Variância, Desvio Padrão||
+|Probabilidade|Probabilidade Complementar||
+|Tipos de Dados|Variáveis Qualitativas|Nominais|
+|||Ordinais|
+||Variáveis Quantitativas|Discretas|
+|||Contínuas|
+|Medidas de Posição|Mínimo e Máximo||
+||Moda, Média e Mediana||
+||Quantis, Quartis, Decis e Percentis||
+|Classificação das Variáveis|Dados Não Agrupados||
+||Dados Agrupados|por Ponto|
+|||por Intervalo/Classe|
 
-## Medidas de Tendência Central
-- [x] Média Aritmética Simples
-- [x] Média Geométrica
-- [x] Média Harmônica
-- [x] Moda
-- [x] Mediana
-- [x] Desvio Médio
-- [x] Variância
-- [x] Desvio Padrão
-
-## Probabilidade
-- [x] Probabilidade Complementar
-- [x] Análise Combinatória
-- Permutação
-- Permutação com Repetição
-- Combinação
-- Combinação com Repetição
-- Arranjo
-
-## Conjuntos Numéricos
-- [x] Conjunto das Partes
-- [x] Complementar
-- [x] Intervalos do conjunto
-- Conjunto Fechado
-- Conjunto Aberto
-- [x] Intersecção e União
-- [x] Diferença e Complementar de Conjunto
-- [x] Operações com Intervalos
-
-## Tipos de Dados
-- [x] Qualitativos
-- [x] Quantitativos
-- [x] Modelos
-- [x] Diferença de Média e Mediana
-- [x] Gráficos
-- [x] Frequência
-
-## Quantis, Quartis e Percentis
-- [x] Quantis
-- [x] Quartis
-- [x] Percentis
-- [x] Medidas de Dispersão
-- [x] Boxplot
-- [x] Dados Agrupados e Não-Agrupados
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Frequência|Absoluta, Relativa e Acumulada||
+|Média|para Dados não agrupados||
+||para Dados Agrupados|por Ponto|
+|||por Intervalo|
+|Moda|para Dados não agrupados||
+||para Dados Agrupados|por Ponto|
+|Meidana|para Dados não Agrupados||
+||para Dados Agrupados|por Ponto|
+|||por Intervalo|
