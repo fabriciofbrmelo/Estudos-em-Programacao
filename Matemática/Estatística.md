@@ -17,175 +17,116 @@
 
 |Conteúdo|Tópico|Subtópico|
 |-|-|-|
-|Estatística Descritiva|Medidas de Tendência Central|Média, Moda e Mediana|
-|Média Aritmética|Média Simples, Ponderada, Geométrica e Harmônica||
-|Desvio|Desvio Média, Variância, Desvio Padrão||
-|Probabilidade|Probabilidade Complementar||
-|Tipos de Dados|Variáveis Qualitativas|Nominais|
+|Pesquisa Científica|Formular Hipóteses||
+|Método Científico|Método||
+||Método Experimental||
+||Método Estatístico||
+|Estatística Descritiva|Planejar, organizar, coletar, resummir, classificar, operar, descrever e analisar||
+|Estatística Indutiva ou Inferencial|Análise e Interpretação de dados||
+|Maneiras  de se obter dados|Censo|Amostra|
+|População|População Estatística|Finita e Infinita|
+|Amostra|Subconjunto da População|Amostragem|
+|Técnicas de Amostragem|Amostragem Casual ou Aleatória Simples||
+||Amostral Proporcional Estratificada||
+||Amostragem Estratificada Uniforme||
+||Amostragem Sistemática||
+||Amosttragem por Estágios Múltiplos||
+||Amostragem por meio de Conglomerados||
+
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Variáveis Estatísticas|Qualitativas|Nominais|
 |||Ordinais|
-||Variáveis Quantitativas|Discretas|
-|||Contínuas|
-|Medidas de Posição|Mínimo e Máximo||
-||Moda, Média e Mediana||
-||Quantis, Quartis, Decis e Percentis||
-|Classificação das Variáveis|Dados Não Agrupados||
-||Dados Agrupados|por Ponto|
-|||por Intervalo/Classe|
+||Quantitativas|Contínuas|
+|||Discretas|
+
+|Conteúdo|Tópico|Subtópico|Subtópico 2|
+|-|-|-|-|
+|Fases do Método Estatítisco|Definição do Problema|Saber o que se pretende pesquisar||
+||Planejamento|Planejar as fases, determinar o objetivo e método||
+||Coleta de Dados|Registro Sistemático de Dados|Coleta Direta|Contínua, Periódica ou Ocasional (DADOS PRIMÁRIOS)|
+||||Coleta Indireta|Dados Secundários|
+||Apuração dos Dados|Contagem e Agrupamento dos Dados||
+||Apresentação dos Dados|Apresentação Tabular||
+|||Apresentação Gráfica||
+||Análise e Interpretação dos Dados||
 
 |Conteúdo|Tópico|Subtópico|
 |-|-|-|
-|Frequência|Absoluta, Relativa e Acumulada||
-|Média|para Dados não agrupados||
-||para Dados Agrupados|por Ponto|
-|||por Intervalo|
-|Moda|para Dados não agrupados||
-||para Dados Agrupados|por Ponto|
-|Meidana|para Dados não Agrupados||
-||para Dados Agrupados|por Ponto|
-|||por Intervalo|
-
+|Tabelas|Séries Estatísticas|Série Temporal, Histórica, Cronológica ou Evolutiva|
+|||Série Geográfica, Territorial ou de Localidade|
+|||Série Específica ou Categórica|
+|||Séries Misas, Conjugadas ou Tabela de Dupla Entrada|
+|Gráficos Estatíscos|Gráfico em Curvas ou Linhas||
+||Gráficos em Colunas|Simples, Sobrepostas e Justapostas|
+||Gráficos em Barras|Simples, Sobrepostas e Justapostas|
+||Gráficos de Setores||
 
 |Conteúdo|Tópico|Subtópico|
 |-|-|-|
-|Coeficiente de Variação|Desvio Padrão e Variância|Amostra e População|
-|Propriedade da Média e Desvio Padrão|||
-|Probabilidade|Experimento Aleatório||
-||Espaço Amostral||
-||Teorra da Contagem||
-||Evento Aleatório||
+|Distribuição de Frequência|Distribuição de Dados Agrupados em Intervalo de Classe|Número de Classes|
+|||Amplitude Amostral|
+|||Amplitude de Intervalo de Classe|
+|||Limite Superior e Interior do Intervalo de Classe|
+|||Amplitude Total|
+|||Ponto Médio de uma Classe|
+|Tipos de Frequência|Frequência Simples ou Absoluta||
+||Frequência Relativa(fri)||
+||Frequência Acumulada(faci ou fi)||
+||Frequência Relativa Acumulada(fRAC ou fRi)||
+||Histograma e Polígono de Frequência||
+
+|Conteúdo|Tópico|Subtópico|Subtópico 2|
+|-|-|-|-|
+|Medidas Descritivas|Medidas de Posição|Medidas de Tendência Central ou Promédias|Média Aritmética, Geométrica e Harmônica|
+||||Moda e Mediana|
+|||Separatrizes|Mediana, Decis, Quartis e Percentis||
+|||Momentos e Assimetria||
+
+|Conteúdo|Tópico|Subtópico|Subtópico 2|
+|-|-|-|-|
+|Medidas de Posição|Medidas de Tendência Central|Média Aritmética|Para DADOS NÃO TABELADOS|
+|||Média Aritmética Ponderada|Para DADOS TABELADOS|
+|||Moda|Distribuição Unimodal, Bimodal e Amodal|
+|||Mediana||
+
+|Medida de Posição|Definição|Variação|Desvantagens|
+|-|-|-|-|
+|Média|Centro de Distribuição de Frequências|Reflete cada valor|É afetada por Valores Extremos|
+|Moda|Valor Mais Frequente|Valor Típicoo: maior quantidade de valores concentrado nesse ponto|Não se presta para Análise Matemática|
+|Mediana|Metade dos Valores são Menores, a outra Metade são de Valores Maiores|Menos Sensível a Valores Extremos do que a Média|Difíceis de determinar para Grandes Quantidades de Dados|
+
+|Conteúdo|Tópico|Subtópico|Subtópico 2|
+|-|-|-|-|
+|Medidas de Posição|Separatrizes|Medianas (2 Partes Iguais)||
+|||Quartis (4 Partes Iguais)|25%|
+|||Decis (10 Partes Iguais)|10%|
+|||Percentis (100 Partes Iguais)|1%|
+
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Medidas de Dispersão e Variabilidade|Absoluta|Amplitude|
+|||Desvio Médio|
+|||Desvio Padrão|
+|||Variância|
+||Relativa|Coeficiente de Variação|
+
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Momentos|Posição, Dispersão ou Assimetria||
+|Assimetria|Média = Moda = Mediana|Assimética Nula ou Simétrica|
+||Média < Mediana < Moda|Assimétrica à Esquerda ou Negativa|
+||Média > Mediana > Moda|Assiméttica À Direita ou Positiva|
+|Coeficiente de Assimetria de Pearson|Assimetria Moderada|0,15 < Módulo de AS < 1|
+||Assimetria Elevada|Móodulo de AS <= 1|
+
+|Conteúdo|Tópico|Subtópico|
+|-|-|-|
+|Probabilidade|Teoria da Probabilidade|Pierre de Fermat e Blaise Pascal|
+||Experimento Determinístico||
+||Experimento Aleatório||
+|Espaço Amostral(S)|Conjunto Universo de um Experimento Aleatório||
+|Evento(E)|Eventos Certos||
+||Eventos Impossíveis||
+||Eventos Elementares||
 ||Evento Complementar||
-||Evento Equiprovável||
-||Evntos mutuamente excludentes||
-||Eventos Independentes||
-||Operações entre Evetos|União|
-|||Intersecção|
-||Fenômeno|Determinístico|
-|||Probabilístico|
-
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Teoremas de Probabilidade|Probabilidade Condicional||
-||Teorema do Produto||
-||Eventos Independentes||
-||Teorema de Bayes||
-||Monty Hall||
-|Axiomas|Conjunto Vazio||
-||Teorema do Evento Complementar||
-||Mutuamente Excludentes||
-||Fórmula de Eventos||
-
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Análise Combinatória|Princípio Multiplicativo|Fatorial|
-|||Solução Inteira e não Negativa de uma Função Linear|
-||Permutação|Normal|
-|||com Repetição|
-||Arranjo||
-||Combinação|Normal|
-|||com Repetição||
-
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Conjuntos Numéricos|Conjunto das Partes||
-||Complementar|Diferença e Complementar de Conjuntos|
-||Intervalos de Conjuntos||
-||Intervalos de Subconjuntos||
-||Intervalo Aberto e Fechado||
-||Operações com Intervalos|União e Intersecção|
-
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Distribuições de Probabilidade|Esperança Matemática|Média|
-||Variância||
-||Desvio Padrão||
-||Distribuição|de Bernoulli|
-|||Binomial|
-|||de Poisson|
-|||Normal|
-||Tabela Reduzida Normal||
-
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Estatística Descritiva|Método Estatístico|Definição do Problema|
-|||Planejamento da Pesquisa|
-|||Coleta de Dados|
-|||Apuração dos Dados|
-|||Apresentação dos Dados|
-|||Análise e Interpretação dos Dados|
-|Conceitos|Amostragem||
-||Amostra||
-||Riscos||
-||População-Alvo||
-|Amostragem|Não-Probabilística|Acidental|
-|||Intencional|
-|||por Quotas|
-||Probabilística|Aleatória Simples|
-|||Aleatória Estratificada|
-|||Sistemática|
-|||por Conglomerado|
-
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Frequência de uma observação|Com ou Sem Intervalo de Classe||
-||Distribuição de Frequência|sem Intervalo de Classe|
-|||com Intervalo de Classe|
-
-|Conteúdo|Tópico|
-|-|-|
-|Classificação dos dados|rol|
-|Histogramas||
-|Dados|Discretos|
-||Contínuos|
-|Amplitude||
-|Classes||
-|Limites|Aparentes|
-||Reais|
-|Frequência|Relativa|
-||Acumulada|
-|Ponto Médio da Classe||
-
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Medidas de Posição e Dispersão|Medidas de Posição Central||
-||Média||
-||Moda||
-||Mediana||
-|Dispersão|Amplitude||
-||Desvio Padrão||
-||Variância|Dados Não-Agrupados|
-||Assimetria|Dados Agrupados|
-||Curtose||
-||Coeficiente de Variação|Assimetria|
-|||Simetria|
-
-|Conteúdo|Tópico|Subtópico|
-|-|-|-|
-|Média Aritmética|Simples||
-||Ponderada||
-|Dados Agrupados|sem Intervalo de Classe||
-|Dados Agrupados|com Intervalo de Classe||
-|Moda|Dados Tabelados|sem Intervalo de Classe|
-|||com Intervalo de Classe|
-|Mediana|Dados Não Tabelados|Número Ímpar de Itens|
-|||Número Par de Itens|
-||Dados Tabelados|sem Intervalo de Classe|
-|||com Intervalo de Classe|
-
-|Conteúdo|Tópico|
-|-|-|
-|Ferramentas de Qualidade|Fluxograma|
-||Diagrama de Ishikawa|
-||Checklist - Folha de Verificação|
-||Diagrama de Pareto|
-||Diagrama de Dispersão|
-||Cartas de Controle|
-
-|Conteúdo|Tópico|
-|-|-|
-|Intervalo de Confiança para Média|Inferência Estatística|
-||Estatística Descritiva|
-||População|
-||Amostra|
-||Estimativa de parâmetros populacionais|
-||Parâmetro|
-||Estimador|
